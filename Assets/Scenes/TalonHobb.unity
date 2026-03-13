@@ -424,7 +424,7 @@ Transform:
   m_GameObject: {fileID: 468996028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1448935, y: 0.34261718, z: 0}
+  m_LocalPosition: {x: -5.56, y: 0.34261718, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -558,7 +558,7 @@ Transform:
   m_GameObject: {fileID: 834155781}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.91, y: -4.18, z: 0}
+  m_LocalPosition: {x: 3.91, y: -5.08, z: 0}
   m_LocalScale: {x: 1, y: 5.9615, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -737,7 +737,7 @@ MonoBehaviour:
   player: {fileID: 468996028}
   lineOfSightMask:
     serializedVersion: 2
-    m_Bits: 192
+    m_Bits: 128
 --- !u!61 &1541216595
 BoxCollider2D:
   m_ObjectHideFlags: 0

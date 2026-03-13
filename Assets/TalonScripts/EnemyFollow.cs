@@ -7,6 +7,9 @@ public class EnemyFollow : MonoBehaviour
     [SerializeField] GameObject player;
 
     [SerializeField] LayerMask lineOfSightMask;
+    
+    float viewRadius = 5f;
+    float distanceToPlayer;
 
     bool hasLineofSight = false;
 
@@ -20,10 +23,16 @@ public class EnemyFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(hasLineofSight)
+        distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
+        if (hasLineofSight)
         {
+
             Vector2 direction = (player.transform.position - transform.position).normalized;
-            rb2d.linearVelocityX = direction.x * moveSpeed;
+            if(distanceToPlayer <= viewRadius)
+            {
+                Debug.Log(distanceToPlayer);
+                rb2d.linearVelocityX = direction.x * moveSpeed;
+            }
         }
     }
     private void FixedUpdate()
@@ -32,11 +41,11 @@ public class EnemyFollow : MonoBehaviour
         if (ray.collider != null)
         {
             hasLineofSight = ray.collider.CompareTag("Player");
-            if (hasLineofSight)
+            if (hasLineofSight && distanceToPlayer <= viewRadius)
             {
                 Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.green);
             }
-            else
+            if (!hasLineofSight || distanceToPlayer > viewRadius)
             {
                 Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.red);
             }
