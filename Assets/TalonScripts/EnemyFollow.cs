@@ -31,6 +31,7 @@ public class EnemyFollow : MonoBehaviour
         RaycastHit2D ray = Physics2D.Raycast(transform.position, player.transform.position - transform.position, lineOfSightMask);
         if (ray.collider != null)
         {
+            Debug.Log(ray.collider.name);
             hasLineofSight = ray.collider.CompareTag("Player");
             if (hasLineofSight)
             {
