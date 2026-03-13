@@ -30,7 +30,6 @@ public class EnemyFollow : MonoBehaviour
             Vector2 direction = (player.transform.position - transform.position).normalized;
             if(distanceToPlayer <= viewRadius)
             {
-                Debug.Log(distanceToPlayer);
                 rb2d.linearVelocityX = direction.x * moveSpeed;
             }
         }
