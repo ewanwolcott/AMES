@@ -5,7 +5,11 @@ public class PlayerMovement : MonoBehaviour
 {
     public float movementSpeed = 5f;
     public float jumpHeight = 10f;
-    
+
+    private BoxCollider2D coll;
+
+    [SerializeField] LayerMask jumpableGround;
+
     Rigidbody2D rb2d;
 
     float _movement;
@@ -13,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        coll = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -28,9 +33,14 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext ctx)
     {
-        if(ctx.ReadValue<float>() == 1)
+        if (ctx.ReadValue<float>() == 1 && IsGrounded())
         {
             rb2d.linearVelocityY = jumpHeight;
         }
+    }
+
+    bool IsGrounded()
+    {
+         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }
 }
