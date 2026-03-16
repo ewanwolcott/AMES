@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] LayerMask jumpableGround;
 
     Rigidbody2D rb2d;
+    SpriteRenderer spriteRenderer;
+    bool isKnockedback = false;
 
     float _movement;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -18,20 +21,25 @@ public class PlayerMovement : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        rb2d.linearVelocityX = _movement * movementSpeed;
-        if(rb2d.linearVelocity.x > 0.01f)
+        if (!isKnockedback)
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            rb2d.linearVelocityX = _movement * movementSpeed;
+            if (rb2d.linearVelocity.x > 0.01f)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+            else if (rb2d.linearVelocity.x < -0.01f)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+            }
         }
-        else if (rb2d.linearVelocity.x < -0.01f)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
+
     }
 
     public void Move(InputAction.CallbackContext ctx)
@@ -45,6 +53,23 @@ public class PlayerMovement : MonoBehaviour
         {
             rb2d.linearVelocityY = jumpHeight;
         }
+    }
+
+    public void Knockback(Transform enemy, float force, float stunTime)
+    {
+        isKnockedback = true;
+        Vector2 direction = (transform.position - enemy.position).normalized;
+        rb2d.linearVelocityX = direction.x * force;
+        spriteRenderer.color = Color.red; // Change color to red when knocked back
+        StartCoroutine(KnockbackCounter(stunTime));
+    }
+
+    IEnumerator KnockbackCounter(float stunTime)
+    {
+        yield return new WaitForSeconds(stunTime);
+        spriteRenderer.color = Color.white; // Change color back to white after knockback
+        rb2d.linearVelocityX = Vector2.zero.x;
+        isKnockedback = false;
     }
 
     bool IsGrounded()
