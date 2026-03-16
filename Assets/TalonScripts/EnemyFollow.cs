@@ -39,6 +39,14 @@ public class EnemyFollow : MonoBehaviour
                 rb2d.linearVelocityX = direction.x * moveSpeed;
             }
         }
+        if (player.transform.position.x < transform.position.x)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else if (player.transform.position.x > transform.position.x)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
     }
     private void FixedUpdate()
     {

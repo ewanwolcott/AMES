@@ -23,7 +23,6 @@ public class EnemyKnockback : MonoBehaviour
         StartCoroutine(DisableFollowTemporarily(enemyFollow.knockbackDuration, enemyFollow.stunDuration));
         Vector2 knockbackDirection = (transform.position - playerTransform.position).normalized;
         rb2d.linearVelocityX = knockbackDirection.x * knockbackForce;
-        Debug.Log($"Knockback applied with force: {knockbackDirection.x * knockbackForce}");
     }
 
     IEnumerator DisableFollowTemporarily(float knockbackTime, float stunTime)

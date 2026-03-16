@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -30,14 +31,13 @@ public class PlayerCombat : MonoBehaviour
             if(enemies.Length > 0)
             {
                 enemies[0].GetComponent<EnemyKnockback>().Knockback(transform, knockbackForce);
-                enemies[0].GetComponent<SpriteRenderer>().color = Color.red;
                 Debug.Log("Hit " + enemies[0].name);
             }
 
             timer = attackCooldown;
         }
     }
-
+    
 
     private void OnDrawGizmosSelected()
     {
