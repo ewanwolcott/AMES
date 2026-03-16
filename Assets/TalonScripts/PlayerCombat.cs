@@ -30,6 +30,7 @@ public class PlayerCombat : MonoBehaviour
             if(enemies.Length > 0)
             {
                 enemies[0].GetComponent<EnemyKnockback>().Knockback(transform, knockbackForce);
+                enemies[0].GetComponent<SpriteRenderer>().color = Color.red;
                 Debug.Log("Hit " + enemies[0].name);
             }
 

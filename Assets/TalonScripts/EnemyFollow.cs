@@ -6,16 +6,18 @@ public class EnemyFollow : MonoBehaviour
 
     public float stunDuration = 0.5f;
 
-    public bool isKnockedback = false;
+    public float knockbackDuration = 0.5f;
+
+    [HideInInspector] public bool isKnockedback = false;
 
     [SerializeField] GameObject player;
-
-    [SerializeField] LayerMask lineOfSightMask;
     
     public float viewRadius = 5f;
     float distanceToPlayer;
 
     bool hasLineofSight = false;
+
+    [SerializeField] LayerMask lineOfSightMask;
 
     Rigidbody2D rb2d;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
