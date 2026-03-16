@@ -4,11 +4,15 @@ public class EnemyFollow : MonoBehaviour
 {
     public float moveSpeed = 5f;
 
+    public float stunDuration = 0.5f;
+
+    public bool isKnockedback = false;
+
     [SerializeField] GameObject player;
 
     [SerializeField] LayerMask lineOfSightMask;
     
-    float viewRadius = 5f;
+    public float viewRadius = 5f;
     float distanceToPlayer;
 
     bool hasLineofSight = false;
@@ -24,7 +28,7 @@ public class EnemyFollow : MonoBehaviour
     void Update()
     {
         distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
-        if (hasLineofSight)
+        if (hasLineofSight && !isKnockedback)
         {
 
             Vector2 direction = (player.transform.position - transform.position).normalized;
@@ -36,10 +40,11 @@ public class EnemyFollow : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        RaycastHit2D ray = Physics2D.Raycast(transform.position, player.transform.position - transform.position);
+        RaycastHit2D ray = Physics2D.Raycast(transform.position, player.transform.position - transform.position, viewRadius, lineOfSightMask);
         if (ray.collider != null)
         {
             hasLineofSight = ray.collider.CompareTag("Player");
+            //Debug.Log(ray.collider.gameObject.name);
             if (hasLineofSight && distanceToPlayer <= viewRadius)
             {
                 Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.green);

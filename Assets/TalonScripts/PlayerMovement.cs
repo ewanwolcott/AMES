@@ -24,6 +24,14 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         rb2d.linearVelocityX = _movement * movementSpeed;
+        if(rb2d.linearVelocity.x > 0.01f)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else if (rb2d.linearVelocity.x < -0.01f)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
     }
 
     public void Move(InputAction.CallbackContext ctx)
