@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 468996029}
   - component: {fileID: 468996035}
   - component: {fileID: 468996036}
+  - component: {fileID: 468996037}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -429,7 +430,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -488,10 +489,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3934ba464e7d574fb52ebbde0c0606d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxSize: {x: 1.5, y: 1.5}
+  boxSize: {x: 2, y: 1.5}
   boxLayer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &468996037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468996028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d78065d95d92e46a4e25247b6dbff0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 10
+  playerSr: {fileID: 468996033}
+  playerMovement: {fileID: 468996029}
 --- !u!1 &753228691
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,6 +717,7 @@ GameObject:
   - component: {fileID: 1385381384}
   - component: {fileID: 1385381383}
   - component: {fileID: 1385381386}
+  - component: {fileID: 1385381387}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -825,6 +843,21 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1385381387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385381382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16928b7f587fe14aa0a8ea9b9fc7c12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 468996028}
+  cameraSpeed: 2
+  offset: {x: 4, y: 0, z: -10}
 --- !u!1 &1541216593
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,6 +873,7 @@ GameObject:
   - component: {fileID: 1541216594}
   - component: {fileID: 1541216599}
   - component: {fileID: 1541216600}
+  - component: {fileID: 1541216601}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
@@ -1044,6 +1078,20 @@ MonoBehaviour:
   knockbackForce: 20
   stunTime: 0.1
   enemyAttackCooldown: 1
+--- !u!114 &1541216601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541216593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1598918b7ac8c3e47b3a6e74b1e2bdd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 468996037}
+  damage: 2
 --- !u!1 &1768454971
 GameObject:
   m_ObjectHideFlags: 0
