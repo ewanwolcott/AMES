@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
 
     private BoxCollider2D coll;
 
+    bool hasSpeedUpgrade = false;
+    bool doubleJump;
+
     [SerializeField] LayerMask jumpableGround;
 
     Rigidbody2D rb2d;
@@ -40,6 +43,11 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        if (IsGrounded())
+        {
+            doubleJump = true;
+        }
+
     }
 
     public void Move(InputAction.CallbackContext ctx)
@@ -49,9 +57,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1 && IsGrounded())
+        if (ctx.ReadValue<float>() == 1 && IsGrounded() || ctx.ReadValue<float>() == 1 && doubleJump && hasSpeedUpgrade)
         {
             rb2d.linearVelocityY = jumpHeight;
+
+            doubleJump = !doubleJump;
         }
     }
 
