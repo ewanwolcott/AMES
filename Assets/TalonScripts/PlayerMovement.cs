@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     private BoxCollider2D coll;
 
-    bool hasSpeedUpgrade = false;
+    public bool hasSpeedUpgrade = false;
     bool doubleJump;
 
     [SerializeField] LayerMask jumpableGround;

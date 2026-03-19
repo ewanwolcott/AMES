@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -12,6 +13,10 @@ public class Interact : MonoBehaviour
     [SerializeField] Image itemImage;
 
     [SerializeField] GameObject image;
+
+    [SerializeField] GameObject warningText;
+
+    float cooldownTimer = 0f;
 
     public bool hasItem = false;
 
@@ -32,9 +37,27 @@ public class Interact : MonoBehaviour
             image.SetActive(false);
             itemImage.sprite = null;
         }
+        else if(hit && hit.collider.TryGetComponent(out Interactable interactable2) && !isInteracted && !hasItem && cooldownTimer <= 0)
+        {
+            warningText.SetActive(true);
+            cooldownTimer = 2f;
+            StartCoroutine(WarningTextCounter(2f));
+        }
+    }
+
+    IEnumerator WarningTextCounter(float time)
+    {
+        yield return new WaitForSeconds(time);
+        warningText.SetActive(false);
     }
     private void Update()
     {
+        if (cooldownTimer > 0)
+        {
+            cooldownTimer -= Time.deltaTime;
+
+        }
+     
         RaycastHit2D hit = Physics2D.BoxCast(transform.position, boxSize, 0, Vector2.zero, 1, boxLayer);
 
         if (hit && hit.collider.TryGetComponent(out Interactable interactable) && !isInteracted)
