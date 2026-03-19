@@ -3,10 +3,12 @@ using UnityEngine;
 public class EnemyAttacking : MonoBehaviour
 {
     public Transform enemyAttackPoint;
+    public PlayerHealth playerHealth;
     public LayerMask playerLayer;
     public float enemyAttackRange;
     public float knockbackForce;
     public float stunTime;
+    public int damage = 1;
 
     public float enemyAttackCooldown = 1f;
     float timer;
@@ -28,6 +30,9 @@ public class EnemyAttacking : MonoBehaviour
         if (hits.Length > 0 && timer <= 0)
         {
             Debug.Log("Enemy hit " + hits[0].name);
+
+            playerHealth.TakeDamage(damage);
+
             hits[0].GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
             timer = enemyAttackCooldown;
         }

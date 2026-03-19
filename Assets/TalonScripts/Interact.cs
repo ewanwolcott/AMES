@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class Interact : MonoBehaviour
 {
@@ -7,6 +8,12 @@ public class Interact : MonoBehaviour
     public LayerMask boxLayer;
 
     private Collider2D _currentHitCollider;
+
+    [SerializeField] Image itemImage;
+
+    [SerializeField] GameObject image;
+
+    public bool hasItem = false;
 
     private bool isInteracted = false;
 
@@ -17,10 +24,13 @@ public class Interact : MonoBehaviour
 
         RaycastHit2D hit = Physics2D.BoxCast(transform.position, boxSize, 0, Vector2.zero, 1, boxLayer);
         
-        if(hit && hit.collider.TryGetComponent(out Interactable interactable) && !isInteracted)
+        if(hit && hit.collider.TryGetComponent(out Interactable interactable) && !isInteracted && hasItem)
         {
             interactable.onInteract.Invoke();
+            hasItem = false;
             isInteracted = true;
+            image.SetActive(false);
+            itemImage.sprite = null;
         }
     }
     private void Update()

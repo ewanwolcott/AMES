@@ -20,8 +20,12 @@ public class ItemInstance : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        itemImage.sprite = data.sprite;
-        image.SetActive(true);
-        Destroy(gameObject);
+        if(collision.CompareTag("Player"))
+        {
+            itemImage.sprite = data.sprite;
+            image.SetActive(true);
+            collision.GetComponent<Interact>().hasItem = true;
+            Destroy(gameObject);
+        }
     }
 }
