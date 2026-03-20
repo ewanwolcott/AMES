@@ -16,7 +16,7 @@ public class PlayerCombat : MonoBehaviour
 
     public int lifeStealAmount = 1;
     int timesHit = 0;
-
+    public int amountHit = 5;
     PlayerHealth playerHealth;
     PlayerUpgrades playerUpgrades;
 
@@ -45,7 +45,7 @@ public class PlayerCombat : MonoBehaviour
                 if (playerUpgrades.strengthLevel > 0 && playerHealth.health < playerHealth.maxHealth)
                 {
                     timesHit++;
-                    if (timesHit >= 3)
+                    if (timesHit >= amountHit)
                     {
                         playerHealth.TakeDamage(-lifeStealAmount);
                         timesHit = 0;
