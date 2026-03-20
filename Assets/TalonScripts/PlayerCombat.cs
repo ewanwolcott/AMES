@@ -13,6 +13,7 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 1f;
     public LayerMask enemyLayers;
+    public float attackDamage = 1f;
 
     public bool hasStrengthUpgrade = false;
 
@@ -46,6 +47,7 @@ public class PlayerCombat : MonoBehaviour
                     playerHealth.TakeDamage(-lifeStealAmount);
                 }
                 enemies[0].GetComponent<EnemyKnockback>().Knockback(transform, knockbackForce);
+                enemies[0].GetComponent <EnemyHealth>().TakeDamage((int)attackDamage);  
                 Debug.Log("Hit " + enemies[0].name);
             }
 
