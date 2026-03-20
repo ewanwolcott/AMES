@@ -19,12 +19,12 @@ public class PlayerUpgrades : MonoBehaviour
     {
         if(speedLevel == 2)
         {
-            playerMovement.movementSpeed = playerMovement.movementSpeed + 1f;
+            playerMovement.movementSpeed = 5f;
         }
         else if(speedLevel == 3)
         {
-            playerMovement.movementSpeed = playerMovement.movementSpeed + 1f;
-            playerMovement.jumpHeight = playerMovement.jumpHeight + 2f;
+            playerMovement.movementSpeed = 6f;
+            playerMovement.jumpHeight = 11f;
         }
     }
 }
