@@ -349,6 +349,7 @@ GameObject:
   - component: {fileID: 468996036}
   - component: {fileID: 468996037}
   - component: {fileID: 468996038}
+  - component: {fileID: 468996039}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -368,9 +369,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84b16741c79a0843b0ba2770e202a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
+  movementSpeed: 4
   jumpHeight: 10
-  hasSpeedUpgrade: 0
   jumpableGround:
     serializedVersion: 2
     m_Bits: 320
@@ -707,7 +707,6 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
-  hasStrengthUpgrade: 0
   lifeStealAmount: 1
 --- !u!114 &468996036
 MonoBehaviour:
@@ -768,6 +767,21 @@ MonoBehaviour:
   - {fileID: 1098091842}
   - {fileID: 1866686389}
   playerHealth: {fileID: 468996037}
+--- !u!114 &468996039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468996028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ffb448d8e5ae4449edee7586d6bbe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strengthLevel: 0
+  speedLevel: 0
+  healthLevel: 0
 --- !u!1 &495890332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2600,6 +2614,7 @@ GameObject:
   - component: {fileID: 1768454972}
   - component: {fileID: 1768454975}
   - component: {fileID: 1768454974}
+  - component: {fileID: 1768454976}
   m_Layer: 9
   m_Name: Interactable
   m_TagString: Untagged
@@ -2694,13 +2709,13 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1768454972}
-        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
-        m_MethodName: set_sprite
-        m_Mode: 2
+      - m_Target: {fileID: 1768454976}
+        m_TargetAssemblyTypeName: Upgrader, Assembly-CSharp
+        m_MethodName: Upgrade
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: -3479723303619151389, guid: e5c5f2db76714c044818f180c2d99e40, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2752,6 +2767,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1768454976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768454971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd9d654f8e28ae4999d4aa0ec09a20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUpgrades: {fileID: 468996039}
+  strengthUpgrade: 0
+  speedUpgrade: 1
+  healthUpgrade: 0
 --- !u!1 &1795969174
 GameObject:
   m_ObjectHideFlags: 0

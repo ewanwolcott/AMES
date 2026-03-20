@@ -9,13 +9,13 @@ public class PlayerMovement : MonoBehaviour
 
     private BoxCollider2D coll;
 
-    public bool hasSpeedUpgrade = false;
     bool doubleJump;
 
     [SerializeField] LayerMask jumpableGround;
 
     Rigidbody2D rb2d;
     SpriteRenderer spriteRenderer;
+    PlayerUpgrades playerUpgrades;
     bool isKnockedback = false;
 
     float _movement;
@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        playerUpgrades = GetComponent<PlayerUpgrades>();
     }
 
     // Update is called once per frame
@@ -57,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1 && IsGrounded() || ctx.ReadValue<float>() == 1 && doubleJump && hasSpeedUpgrade)
+        if (ctx.ReadValue<float>() == 1 && IsGrounded() || ctx.ReadValue<float>() == 1 && doubleJump && playerUpgrades.speedLevel > 0)
         {
             rb2d.linearVelocityY = jumpHeight;
 

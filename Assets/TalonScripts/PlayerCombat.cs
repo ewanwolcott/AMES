@@ -14,15 +14,15 @@ public class PlayerCombat : MonoBehaviour
     public float attackRange = 1f;
     public LayerMask enemyLayers;
 
-    public bool hasStrengthUpgrade = false;
-
     public int lifeStealAmount = 1;
 
     PlayerHealth playerHealth;
+    PlayerUpgrades playerUpgrades;
 
     void Awake()
     {
         playerHealth = GetComponent<PlayerHealth>();
+        playerUpgrades = GetComponent<PlayerUpgrades>();
     }
 
     private void Update()
@@ -41,7 +41,7 @@ public class PlayerCombat : MonoBehaviour
 
             if(enemies.Length > 0)
             {
-                if (hasStrengthUpgrade && playerHealth.health < playerHealth.maxHealth)
+                if (playerUpgrades.strengthLevel > 0 && playerHealth.health < playerHealth.maxHealth)
                 {
                     playerHealth.TakeDamage(-lifeStealAmount);
                 }
