@@ -13,10 +13,11 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 1f;
     public LayerMask enemyLayers;
+    public float attackDamage = 1f;
 
     public int lifeStealAmount = 1;
     int timesHit = 0;
-
+    public int amountHit = 5;
     PlayerHealth playerHealth;
     PlayerUpgrades playerUpgrades;
 
@@ -45,13 +46,14 @@ public class PlayerCombat : MonoBehaviour
                 if (playerUpgrades.strengthLevel > 0 && playerHealth.health < playerHealth.maxHealth)
                 {
                     timesHit++;
-                    if (timesHit >= 3)
+                    if (timesHit >= amountHit)
                     {
                         playerHealth.TakeDamage(-lifeStealAmount);
                         timesHit = 0;
                     }
                 }
                 enemies[0].GetComponent<EnemyKnockback>().Knockback(transform, knockbackForce);
+                enemies[0].GetComponent <EnemyHealth>().TakeDamage((int)attackDamage);  
                 Debug.Log("Hit " + enemies[0].name);
             }
 
