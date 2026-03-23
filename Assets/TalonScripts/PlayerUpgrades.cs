@@ -24,6 +24,7 @@ public class PlayerUpgrades : MonoBehaviour
         else if(strengthLevel == 3)
         {
             playerCombat.amountHit = 2;
+            playerCombat.attackDamage = 2;
         }
         if (speedLevel == 2)
         {
