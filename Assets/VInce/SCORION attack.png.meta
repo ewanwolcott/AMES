@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: f5ca2fd128769a14081f70c5bdc3f729
+guid: eec3c7bc2321a194caefcde118ed4b6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3535310242847151675
-    second: CHARACTER IDLE 1_0
+      213: 7396362871321959941
+    second: SCORION attack_0
   - first:
-      213: -1368202821912466302
-    second: CHARACTER IDLE 1_1
+      213: 711124896074231377
+    second: SCORION attack_1
   - first:
-      213: -8589443857166323361
-    second: CHARACTER IDLE 1_2
+      213: 1673294365263133507
+    second: SCORION attack_2
   - first:
-      213: -6364492216694792695
-    second: CHARACTER IDLE 1_3
+      213: 4531397727042546979
+    second: SCORION attack_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CHARACTER IDLE 1_0
+      name: SCORION attack_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 98
-        width: 48
-        height: 82
+        x: 17
+        y: 77
+        width: 38
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3654bb5fe1ff0130800000000000000
-      internalID: 3535310242847151675
+      spriteID: 50e980708d825a660800000000000000
+      internalID: 7396362871321959941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER IDLE 1_1
+      name: SCORION attack_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 98
-        width: 48
-        height: 80
+        x: 82
+        y: 77
+        width: 36
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28c683358ca230de0800000000000000
-      internalID: -1368202821912466302
+      spriteID: 15ee075435c6ed900800000000000000
+      internalID: 711124896074231377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER IDLE 1_2
+      name: SCORION attack_2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 8
-        width: 48
-        height: 82
+        x: 11
+        y: 16
+        width: 41
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f51b07b125a2cc880800000000000000
-      internalID: -8589443857166323361
+      spriteID: 34bfb261c5cb83710800000000000000
+      internalID: 1673294365263133507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER IDLE 1_3
+      name: SCORION attack_3
       rect:
         serializedVersion: 2
-        x: 85
-        y: 8
-        width: 48
-        height: 83
+        x: 82
+        y: 13
+        width: 36
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90e1b28ac08cca7a0800000000000000
-      internalID: -6364492216694792695
+      spriteID: 32d22607932c2ee30800000000000000
+      internalID: 4531397727042546979
       vertices: []
       indices: 
       edges: []
@@ -236,10 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CHARACTER IDLE 1_0: 3535310242847151675
-      CHARACTER IDLE 1_1: -1368202821912466302
-      CHARACTER IDLE 1_2: -8589443857166323361
-      CHARACTER IDLE 1_3: -6364492216694792695
+      SCORION attack_0: 7396362871321959941
+      SCORION attack_1: 711124896074231377
+      SCORION attack_2: 1673294365263133507
+      SCORION attack_3: 4531397727042546979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
