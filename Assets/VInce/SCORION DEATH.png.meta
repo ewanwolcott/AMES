@@ -97,7 +97,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -135,7 +135,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -660,7 +660,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SCORION DEATH_0: -4811648356536869911
+      SCORION DEATH_1: 1873632764486189281
+      SCORION DEATH_10: 2039601065959988027
+      SCORION DEATH_11: 6099444041609802565
+      SCORION DEATH_12: -1212209013160752074
+      SCORION DEATH_13: -3019002977331369014
+      SCORION DEATH_14: 5339107369401342446
+      SCORION DEATH_15: 5504792413826883787
+      SCORION DEATH_16: -9018854303283472805
+      SCORION DEATH_17: 2014505375219177329
+      SCORION DEATH_18: -1729933986899570447
+      SCORION DEATH_19: -3626019845369037598
+      SCORION DEATH_2: 2921588881185600504
+      SCORION DEATH_20: 3893319256789048000
+      SCORION DEATH_3: 8612014943684158164
+      SCORION DEATH_4: 4261753415653487103
+      SCORION DEATH_5: -6545252963053963115
+      SCORION DEATH_6: -4657533375057131147
+      SCORION DEATH_7: -7501423683315663664
+      SCORION DEATH_8: 539124001541429314
+      SCORION DEATH_9: -7514262880206867606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
