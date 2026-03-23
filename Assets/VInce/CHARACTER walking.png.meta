@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -144,10 +144,10 @@ TextureImporter:
       name: CHARACTER walking_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 100
-        width: 46
-        height: 80
+        x: 0
+        y: 101
+        width: 80
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: CHARACTER walking_1
       rect:
         serializedVersion: 2
-        x: 88
-        y: 100
-        width: 46
-        height: 80
+        x: 80
+        y: 101
+        width: 80
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: CHARACTER walking_2
       rect:
         serializedVersion: 2
-        x: 168
-        y: 99
-        width: 46
-        height: 81
+        x: 160
+        y: 100
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: CHARACTER walking_3
       rect:
         serializedVersion: 2
-        x: 5
-        y: 10
-        width: 49
-        height: 81
+        x: 0
+        y: 11
+        width: 80
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: CHARACTER walking_4
       rect:
         serializedVersion: 2
-        x: 87
-        y: 9
-        width: 47
-        height: 81
+        x: 80
+        y: 10
+        width: 80
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: CHARACTER walking_5
       rect:
         serializedVersion: 2
-        x: 168
-        y: 9
-        width: 46
-        height: 82
+        x: 160
+        y: 10
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 158b5d388aac17d428ea2d865c76413d
     internalID: 0
     vertices: []
     indices: 
@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CHARACTER walking_0: 4029633320421379045
+      CHARACTER walking_1: -7364304984302959074
+      CHARACTER walking_2: 6008351356079811513
+      CHARACTER walking_3: -7279357080361327363
+      CHARACTER walking_4: -5137033701471282262
+      CHARACTER walking_5: -459497581257987196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
