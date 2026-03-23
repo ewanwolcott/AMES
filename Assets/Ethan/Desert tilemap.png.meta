@@ -134,7 +134,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 97
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -154,7 +154,7 @@ TextureImporter:
       name: Desert tilemap_1
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 0
         width: 32
         height: 32
@@ -172,11 +172,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Desert tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97287df8c02dbd340a7fbe7a255b2ff5
+      internalID: 1315046371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcd4f4950b06e649b10f34bfb53d0dd
+      internalID: -1750247768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d4ab1ca970d471a4dac88422219da61d
     internalID: 0
     vertices: []
     indices: 
@@ -188,6 +232,8 @@ TextureImporter:
     nameFileIdTable:
       Desert tilemap_0: 5864338016726586138
       Desert tilemap_1: -7624166145011015466
+      Desert tilemap_2: 1315046371
+      Desert tilemap_3: -1750247768
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
