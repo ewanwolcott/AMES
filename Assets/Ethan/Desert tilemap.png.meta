@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: adb656c1363af4d4ebdfc1d28248f816
+guid: b92b7dbdbb64c7a42b733db5f9fca573
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7256955800858930673
-    second: SCORION Hit_0
+      213: 5864338016726586138
+    second: Desert tilemap_0
   - first:
-      213: 6916504314814084157
-    second: SCORION Hit_1
-  - first:
-      213: 7916178629784800297
-    second: SCORION Hit_2
+      213: -7624166145011015466
+    second: Desert tilemap_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SCORION Hit_0
+      name: Desert tilemap_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 77
-        width: 38
-        height: 42
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f02d71be52d1a4b90800000000000000
-      internalID: -7256955800858930673
+      spriteID: a139ec90b50526150800000000000000
+      internalID: 5864338016726586138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION Hit_1
+      name: Desert tilemap_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 77
-        width: 36
-        height: 42
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,30 +166,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3433f3770c5cff50800000000000000
-      internalID: 6916504314814084157
+      spriteID: 6d02f022945813690800000000000000
+      internalID: -7624166145011015466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION Hit_2
+      name: Desert tilemap_2
       rect:
         serializedVersion: 2
-        x: 17
-        y: 13
-        width: 38
-        height: 42
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 92c8cd6a58aebdd60800000000000000
-      internalID: 7916178629784800297
+      spriteID: 97287df8c02dbd340a7fbe7a255b2ff5
+      internalID: 1315046371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcd4f4950b06e649b10f34bfb53d0dd
+      internalID: -1750247768
       vertices: []
       indices: 
       edges: []
@@ -201,7 +220,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d4ab1ca970d471a4dac88422219da61d
     internalID: 0
     vertices: []
     indices: 
@@ -211,9 +230,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SCORION Hit_0: -7256955800858930673
-      SCORION Hit_1: 6916504314814084157
-      SCORION Hit_2: 7916178629784800297
+      Desert tilemap_0: 5864338016726586138
+      Desert tilemap_1: -7624166145011015466
+      Desert tilemap_2: 1315046371
+      Desert tilemap_3: -1750247768
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
