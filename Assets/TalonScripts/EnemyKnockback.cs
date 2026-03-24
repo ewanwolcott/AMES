@@ -19,7 +19,8 @@ public class EnemyKnockback : MonoBehaviour
     public void Knockback(Transform playerTransform, float knockbackForce)
     {
         enemyFollow.isKnockedback = true;
-        spriteRenderer.color = Color.red; // Change color to red when knocked back
+        spriteRenderer.color = Color.red;
+        // Change color to red when knocked back
         StartCoroutine(DisableFollowTemporarily(enemyFollow.knockbackDuration, enemyFollow.stunDuration));
         Vector2 knockbackDirection = (transform.position - playerTransform.position).normalized;
         rb2d.linearVelocityX = knockbackDirection.x * knockbackForce;
