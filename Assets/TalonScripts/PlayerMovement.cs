@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb2d;
     SpriteRenderer spriteRenderer;
     PlayerUpgrades playerUpgrades;
+    Animator animator; 
     bool isKnockedback = false;
 
     float _movement;
@@ -26,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         playerUpgrades = GetComponent<PlayerUpgrades>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -43,6 +45,8 @@ public class PlayerMovement : MonoBehaviour
                 transform.localScale = new Vector3(-1, 1, 1);
             }
         }
+
+        animator.SetFloat("XInput", rb2d.linearVelocity.x);
 
         if (IsGrounded())
         {
