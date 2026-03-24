@@ -11,6 +11,8 @@ public class EnemyFollow : MonoBehaviour
     [HideInInspector] public bool isKnockedback = false;
 
     [SerializeField] GameObject player;
+
+    Animator animator;
     
     public float viewRadius = 5f;
     float distanceToPlayer;
@@ -24,6 +26,7 @@ public class EnemyFollow : MonoBehaviour
     void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -37,10 +40,12 @@ public class EnemyFollow : MonoBehaviour
             if(distanceToPlayer <= viewRadius)
             {
                 rb2d.linearVelocityX = direction.x * moveSpeed;
+                animator.SetBool("IsWalking", true);
             }
             else
             {
                 rb2d.linearVelocityX = 0;
+                animator.SetBool("IsWalking", false);
             }
         }
         if (player.transform.position.x < transform.position.x)
