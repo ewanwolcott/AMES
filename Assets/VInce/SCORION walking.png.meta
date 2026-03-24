@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: af4ee8439ce24ab43991aa4d735d0c17
+guid: 5dd30f4836b38e34292ae8527da02640
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4029633320421379045
-    second: CHARACTER walking_0
+      213: 6411560837204921834
+    second: SCORION walking_0
   - first:
-      213: -7364304984302959074
-    second: CHARACTER walking_1
+      213: -7334040002396074270
+    second: SCORION walking_1
   - first:
-      213: 6008351356079811513
-    second: CHARACTER walking_2
-  - first:
-      213: -7279357080361327363
-    second: CHARACTER walking_3
-  - first:
-      213: -5137033701471282262
-    second: CHARACTER walking_4
-  - first:
-      213: -459497581257987196
-    second: CHARACTER walking_5
+      213: 8082464007007263598
+    second: SCORION walking_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32.7
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -141,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CHARACTER walking_0
+      name: SCORION walking_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 101
-        width: 44
-        height: 79
+        x: 17
+        y: 78
+        width: 38
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5eb4bcea7222ce730800000000000000
-      internalID: 4029633320421379045
+      spriteID: aedc76d8c907af850800000000000000
+      internalID: 6411560837204921834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER walking_1
+      name: SCORION walking_1
       rect:
         serializedVersion: 2
-        x: 89
-        y: 101
-        width: 44
-        height: 78
+        x: 82
+        y: 78
+        width: 35
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e16cbf072abbcc990800000000000000
-      internalID: -7364304984302959074
+      spriteID: 2ee4da8a971483a90800000000000000
+      internalID: -7334040002396074270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER walking_2
+      name: SCORION walking_2
       rect:
         serializedVersion: 2
-        x: 169
-        y: 100
-        width: 44
-        height: 80
+        x: 16
+        y: 14
+        width: 39
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,74 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bbafd889b3f16350800000000000000
-      internalID: 6008351356079811513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER walking_3
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 11
-        width: 47
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df4a6d79d478afa90800000000000000
-      internalID: -7279357080361327363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER walking_4
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 10
-        width: 45
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aab1890d01795b8b0800000000000000
-      internalID: -5137033701471282262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER walking_5
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 10
-        width: 44
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48b67f562698f99f0800000000000000
-      internalID: -459497581257987196
+      spriteID: e6b5c8f013eaa2070800000000000000
+      internalID: 8082464007007263598
       vertices: []
       indices: 
       edges: []
@@ -276,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 158b5d388aac17d428ea2d865c76413d
+    spriteID: 115e0c37cce868e41bf76bbac1b0687a
     internalID: 0
     vertices: []
     indices: 
@@ -286,12 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CHARACTER walking_0: 4029633320421379045
-      CHARACTER walking_1: -7364304984302959074
-      CHARACTER walking_2: 6008351356079811513
-      CHARACTER walking_3: -7279357080361327363
-      CHARACTER walking_4: -5137033701471282262
-      CHARACTER walking_5: -459497581257987196
+      SCORION walking_0: 6411560837204921834
+      SCORION walking_1: -7334040002396074270
+      SCORION walking_2: 8082464007007263598
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
