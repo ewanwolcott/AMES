@@ -9,13 +9,16 @@ public class EnemyAttacking : MonoBehaviour
     public float knockbackForce;
     public float stunTime;
     public int damage = 1;
+    Collider2D player;
+
+    Animator animator;
 
     public float enemyAttackCooldown = 1f;
     float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,21 +34,18 @@ public class EnemyAttacking : MonoBehaviour
         {
             Debug.Log("Enemy hit " + hits[0].name);
 
-            playerHealth.TakeDamage(damage);
+            animator.SetTrigger("IsAttacking");
 
-            hits[0].GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
-            timer = enemyAttackCooldown;
+            player = hits[0];
         }
     }
-    //public void Attack()
-    //{
-    //    Collider2D[] hits = Physics2D.OverlapCircleAll(enemyAttackPoint.position, enemyAttackRange, playerLayer);
+    public void Attack()
+    {
+        playerHealth.TakeDamage(damage);
 
-    //    if(hits.Length > 0)
-    //    {
-    //        Debug.Log("Enemy hit " + hits[0].name);
-    //    }
-    //}
+        player.GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
+        timer = enemyAttackCooldown;
+    }
 
 
 
