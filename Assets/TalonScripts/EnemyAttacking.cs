@@ -34,8 +34,9 @@ public class EnemyAttacking : MonoBehaviour
         {
             Debug.Log("Enemy hit " + hits[0].name);
 
-            animator.SetTrigger("IsAttacking");
+            timer = enemyAttackCooldown;
 
+            animator.SetTrigger("IsAttacking");
             player = hits[0];
         }
     }
@@ -44,7 +45,6 @@ public class EnemyAttacking : MonoBehaviour
         playerHealth.TakeDamage(damage);
 
         player.GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
-        timer = enemyAttackCooldown;
     }
 
 
