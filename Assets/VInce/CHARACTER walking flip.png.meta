@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32.7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,10 +144,10 @@ TextureImporter:
       name: CHARACTER walking flip_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 100
-        width: 33
-        height: 80
+        x: 40
+        y: 101
+        width: 31
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: CHARACTER walking flip_1
       rect:
         serializedVersion: 2
-        x: 122
-        y: 100
-        width: 30
-        height: 80
+        x: 123
+        y: 101
+        width: 28
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: CHARACTER walking flip_2
       rect:
         serializedVersion: 2
-        x: 202
-        y: 99
-        width: 30
-        height: 81
+        x: 203
+        y: 100
+        width: 28
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: CHARACTER walking flip_3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 10
-        width: 43
-        height: 81
+        x: 33
+        y: 11
+        width: 41
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: CHARACTER walking flip_4
       rect:
         serializedVersion: 2
-        x: 117
-        y: 9
-        width: 36
-        height: 81
+        x: 118
+        y: 10
+        width: 34
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: CHARACTER walking flip_5
       rect:
         serializedVersion: 2
-        x: 202
-        y: 9
-        width: 30
-        height: 82
+        x: 203
+        y: 10
+        width: 28
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e6d062312a99ea54c92cdc2cd9de390f
     internalID: 0
     vertices: []
     indices: 
@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CHARACTER walking flip_0: 8623698795438021087
+      CHARACTER walking flip_1: -8505894217034201773
+      CHARACTER walking flip_2: -957243676105885133
+      CHARACTER walking flip_3: -8274529914187631631
+      CHARACTER walking flip_4: 5465745706255390432
+      CHARACTER walking flip_5: 256844744003832884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

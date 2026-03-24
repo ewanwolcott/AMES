@@ -38,11 +38,12 @@ public class PlayerMovement : MonoBehaviour
             rb2d.linearVelocityX = _movement * movementSpeed;
             if (rb2d.linearVelocity.x > 0.01f)
             {
-                transform.localScale = new Vector3(1, 1, 1);
+                transform.GetChild(0).localPosition = new Vector3(0.5f, 0, 0);
+             
             }
             else if (rb2d.linearVelocity.x < -0.01f)
             {
-                transform.localScale = new Vector3(-1, 1, 1);
+                transform.GetChild(0).localPosition = new Vector3(-0.5f, 0, 0);
             }
         }
 
