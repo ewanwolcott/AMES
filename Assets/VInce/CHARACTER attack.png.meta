@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: cc28f74a987d37d4c994d61e8e76a030
+guid: d0e085915d5d2aa4c9a88d6165b0c651
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3839123331622025177
-    second: CHARACTER IDLE FILP_0
+      213: 8165455563825997527
+    second: CHARACTER attack_0
   - first:
-      213: 9066846815884426398
-    second: CHARACTER IDLE FILP_1
+      213: 4554960494323098287
+    second: CHARACTER attack_1
   - first:
-      213: 729479541948191259
-    second: CHARACTER IDLE FILP_2
+      213: -7811484157924562310
+    second: CHARACTER attack_2
   - first:
-      213: 3259373765409123285
-    second: CHARACTER IDLE FILP_3
+      213: 2725044573604526290
+    second: CHARACTER attack_3
+  - first:
+      213: 9174073330684623939
+    second: CHARACTER attack_4
+  - first:
+      213: 6525339579492468189
+    second: CHARACTER attack_5
+  - first:
+      213: -5626879850625076860
+    second: CHARACTER attack_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32.7
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,12 +144,56 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CHARACTER IDLE FILP_0
+      name: CHARACTER attack_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 99
-        width: 35
+        x: 22
+        y: 187
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6e517a296815170800000000000000
+      internalID: 8165455563825997527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 187
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2e016bf68763f30800000000000000
+      internalID: 4554960494323098287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 187
+        width: 43
         height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72841c1aba1b8bac0800000000000000
-      internalID: -3839123331622025177
+      spriteID: a7aa05e9b88089390800000000000000
+      internalID: -7811484157924562310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER IDLE FILP_1
+      name: CHARACTER attack_3
       rect:
         serializedVersion: 2
-        x: 119
-        y: 99
-        width: 35
-        height: 78
+        x: 13
+        y: 97
+        width: 50
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9c3cad0429e3dd70800000000000000
-      internalID: 9066846815884426398
+      spriteID: 2d8bdce0a9d41d520800000000000000
+      internalID: 2725044573604526290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER IDLE FILP_2
+      name: CHARACTER attack_4
       rect:
         serializedVersion: 2
-        x: 39
-        y: 9
-        width: 35
-        height: 80
+        x: 93
+        y: 97
+        width: 48
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b129cb847c1af1a00800000000000000
-      internalID: 729479541948191259
+      spriteID: 34c77d2861bd05f70800000000000000
+      internalID: 9174073330684623939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER IDLE FILP_3
+      name: CHARACTER attack_5
       rect:
         serializedVersion: 2
-        x: 119
-        y: 9
-        width: 35
-        height: 81
+        x: 173
+        y: 97
+        width: 48
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +269,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5db2075bb2f9b3d20800000000000000
-      internalID: 3259373765409123285
+      spriteID: dd5027a56c9ae8a50800000000000000
+      internalID: 6525339579492468189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 7
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48170bd969e49e1b0800000000000000
+      internalID: -5626879850625076860
       vertices: []
       indices: 
       edges: []
@@ -226,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 486449df2209a054aa1ea3270f6f05f3
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +310,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      CHARACTER IDLE FILP_0: -3839123331622025177
-      CHARACTER IDLE FILP_1: 9066846815884426398
-      CHARACTER IDLE FILP_2: 729479541948191259
-      CHARACTER IDLE FILP_3: 3259373765409123285
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

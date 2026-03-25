@@ -47,8 +47,6 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        animator.SetFloat("XInput", rb2d.linearVelocity.x);
-
         if (IsGrounded())
         {
             doubleJump = true;
@@ -59,6 +57,17 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext ctx)
     {
         _movement = ctx.ReadValue<Vector2>().x;
+
+        if(_movement != 0)
+        {
+            animator.SetFloat("XInput", _movement);
+            animator.SetBool("isWalking", true);
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
+
     }
 
     public void Jump(InputAction.CallbackContext ctx)
