@@ -20,11 +20,13 @@ public class PlayerCombat : MonoBehaviour
     public int amountHit = 5;
     PlayerHealth playerHealth;
     PlayerUpgrades playerUpgrades;
+    Animator animator;
 
     void Awake()
     {
         playerHealth = GetComponent<PlayerHealth>();
         playerUpgrades = GetComponent<PlayerUpgrades>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -39,6 +41,7 @@ public class PlayerCombat : MonoBehaviour
     {
         if (ctx.ReadValue<float>() == 1 && timer <= 0)
         {
+            animator.SetTrigger("isAttacking");
             Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, LayerMask.GetMask("Enemy"));
 
             if(enemies.Length > 0)
