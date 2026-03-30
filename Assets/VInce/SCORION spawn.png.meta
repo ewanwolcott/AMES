@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: 5dd30f4836b38e34292ae8527da02640
+guid: 28678f9750dc375499ca1cc62dc491a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6411560837204921834
-    second: SCORION walking_0
+      213: -6757803415515441231
+    second: SCORION spawn_0
   - first:
-      213: -7334040002396074270
-    second: SCORION walking_1
+      213: 5198417765240828292
+    second: SCORION spawn_1
   - first:
-      213: 8082464007007263598
-    second: SCORION walking_2
+      213: 8269815493181086046
+    second: SCORION spawn_2
+  - first:
+      213: 251640370780810598
+    second: SCORION spawn_3
+  - first:
+      213: 4071671083731043515
+    second: SCORION spawn_4
+  - first:
+      213: 2438866873343810425
+    second: SCORION spawn_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,67 +141,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SCORION walking_0
+      name: SCORION spawn_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 146
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7d74419957732a0800000000000000
+      internalID: -6757803415515441231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCORION spawn_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 142
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48172434a6d742840800000000000000
+      internalID: 5198417765240828292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCORION spawn_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 80
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59941d206944c270800000000000000
+      internalID: 8269815493181086046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCORION spawn_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 74
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66da98f75910e7300800000000000000
+      internalID: 251640370780810598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCORION spawn_4
       rect:
         serializedVersion: 2
         x: 17
-        y: 78
-        width: 38
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aedc76d8c907af850800000000000000
-      internalID: 6411560837204921834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION walking_1
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 78
-        width: 35
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ee4da8a971483a90800000000000000
-      internalID: -7334040002396074270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION walking_2
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 14
+        y: 11
         width: 39
-        height: 40
+        height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6b5c8f013eaa2070800000000000000
-      internalID: 8082464007007263598
+      spriteID: bb4c40c274b718830800000000000000
+      internalID: 4071671083731043515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCORION spawn_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 12
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b1028ef7898d120800000000000000
+      internalID: 2438866873343810425
       vertices: []
       indices: 
       edges: []
@@ -201,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 115e0c37cce868e41bf76bbac1b0687a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +285,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      SCORION walking_0: 6411560837204921834
-      SCORION walking_1: -7334040002396074270
-      SCORION walking_2: 8082464007007263598
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -35,6 +35,7 @@ public class PlayerCombat : MonoBehaviour
         {
             timer -= Time.deltaTime;
         }
+
     }
 
     public void Attack(InputAction.CallbackContext ctx)
@@ -42,25 +43,28 @@ public class PlayerCombat : MonoBehaviour
         if (ctx.ReadValue<float>() == 1 && timer <= 0)
         {
             animator.SetTrigger("isAttacking");
-            Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, LayerMask.GetMask("Enemy"));
-
-            if(enemies.Length > 0)
-            {
-                if (playerUpgrades.strengthLevel > 0 && playerHealth.health < playerHealth.maxHealth)
-                {
-                    timesHit++;
-                    if (timesHit >= amountHit)
-                    {
-                        playerHealth.TakeDamage(-lifeStealAmount);
-                        timesHit = 0;
-                    }
-                }
-                enemies[0].GetComponent<EnemyKnockback>().Knockback(transform, knockbackForce);
-                enemies[0].GetComponent<EnemyHealth>().TakeDamage(attackDamage);  
-                Debug.Log("Hit " + enemies[0].name);
-            }
-
             timer = attackCooldown;
+        }
+    }
+    public void DamageEnemy()
+    {
+
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, LayerMask.GetMask("Enemy"));
+
+        if (enemies.Length > 0)
+        {
+            if (playerUpgrades.strengthLevel > 0 && playerHealth.health < playerHealth.maxHealth)
+            {
+                timesHit++;
+                if (timesHit >= amountHit)
+                {
+                    playerHealth.TakeDamage(-lifeStealAmount);
+                    timesHit = 0;
+                }
+            }
+            enemies[0].GetComponent<EnemyKnockback>().Knockback(transform, knockbackForce);
+            enemies[0].GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+            Debug.Log("Hit " + enemies[0].name);
         }
     }
     
