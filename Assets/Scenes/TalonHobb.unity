@@ -972,6 +972,7 @@ GameObject:
   - component: {fileID: 834155784}
   - component: {fileID: 834155783}
   - component: {fileID: 834155782}
+  - component: {fileID: 834155785}
   m_Layer: 6
   m_Name: Square (2)
   m_TagString: Untagged
@@ -1095,6 +1096,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &834155785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834155781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd835be902406747977cf200f458615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lagAmount: 1
 --- !u!1 &875930026
 GameObject:
   m_ObjectHideFlags: 0
@@ -2095,6 +2109,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3173320764861050962, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: attackCooldown
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710750427014667289, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: 'hearts.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1229288231}
+    - target: {fileID: 4710750427014667289, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: 'hearts.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2007225428}
+    - target: {fileID: 4710750427014667289, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: 'hearts.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2033834690}
+    - target: {fileID: 4710750427014667289, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: 'hearts.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1098091842}
+    - target: {fileID: 4710750427014667289, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: 'hearts.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1866686389}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2363,7 +2401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4216e5327ec38b44b21761bc6106688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1000
+  maxHealth: 3
   currentHealth: 1
 --- !u!95 &1541216602
 Animator:
@@ -2915,6 +2953,7 @@ GameObject:
   - component: {fileID: 2006092365}
   - component: {fileID: 2006092364}
   - component: {fileID: 2006092363}
+  - component: {fileID: 2006092366}
   m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
@@ -3038,6 +3077,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2006092366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006092362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd835be902406747977cf200f458615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lagAmount: 0
 --- !u!1 &2007225426
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,6 +3251,7 @@ GameObject:
   - component: {fileID: 2045772017}
   - component: {fileID: 2045772016}
   - component: {fileID: 2045772015}
+  - component: {fileID: 2045772018}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Untagged
@@ -3322,6 +3375,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2045772018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045772014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd835be902406747977cf200f458615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lagAmount: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
