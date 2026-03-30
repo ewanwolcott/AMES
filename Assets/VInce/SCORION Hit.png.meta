@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SCORION Hit_0: -7256955800858930673
+      SCORION Hit_1: 6916504314814084157
+      SCORION Hit_2: 7916178629784800297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
