@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 134b5f1a762a99348acf817d7efeec02
+guid: adb656c1363af4d4ebdfc1d28248f816
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5773072748523447045
-    second: SCORION idle two_0
+      213: -7256955800858930673
+    second: SCORION Hit_0
   - first:
-      213: 3566295702464398501
-    second: SCORION idle two_1
+      213: 6916504314814084157
+    second: SCORION Hit_1
   - first:
-      213: 7784647471694050706
-    second: SCORION idle two_2
+      213: 7916178629784800297
+    second: SCORION Hit_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,7 +132,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SCORION idle two_0
+      name: SCORION Hit_0
       rect:
         serializedVersion: 2
         x: 18
@@ -147,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5036a36e3131e1050800000000000000
-      internalID: 5773072748523447045
+      spriteID: f02d71be52d1a4b90800000000000000
+      internalID: -7256955800858930673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION idle two_1
+      name: SCORION Hit_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 76
-        width: 37
-        height: 33
+        x: 83
+        y: 77
+        width: 35
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a4846ddb070e7130800000000000000
-      internalID: 3566295702464398501
+      spriteID: d3433f3770c5cff50800000000000000
+      internalID: 6916504314814084157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION idle two_2
+      name: SCORION Hit_2
       rect:
         serializedVersion: 2
         x: 18
         y: 13
-        width: 37
-        height: 33
+        width: 38
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29577f371af980c60800000000000000
-      internalID: 7784647471694050706
+      spriteID: 92c8cd6a58aebdd60800000000000000
+      internalID: 7916178629784800297
       vertices: []
       indices: 
       edges: []
@@ -201,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3fb4fd3d5afce0342b809d9085d64146
+    spriteID: 49dcc72b06a178542ad33598bf6eef25
     internalID: 0
     vertices: []
     indices: 
@@ -211,9 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SCORION idle two_0: 5773072748523447045
-      SCORION idle two_1: 3566295702464398501
-      SCORION idle two_2: 7784647471694050706
+      SCORION Hit_0: -7256955800858930673
+      SCORION Hit_1: 6916504314814084157
+      SCORION Hit_2: 7916178629784800297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
