@@ -42,5 +42,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 3264383183
+    locked: 0
+  - name: Enviornmental objects
+    uniqueID: 2999816829
+    locked: 0
+  - name: tilemap
+    uniqueID: 429612213
+    locked: 0
+  - name: player/enemies
+    uniqueID: 4176889993
+    locked: 0
   m_RenderingLayers:
   - Default

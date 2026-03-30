@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 88ff9f65cd574544791e71122337b1ea
+guid: 55ab80ffd3c311b499ac366d3dddc02f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8906334808696160482
-    second: SCORION idel_0
+      213: -866161185461436039
+    second: SCORION walking 2_0
   - first:
-      213: -6983945385385684556
-    second: SCORION idel_1
+      213: -1919010423787692629
+    second: SCORION walking 2_1
   - first:
-      213: 4480437806799742478
-    second: SCORION idel_2
+      213: 1551539691457441655
+    second: SCORION walking 2_2
   - first:
-      213: -2481138845308376298
-    second: SCORION idel_3
+      213: -2954152739191732252
+    second: SCORION walking 2_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,35 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SCORION idel_0
+      name: SCORION walking 2_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 77
-        width: 38
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e0080b1258a99b70800000000000000
-      internalID: 8906334808696160482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION idel_1
-      rect:
-        serializedVersion: 2
-        x: 81
+        x: 16
         y: 76
         width: 38
-        height: 41
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b19b5dacaa041f90800000000000000
-      internalID: -6983945385385684556
+      spriteID: 971075eadf6caf3f0800000000000000
+      internalID: -866161185461436039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION idel_2
+      name: SCORION walking 2_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 13
-        width: 38
-        height: 42
+        x: 82
+        y: 76
+        width: 35
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0667886276bd2e30800000000000000
-      internalID: 4480437806799742478
+      spriteID: baddcd9df2e4e55e0800000000000000
+      internalID: -1919010423787692629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION idel_3
+      name: SCORION walking 2_2
       rect:
         serializedVersion: 2
-        x: 81
-        y: 13
-        width: 38
-        height: 42
+        x: 18
+        y: 12
+        width: 34
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +194,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61ba8f6ad59319dd0800000000000000
-      internalID: -2481138845308376298
+      spriteID: 77f6d34012d288510800000000000000
+      internalID: 1551539691457441655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SCORION walking 2_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 12
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7ca384cbdb007d0800000000000000
+      internalID: -2954152739191732252
       vertices: []
       indices: 
       edges: []
@@ -235,11 +235,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      SCORION idel_0: 8906334808696160482
-      SCORION idel_1: -6983945385385684556
-      SCORION idel_2: 4480437806799742478
-      SCORION idel_3: -2481138845308376298
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
