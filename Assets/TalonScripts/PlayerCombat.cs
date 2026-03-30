@@ -43,7 +43,7 @@ public class PlayerCombat : MonoBehaviour
         if (ctx.ReadValue<float>() == 1 && timer <= 0)
         {
             animator.SetTrigger("isAttacking");
-            
+            timer = attackCooldown;
         }
     }
     public void DamageEnemy()
