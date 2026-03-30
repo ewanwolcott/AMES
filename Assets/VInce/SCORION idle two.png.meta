@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SCORION idle two_0: 5773072748523447045
+      SCORION idle two_1: 3566295702464398501
+      SCORION idle two_2: 7784647471694050706
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SCORION walking 2_0: -866161185461436039
+      SCORION walking 2_1: -1919010423787692629
+      SCORION walking 2_2: 1551539691457441655
+      SCORION walking 2_3: -2954152739191732252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

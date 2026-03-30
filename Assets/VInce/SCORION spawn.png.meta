@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SCORION spawn_0: -6757803415515441231
+      SCORION spawn_1: 5198417765240828292
+      SCORION spawn_2: 8269815493181086046
+      SCORION spawn_3: 251640370780810598
+      SCORION spawn_4: 4071671083731043515
+      SCORION spawn_5: 2438866873343810425
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
