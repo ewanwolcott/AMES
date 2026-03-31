@@ -5,16 +5,14 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 3;
     public int currentHealth;
 
-    BoxCollider2D coll;
+    EnemyAttacking coll;
     Animator animator;
-    Rigidbody2D rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        coll = GetComponent<BoxCollider2D>();
-        rb = GetComponent<Rigidbody2D>();
+        coll = GetComponent<EnemyAttacking>();
     }
     void Start()
     {
@@ -35,7 +33,6 @@ public class EnemyHealth : MonoBehaviour
         {
             animator.SetBool("IsWalking", false);
             animator.SetBool("IsDead", true);
-            rb.gravityScale = 0;
             coll.enabled = false;
         }
     }
