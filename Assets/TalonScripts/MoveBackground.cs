@@ -21,8 +21,14 @@ public class MoveBackground : MonoBehaviour
 
         transform.position = new Vector3(startPos + distance, transform.position.y, transform.position.z);
 
-        if(movement > startPos + length) startPos += length;
-        else if(movement < startPos - length) startPos -= length;
+        if(movement > startPos + length)
+        {
+            startPos += length;
+        }
+        else if(movement < startPos - length)
+        {
+            startPos -= length;
+        }
     }
 
     // This script is used to create a parallax effect for the background. The background will move at a different speed than the camera, creating a sense of depth. The lag amount can be adjusted to increase or decrease the parallax effect. A lag amount of 0 means the background will move at the same speed as the camera, while a lag amount of 1 means the background will not move at all.
