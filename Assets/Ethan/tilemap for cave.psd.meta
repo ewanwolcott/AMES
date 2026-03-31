@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: 28678f9750dc375499ca1cc62dc491a0
+guid: 2edb621d1f2b526459f863d8c7b0a68d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6757803415515441231
-    second: SCORION spawn_0
-  - first:
-      213: 5198417765240828292
-    second: SCORION spawn_1
-  - first:
-      213: 8269815493181086046
-    second: SCORION spawn_2
-  - first:
-      213: 251640370780810598
-    second: SCORION spawn_3
-  - first:
-      213: 4071671083731043515
-    second: SCORION spawn_4
-  - first:
-      213: 2438866873343810425
-    second: SCORION spawn_5
+      213: 6394877359596755529
+    second: (WIP) tilemap for cave_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,133 +126,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SCORION spawn_0
+      name: tilemap for cave_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 146
-        width: 27
-        height: 16
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b7d74419957732a0800000000000000
-      internalID: -6757803415515441231
+      spriteID: b5d420d60d645734cb2ee2d764120c80
+      internalID: -2064613771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION spawn_1
+      name: tilemap for cave_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 142
-        width: 24
-        height: 28
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48172434a6d742840800000000000000
-      internalID: 5198417765240828292
+      spriteID: b5aaf3465d624ae4880b3d435bae1587
+      internalID: -85797385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION spawn_2
+      name: tilemap for cave_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 80
-        width: 35
-        height: 28
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e59941d206944c270800000000000000
-      internalID: 8269815493181086046
+      spriteID: 49de274d010128e47b4fb8793f920239
+      internalID: -881611804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION spawn_3
+      name: tilemap for cave_3
       rect:
         serializedVersion: 2
-        x: 81
-        y: 74
-        width: 34
-        height: 33
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 66da98f75910e7300800000000000000
-      internalID: 251640370780810598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION spawn_4
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 11
-        width: 39
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb4c40c274b718830800000000000000
-      internalID: 4071671083731043515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION spawn_5
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 12
-        width: 40
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97b1028ef7898d120800000000000000
-      internalID: 2438866873343810425
+      spriteID: cbb779f3c4b12c84d873f727b69f119a
+      internalID: 1546773762
       vertices: []
       indices: 
       edges: []
@@ -276,7 +217,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f77a219c4d144f64d84445b0ac55999b
     internalID: 0
     vertices: []
     indices: 
@@ -286,12 +227,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SCORION spawn_0: -6757803415515441231
-      SCORION spawn_1: 5198417765240828292
-      SCORION spawn_2: 8269815493181086046
-      SCORION spawn_3: 251640370780810598
-      SCORION spawn_4: 4071671083731043515
-      SCORION spawn_5: 2438866873343810425
+      tilemap for cave_0: -2064613771
+      tilemap for cave_1: -85797385
+      tilemap for cave_2: -881611804
+      tilemap for cave_3: 1546773762
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
