@@ -2284,6 +2284,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1970570592921336301, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 875930026}
+    - target: {fileID: 1970570592921336301, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: itemImage
+      value: 
+      objectReference: {fileID: 875930028}
+    - target: {fileID: 1970570592921336301, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: warningText
+      value: 
+      objectReference: {fileID: 598476886}
     - target: {fileID: 2860393367325632583, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
       propertyPath: m_Size.y
       value: 2.3606596
