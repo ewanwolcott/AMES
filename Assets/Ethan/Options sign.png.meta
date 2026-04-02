@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5ed058e5200babb408479f0a83af8f55
+guid: 1bfac36c4c7c1b043b6b60a6fbf75c42
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2336418362548942623
-    second: Basic sign tempalte_0
+      213: -8417048735730097137
+    second: Options sign_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Basic sign tempalte_0
+      name: Options sign_0
       rect:
         serializedVersion: 2
         x: 1
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e8029dc0ef539fd0800000000000000
-      internalID: -2336418362548942623
+      spriteID: f0428a135c2a03b80800000000000000
+      internalID: -8417048735730097137
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Basic sign tempalte_0: -2336418362548942623
+      Options sign_0: -8417048735730097137
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

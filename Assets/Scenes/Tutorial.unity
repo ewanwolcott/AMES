@@ -1963,7 +1963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2d78065d95d92e46a4e25247b6dbff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  health: 5
   maxHealth: 5
   playerSr: {fileID: 984692326}
   playerMovement: {fileID: 984692322}
