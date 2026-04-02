@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32.7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -159,13 +159,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: characterJump_0
+      name: DoubleJumpR
       rect:
         serializedVersion: 2
-        x: 16
-        y: 183
-        width: 54
-        height: 85
+        x: 17
+        y: 184
+        width: 52
+        height: 83
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,57 +181,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 183
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 450cdabbb68fc5840800000000000000
-      internalID: 5214315610182107220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: characterJump_2
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 188
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 942b9e3da70fcbea0800000000000000
-      internalID: -5855541005156502967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: characterJump_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 190
-        width: 54
-        height: 77
+        x: 97
+        y: 191
+        width: 52
+        height: 75
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,13 +203,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump_4
+      name: MainCharacterJumpR
       rect:
         serializedVersion: 2
-        x: 176
-        y: 187
-        width: 54
-        height: 80
+        x: 177
+        y: 188
+        width: 52
+        height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +228,10 @@ TextureImporter:
       name: characterJump_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 95
-        width: 54
-        height: 81
+        x: 17
+        y: 96
+        width: 52
+        height: 79
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,13 +247,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump_6
+      name: CharacterMainJumpL
       rect:
         serializedVersion: 2
-        x: 106
-        y: 97
-        width: 40
-        height: 79
+        x: 107
+        y: 98
+        width: 38
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +272,10 @@ TextureImporter:
       name: characterJump_7
       rect:
         serializedVersion: 2
-        x: 186
-        y: 96
-        width: 40
-        height: 80
+        x: 187
+        y: 97
+        width: 38
+        height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +294,10 @@ TextureImporter:
       name: characterJump_8
       rect:
         serializedVersion: 2
-        x: 24
-        y: 10
-        width: 42
-        height: 76
+        x: 27
+        y: 11
+        width: 38
+        height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,13 +313,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump_9
+      name: DoubleJumpL
       rect:
         serializedVersion: 2
-        x: 104
-        y: 3
-        width: 42
-        height: 84
+        x: 107
+        y: 4
+        width: 38
+        height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,50 +330,6 @@ TextureImporter:
       bones: []
       spriteID: 2c06512c43f1e03e0800000000000000
       internalID: -2085695265971019582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: characterJump_10
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 8
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 274a12843d1438180800000000000000
-      internalID: -9114368845163682702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: characterJump_11
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 3
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45f678eb72e42eea0800000000000000
-      internalID: -5845023433766244524
       vertices: []
       indices: 
       edges: []
@@ -436,18 +348,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      characterJump_0: 2685875140481333272
+      CharacterMainJumpL: 1246295293180687730
+      DoubleJumpL: -2085695265971019582
+      DoubleJumpR: 2685875140481333272
+      MainCharacterJumpR: -6003861123501706050
       characterJump_1: 5214315610182107220
       characterJump_10: -9114368845163682702
       characterJump_11: -5845023433766244524
       characterJump_2: -5855541005156502967
       characterJump_3: -8127368606135919780
-      characterJump_4: -6003861123501706050
+      characterJump_4: 514860708
       characterJump_5: 1798734779532860575
-      characterJump_6: 1246295293180687730
       characterJump_7: 7742915485481883556
       characterJump_8: 5292128261205038676
-      characterJump_9: -2085695265971019582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
