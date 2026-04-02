@@ -1678,7 +1678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyAttackPoint: {fileID: 672842793}
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 984692319}
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
@@ -1999,7 +1999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d75e0e803581b0a4d99d19ad3f5b109a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCooldown: 0.1
+  attackCooldown: 0.5
   knockbackForce: 20
   attackPoint: {fileID: 229728281}
   attackRange: 0.85
@@ -2513,7 +2513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyAttackPoint: {fileID: 776949642}
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 984692319}
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
@@ -8721,7 +8721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyAttackPoint: {fileID: 783081434}
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 984692319}
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
