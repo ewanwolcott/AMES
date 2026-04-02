@@ -1,25 +1,37 @@
 fileFormatVersion: 2
-guid: 28678f9750dc375499ca1cc62dc491a0
+guid: 4539cc0d3229ffc418bf88ae5a6196af
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6757803415515441231
-    second: SCORION spawn_0
+      213: 680682919823812047
+    second: characterJump attack_0
   - first:
-      213: 5198417765240828292
-    second: SCORION spawn_1
+      213: -8878752074860094765
+    second: characterJump attack_1
   - first:
-      213: 8269815493181086046
-    second: SCORION spawn_2
+      213: 2627393878816044812
+    second: characterJump attack_2
   - first:
-      213: 251640370780810598
-    second: SCORION spawn_3
+      213: 4690653145791139302
+    second: characterJump attack_3
   - first:
-      213: 4071671083731043515
-    second: SCORION spawn_4
+      213: 7573047274261297977
+    second: characterJump attack_4
   - first:
-      213: 2438866873343810425
-    second: SCORION spawn_5
+      213: -490725634776158309
+    second: characterJump attack_5
+  - first:
+      213: 1348519072820191557
+    second: characterJump attack_6
+  - first:
+      213: 4764150415544164268
+    second: characterJump attack_7
+  - first:
+      213: -8617782704368838399
+    second: characterJump attack_8
+  - first:
+      213: -7247779914617231036
+    second: characterJump attack_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,13 +153,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SCORION spawn_0
+      name: characterJump attack_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 146
-        width: 27
-        height: 16
+        x: 9
+        y: 280
+        width: 59
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b7d74419957732a0800000000000000
-      internalID: -6757803415515441231
+      spriteID: fc526c85285427900800000000000000
+      internalID: 680682919823812047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION spawn_1
+      name: characterJump attack_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 142
-        width: 24
-        height: 28
+        x: 89
+        y: 280
+        width: 51
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48172434a6d742840800000000000000
-      internalID: 5198417765240828292
+      spriteID: 3da9331970658c480800000000000000
+      internalID: -8878752074860094765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION spawn_2
+      name: characterJump attack_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 80
-        width: 35
-        height: 28
+        x: 169
+        y: 277
+        width: 59
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e59941d206944c270800000000000000
-      internalID: 8269815493181086046
+      spriteID: c07bddfefc0667420800000000000000
+      internalID: 2627393878816044812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION spawn_3
+      name: characterJump attack_3
       rect:
         serializedVersion: 2
-        x: 81
-        y: 74
-        width: 34
-        height: 33
+        x: 9
+        y: 187
+        width: 42
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66da98f75910e7300800000000000000
-      internalID: 251640370780810598
+      spriteID: 6ed03771f2c881140800000000000000
+      internalID: 4690653145791139302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION spawn_4
+      name: characterJump attack_4
       rect:
         serializedVersion: 2
-        x: 17
-        y: 11
-        width: 39
-        height: 35
+        x: 96
+        y: 185
+        width: 54
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb4c40c274b718830800000000000000
-      internalID: 4071671083731043515
+      spriteID: 93bb5994f5ed81960800000000000000
+      internalID: 7573047274261297977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION spawn_5
+      name: characterJump attack_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 12
+        x: 186
+        y: 187
         width: 40
-        height: 37
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +278,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97b1028ef7898d120800000000000000
-      internalID: 2438866873343810425
+      spriteID: b9f2df892a79039f0800000000000000
+      internalID: -490725634776158309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterJump attack_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 97
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5416944b3f6e6b210800000000000000
+      internalID: 1348519072820191557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterJump attack_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 97
+        width: 39
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf1a07bf89ad1240800000000000000
+      internalID: 4764150415544164268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterJump attack_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 98
+        width: 45
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10917921a4c776880800000000000000
+      internalID: -8617782704368838399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterJump attack_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 8
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449670b6196ba6b90800000000000000
+      internalID: -7247779914617231036
       vertices: []
       indices: 
       edges: []
@@ -286,12 +386,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SCORION spawn_0: -6757803415515441231
-      SCORION spawn_1: 5198417765240828292
-      SCORION spawn_2: 8269815493181086046
-      SCORION spawn_3: 251640370780810598
-      SCORION spawn_4: 4071671083731043515
-      SCORION spawn_5: 2438866873343810425
+      characterJump attack_0: 680682919823812047
+      characterJump attack_1: -8878752074860094765
+      characterJump attack_2: 2627393878816044812
+      characterJump attack_3: 4690653145791139302
+      characterJump attack_4: 7573047274261297977
+      characterJump attack_5: -490725634776158309
+      characterJump attack_6: 1348519072820191557
+      characterJump attack_7: 4764150415544164268
+      characterJump attack_8: -8617782704368838399
+      characterJump attack_9: -7247779914617231036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

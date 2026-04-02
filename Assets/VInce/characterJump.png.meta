@@ -1,73 +1,43 @@
 fileFormatVersion: 2
-guid: 8bfb58af952c5c94d9a7b7d0e36f1da3
+guid: 8353341851ef46a4fbd670dbc5d1a2af
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3398675670064196728
-    second: DEATH SCORION_0
+      213: 2685875140481333272
+    second: characterJump_0
   - first:
-      213: -3689112879104504969
-    second: DEATH SCORION_1
+      213: 5214315610182107220
+    second: characterJump_1
   - first:
-      213: 6075924734960442305
-    second: DEATH SCORION_2
+      213: -5855541005156502967
+    second: characterJump_2
   - first:
-      213: -2548822935268595175
-    second: DEATH SCORION_3
+      213: -8127368606135919780
+    second: characterJump_3
   - first:
-      213: 8504156601541469691
-    second: DEATH SCORION_4
+      213: -6003861123501706050
+    second: characterJump_4
   - first:
-      213: -7185680890954499461
-    second: DEATH SCORION_5
+      213: 1798734779532860575
+    second: characterJump_5
   - first:
-      213: 2287445072013159955
-    second: DEATH SCORION_6
+      213: 1246295293180687730
+    second: characterJump_6
   - first:
-      213: -3602043414622219329
-    second: DEATH SCORION_7
+      213: 7742915485481883556
+    second: characterJump_7
   - first:
-      213: -1173987413890087690
-    second: DEATH SCORION_8
+      213: 5292128261205038676
+    second: characterJump_8
   - first:
-      213: 6126032157222429213
-    second: DEATH SCORION_9
+      213: -2085695265971019582
+    second: characterJump_9
   - first:
-      213: 5084519270713696890
-    second: DEATH SCORION_10
+      213: -9114368845163682702
+    second: characterJump_10
   - first:
-      213: 6322524488120795107
-    second: DEATH SCORION_11
-  - first:
-      213: 7619776587831815498
-    second: DEATH SCORION_12
-  - first:
-      213: 7057711291792699050
-    second: DEATH SCORION_13
-  - first:
-      213: 3311457701448445412
-    second: DEATH SCORION_14
-  - first:
-      213: 1480708278988488657
-    second: DEATH SCORION_15
-  - first:
-      213: -4867722991594257474
-    second: DEATH SCORION_16
-  - first:
-      213: -2467348849073770353
-    second: DEATH SCORION_17
-  - first:
-      213: -3457883979024569745
-    second: DEATH SCORION_18
-  - first:
-      213: -9216177953145957901
-    second: DEATH SCORION_19
-  - first:
-      213: -6101555858995744899
-    second: DEATH SCORION_20
-  - first:
-      213: 8305866762450755315
-    second: DEATH SCORION_21
+      213: -5845023433766244524
+    second: characterJump_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -114,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -189,13 +159,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DEATH SCORION_0
+      name: characterJump_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 203
-        width: 38
-        height: 37
+        x: 16
+        y: 183
+        width: 54
+        height: 85
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87c60f4d3858a2f20800000000000000
-      internalID: 3398675670064196728
+      spriteID: 818317bb535264520800000000000000
+      internalID: 2685875140481333272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DEATH SCORION_1
+      name: characterJump_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 202
-        width: 37
-        height: 35
+        x: 19
+        y: 183
+        width: 15
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77b48a8d163adccc0800000000000000
-      internalID: -3689112879104504969
+      spriteID: 450cdabbb68fc5840800000000000000
+      internalID: 5214315610182107220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DEATH SCORION_2
+      name: characterJump_2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 203
-        width: 37
-        height: 35
+        x: 37
+        y: 188
+        width: 9
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +218,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1cb9355da55025450800000000000000
-      internalID: 6075924734960442305
+      spriteID: 942b9e3da70fcbea0800000000000000
+      internalID: -5855541005156502967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DEATH SCORION_3
+      name: characterJump_3
       rect:
         serializedVersion: 2
-        x: 209
-        y: 208
+        x: 96
+        y: 190
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b5b983059c53f80800000000000000
+      internalID: -8127368606135919780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterJump_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 187
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb437e43e100eaca0800000000000000
+      internalID: -6003861123501706050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterJump_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 95
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c523b70c366f810800000000000000
+      internalID: 1798734779532860575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterJump_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 97
         width: 40
-        height: 42
+        height: 79
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +306,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91a62fb6b03c0acd0800000000000000
-      internalID: -2548822935268595175
+      spriteID: 275b64b47fabb4110800000000000000
+      internalID: 1246295293180687730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DEATH SCORION_4
+      name: characterJump_7
       rect:
         serializedVersion: 2
-        x: 18
-        y: 141
-        width: 41
-        height: 45
+        x: 186
+        y: 96
+        width: 40
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,174 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf52c254f55d40670800000000000000
-      internalID: 8504156601541469691
+      spriteID: 4a7d40e3c9c547b60800000000000000
+      internalID: 7742915485481883556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DEATH SCORION_5
+      name: characterJump_8
       rect:
         serializedVersion: 2
-        x: 79
-        y: 138
-        width: 48
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7a38511d45574c90800000000000000
-      internalID: -7185680890954499461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEATH SCORION_6
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 142
-        width: 52
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31eef807c23aebf10800000000000000
-      internalID: 2287445072013159955
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEATH SCORION_7
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 142
-        width: 52
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb358ed4998f20ec0800000000000000
-      internalID: -3602043414622219329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEATH SCORION_8
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 78
-        width: 52
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f44d48caa825bfe0800000000000000
-      internalID: -1173987413890087690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEATH SCORION_9
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 78
-        width: 52
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d12ecd53ac9040550800000000000000
-      internalID: 6126032157222429213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEATH SCORION_10
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 80
-        width: 30
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a72a4887657df8640800000000000000
-      internalID: 5084519270713696890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEATH SCORION_11
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 76
-        width: 43
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3eff526168e1eb750800000000000000
-      internalID: 6322524488120795107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DEATH SCORION_16
-      rect:
-        serializedVersion: 2
-        x: 15
+        x: 24
         y: 10
-        width: 41
-        height: 31
+        width: 42
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb3c50dbabf527cb0800000000000000
-      internalID: -4867722991594257474
+      spriteID: 4569eea5d9a617940800000000000000
+      internalID: 5292128261205038676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DEATH SCORION_18
+      name: characterJump_9
       rect:
         serializedVersion: 2
-        x: 78
-        y: 9
-        width: 43
-        height: 32
+        x: 104
+        y: 3
+        width: 42
+        height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,8 +372,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6ae9bb77d02300d0800000000000000
-      internalID: -3457883979024569745
+      spriteID: 2c06512c43f1e03e0800000000000000
+      internalID: -2085695265971019582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterJump_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 8
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274a12843d1438180800000000000000
+      internalID: -9114368845163682702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: characterJump_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f678eb72e42eea0800000000000000
+      internalID: -5845023433766244524
       vertices: []
       indices: 
       edges: []
@@ -500,7 +426,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: afabb2c15cb87194d903693298cbf386
+    spriteID: 8aabff882592592488784bea8bdf806d
     internalID: 0
     vertices: []
     indices: 
@@ -510,28 +436,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DEATH SCORION_0: 3398675670064196728
-      DEATH SCORION_1: -3689112879104504969
-      DEATH SCORION_10: 5084519270713696890
-      DEATH SCORION_11: 6322524488120795107
-      DEATH SCORION_12: 7619776587831815498
-      DEATH SCORION_13: 7057711291792699050
-      DEATH SCORION_14: 3311457701448445412
-      DEATH SCORION_15: 1480708278988488657
-      DEATH SCORION_16: -4867722991594257474
-      DEATH SCORION_17: -2467348849073770353
-      DEATH SCORION_18: -3457883979024569745
-      DEATH SCORION_19: -9216177953145957901
-      DEATH SCORION_2: 6075924734960442305
-      DEATH SCORION_20: -6101555858995744899
-      DEATH SCORION_21: 8305866762450755315
-      DEATH SCORION_3: -2548822935268595175
-      DEATH SCORION_4: 8504156601541469691
-      DEATH SCORION_5: -7185680890954499461
-      DEATH SCORION_6: 2287445072013159955
-      DEATH SCORION_7: -3602043414622219329
-      DEATH SCORION_8: -1173987413890087690
-      DEATH SCORION_9: 6126032157222429213
+      characterJump_0: 2685875140481333272
+      characterJump_1: 5214315610182107220
+      characterJump_10: -9114368845163682702
+      characterJump_11: -5845023433766244524
+      characterJump_2: -5855541005156502967
+      characterJump_3: -8127368606135919780
+      characterJump_4: -6003861123501706050
+      characterJump_5: 1798734779532860575
+      characterJump_6: 1246295293180687730
+      characterJump_7: 7742915485481883556
+      characterJump_8: 5292128261205038676
+      characterJump_9: -2085695265971019582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

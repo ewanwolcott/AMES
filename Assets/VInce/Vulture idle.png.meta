@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 28678f9750dc375499ca1cc62dc491a0
+guid: d6c0710c9e5c5b840932aaa4213595ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6757803415515441231
-    second: SCORION spawn_0
+      213: 3407944668527131304
+    second: Vulture idle_0
   - first:
-      213: 5198417765240828292
-    second: SCORION spawn_1
+      213: 2455303833991484911
+    second: Vulture idle_1
   - first:
-      213: 8269815493181086046
-    second: SCORION spawn_2
+      213: -444167139355114255
+    second: Vulture idle_2
   - first:
-      213: 251640370780810598
-    second: SCORION spawn_3
-  - first:
-      213: 4071671083731043515
-    second: SCORION spawn_4
-  - first:
-      213: 2438866873343810425
-    second: SCORION spawn_5
+      213: 3214184092908386511
+    second: Vulture idle_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SCORION spawn_0
+      name: Vulture idle_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 146
-        width: 27
-        height: 16
+        x: 8
+        y: 73
+        width: 49
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,107 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b7d74419957732a0800000000000000
-      internalID: -6757803415515441231
+      spriteID: 8aafeb5be937b4f20800000000000000
+      internalID: 3407944668527131304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION spawn_1
+      name: Vulture idle_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 142
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48172434a6d742840800000000000000
-      internalID: 5198417765240828292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION spawn_2
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 80
-        width: 35
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e59941d206944c270800000000000000
-      internalID: 8269815493181086046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION spawn_3
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 74
-        width: 34
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66da98f75910e7300800000000000000
-      internalID: 251640370780810598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION spawn_4
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 11
-        width: 39
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb4c40c274b718830800000000000000
-      internalID: 4071671083731043515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION spawn_5
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 12
-        width: 40
+        x: 73
+        y: 71
+        width: 50
         height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -266,8 +172,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97b1028ef7898d120800000000000000
-      internalID: 2438866873343810425
+      spriteID: fe597b804ddf21220800000000000000
+      internalID: 2455303833991484911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture idle_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f446dd075006d9f0800000000000000
+      internalID: -444167139355114255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture idle_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 7
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8f38c27631b9c20800000000000000
+      internalID: 3214184092908386511
       vertices: []
       indices: 
       edges: []
@@ -286,12 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SCORION spawn_0: -6757803415515441231
-      SCORION spawn_1: 5198417765240828292
-      SCORION spawn_2: 8269815493181086046
-      SCORION spawn_3: 251640370780810598
-      SCORION spawn_4: 4071671083731043515
-      SCORION spawn_5: 2438866873343810425
+      Vulture idle_0: 3407944668527131304
+      Vulture idle_1: 2455303833991484911
+      Vulture idle_2: -444167139355114255
+      Vulture idle_3: 3214184092908386511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
