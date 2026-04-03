@@ -1,0 +1,23 @@
+using System.Collections;
+using UnityEngine;
+
+public class FadeCollider : MonoBehaviour
+{
+    [SerializeField] ScreenFader _screenFader;
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
+        {
+            _screenFader.FadeOut(ScreenFader.FadeType.Shutters);
+            StartCoroutine(FadeInAfterDelay(2));
+        }
+    }
+    IEnumerator FadeInAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        _screenFader.FadeIn(ScreenFader.FadeType.Shutters);
+    }
+}
+
+
