@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 82c2843c494207142893bef6e8b3babc
-=======
-guid: ef18b81991aab2646b3d8b40dacc8a29
->>>>>>> 03f43211fa4fb244df04c4d42fdaa8b81b39d139
+guid: 81efbf80dcef13047b1779c7a26b9479
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4580670938525849379
-    second: Bones_0
+      213: -7617208603344809906
+    second: SPIDER_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bones_0
+      name: SPIDER_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 15
         y: 12
-        width: 30
-        height: 28
+        width: 40
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd826340d003e60c0800000000000000
-      internalID: -4580670938525849379
+      spriteID: e405599022d3a4690800000000000000
+      internalID: -7617208603344809906
       vertices: []
       indices: 
       edges: []
@@ -164,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Bones_0: -4580670938525849379
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
