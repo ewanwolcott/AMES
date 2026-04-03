@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Electric cobweb_0: 2217892789551479140
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

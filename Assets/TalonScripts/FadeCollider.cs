@@ -9,6 +9,7 @@ public class FadeCollider : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
+            Debug.Log("Player entered fade collider");
             _screenFader.FadeOut(ScreenFader.FadeType.Shutters);
             StartCoroutine(FadeInAfterDelay(2));
         }
