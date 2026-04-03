@@ -11,7 +11,7 @@ public class FadeCollider : MonoBehaviour
         {
             Debug.Log("Player entered fade collider");
             _screenFader.FadeOut(ScreenFader.FadeType.Shutters);
-            StartCoroutine(FadeInAfterDelay(2));
+            StartCoroutine(FadeInAfterDelay(1.5f));
         }
     }
     IEnumerator FadeInAfterDelay(float delay)
