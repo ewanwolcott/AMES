@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cfafc1e2891a2fb4cb37988ba5a936bd
+guid: 82c2843c494207142893bef6e8b3babc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2217892789551479140
-    second: Electric cobweb_0
+      213: -4580670938525849379
+    second: Bones_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Electric cobweb_0
+      name: Bones_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 50
-        height: 50
+        x: 7
+        y: 12
+        width: 30
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 469bd1fbdb987ce10800000000000000
-      internalID: 2217892789551479140
+      spriteID: dd826340d003e60c0800000000000000
+      internalID: -4580670938525849379
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Electric cobweb_0: 2217892789551479140
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
