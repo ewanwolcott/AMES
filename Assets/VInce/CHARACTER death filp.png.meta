@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CHARACTER death filp_0: -1816340359415169894
+      CHARACTER death filp_1: -3150234492212255365
+      CHARACTER death filp_2: 4835208471577889824
+      CHARACTER death filp_3: -1050403829387762133
+      CHARACTER death filp_4: -346411656276308504
+      CHARACTER death filp_5: 548485885846122062
+      CHARACTER death filp_6: -4531691317206482385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
