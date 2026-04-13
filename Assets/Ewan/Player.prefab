@@ -370,10 +370,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d75e0e803581b0a4d99d19ad3f5b109a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCooldown: 0.1
+  attackCooldown: 0.5
   knockbackForce: 20
   attackPoint: {fileID: 4007433638095206737}
-  attackRange: 0.85
+  attackRange: 1
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
