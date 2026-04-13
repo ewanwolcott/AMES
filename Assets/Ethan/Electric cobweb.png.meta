@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: d6c0710c9e5c5b840932aaa4213595ca
+guid: cfafc1e2891a2fb4cb37988ba5a936bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3407944668527131304
-    second: Vulture idle_0
-  - first:
-      213: 2455303833991484911
-    second: Vulture idle_1
-  - first:
-      213: -444167139355114255
-    second: Vulture idle_2
-  - first:
-      213: 3214184092908386511
-    second: Vulture idle_3
+      213: 2217892789551479140
+    second: Electric cobweb_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,79 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vulture idle_0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 73
-        width: 49
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8aafeb5be937b4f20800000000000000
-      internalID: 3407944668527131304
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vulture idle_1
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 71
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe597b804ddf21220800000000000000
-      internalID: 2455303833991484911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vulture idle_2
+      name: Electric cobweb_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
-        width: 58
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f446dd075006d9f0800000000000000
-      internalID: -444167139355114255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vulture idle_3
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 7
+        y: 0
         width: 50
-        height: 37
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc8f38c27631b9c20800000000000000
-      internalID: 3214184092908386511
+      spriteID: 469bd1fbdb987ce10800000000000000
+      internalID: 2217892789551479140
       vertices: []
       indices: 
       edges: []
@@ -236,10 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Vulture idle_0: 3407944668527131304
-      Vulture idle_1: 2455303833991484911
-      Vulture idle_2: -444167139355114255
-      Vulture idle_3: 3214184092908386511
+      Electric cobweb_0: 2217892789551479140
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

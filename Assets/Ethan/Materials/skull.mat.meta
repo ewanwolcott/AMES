@@ -1,12 +1,16 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Ethan/VCR_OSD_MONO_1.001 SDF_BASE_1310.asset.meta
 <<<<<<< HEAD
 guid: adb4d5686cfd79544892e31af7371086
 =======
 guid: ec17c5f1d18b9f34e911fa13f0cfad71
 >>>>>>> fb903e709e1a24e468a6333b026086fe9a52e1aa
+=======
+guid: 9c587d37261041644a2252200cd1b4f6
+>>>>>>> 95b636cdb437e46cc82681d589b0dc1aa0c87e0d:Assets/Ethan/Materials/skull.mat.meta
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 0
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

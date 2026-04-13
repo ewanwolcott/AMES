@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: d6c0710c9e5c5b840932aaa4213595ca
+guid: c98fe9357df7bb54788766a87841b181
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3407944668527131304
-    second: Vulture idle_0
-  - first:
-      213: 2455303833991484911
-    second: Vulture idle_1
-  - first:
-      213: -444167139355114255
-    second: Vulture idle_2
-  - first:
-      213: 3214184092908386511
-    second: Vulture idle_3
+      213: 4968626832106929959
+    second: Crystals for background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vulture idle_0
+      name: Crystals for background_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 73
-        width: 49
-        height: 40
+        x: 7
+        y: 12
+        width: 87
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,74 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8aafeb5be937b4f20800000000000000
-      internalID: 3407944668527131304
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vulture idle_1
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 71
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe597b804ddf21220800000000000000
-      internalID: 2455303833991484911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vulture idle_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 8
-        width: 58
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f446dd075006d9f0800000000000000
-      internalID: -444167139355114255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vulture idle_3
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 7
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc8f38c27631b9c20800000000000000
-      internalID: 3214184092908386511
+      spriteID: 72f353567cb14f440800000000000000
+      internalID: 4968626832106929959
       vertices: []
       indices: 
       edges: []
@@ -236,10 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Vulture idle_0: 3407944668527131304
-      Vulture idle_1: 2455303833991484911
-      Vulture idle_2: -444167139355114255
-      Vulture idle_3: 3214184092908386511
+      Crystals for background_0: 4968626832106929959
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

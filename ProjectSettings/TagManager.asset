@@ -51,6 +51,9 @@ TagManager:
   - name: tilemap
     uniqueID: 429612213
     locked: 0
+  - name: Things in dirt
+    uniqueID: 4066917863
+    locked: 0
   - name: player/enemies
     uniqueID: 4176889993
     locked: 0

@@ -1,12 +1,16 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Ethan/VCR_OSD_MONO_1.001 SDF_BACKUP_1247.asset.meta
 <<<<<<< HEAD
 guid: ac07e2304a9695640a9ea6f5ee6bbee4
 =======
 guid: 443fd71ef86b9bd46a90b10a939d30fd
 >>>>>>> fb903e709e1a24e468a6333b026086fe9a52e1aa
+=======
+guid: ee30728b0ee424947b21b8b681360708
+>>>>>>> 95b636cdb437e46cc82681d589b0dc1aa0c87e0d:Assets/TalonScripts/FadeMAT.mat.meta
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 0
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

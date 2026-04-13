@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: d6c0710c9e5c5b840932aaa4213595ca
+guid: f59c41e1d26f3044c86f7ff664428541
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3407944668527131304
-    second: Vulture idle_0
+      213: -1816340359415169894
+    second: CHARACTER death filp_0
   - first:
-      213: 2455303833991484911
-    second: Vulture idle_1
+      213: -3150234492212255365
+    second: CHARACTER death filp_1
   - first:
-      213: -444167139355114255
-    second: Vulture idle_2
+      213: 4835208471577889824
+    second: CHARACTER death filp_2
   - first:
-      213: 3214184092908386511
-    second: Vulture idle_3
+      213: -1050403829387762133
+    second: CHARACTER death filp_3
+  - first:
+      213: -346411656276308504
+    second: CHARACTER death filp_4
+  - first:
+      213: 548485885846122062
+    second: CHARACTER death filp_5
+  - first:
+      213: -4531691317206482385
+    second: CHARACTER death filp_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vulture idle_0
+      name: CHARACTER death filp_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 73
-        width: 49
-        height: 40
+        x: 105
+        y: 183
+        width: 35
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8aafeb5be937b4f20800000000000000
-      internalID: 3407944668527131304
+      spriteID: a9c7ad501101bc6e0800000000000000
+      internalID: -1816340359415169894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vulture idle_1
+      name: CHARACTER death filp_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 71
-        width: 50
-        height: 37
+        x: 254
+        y: 183
+        width: 42
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe597b804ddf21220800000000000000
-      internalID: 2455303833991484911
+      spriteID: b7561848b6e1844d0800000000000000
+      internalID: -3150234492212255365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vulture idle_2
+      name: CHARACTER death filp_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 8
-        width: 58
-        height: 35
+        x: 98
+        y: 93
+        width: 41
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f446dd075006d9f0800000000000000
-      internalID: -444167139355114255
+      spriteID: 02c0c53ac7c1a1340800000000000000
+      internalID: 4835208471577889824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vulture idle_3
+      name: CHARACTER death filp_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 7
-        width: 50
-        height: 37
+        x: 239
+        y: 93
+        width: 57
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +225,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc8f38c27631b9c20800000000000000
-      internalID: 3214184092908386511
+      spriteID: b26e1ae48473c61f0800000000000000
+      internalID: -1050403829387762133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER death filp_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3
+        width: 68
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed88991f6c413bf0800000000000000
+      internalID: -346411656276308504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER death filp_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e6c26d10d9c9700800000000000000
+      internalID: 548485885846122062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER death filp_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 3
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f228f26c1c23c11c0800000000000000
+      internalID: -4531691317206482385
       vertices: []
       indices: 
       edges: []
@@ -236,10 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Vulture idle_0: 3407944668527131304
-      Vulture idle_1: 2455303833991484911
-      Vulture idle_2: -444167139355114255
-      Vulture idle_3: 3214184092908386511
+      CHARACTER death filp_0: -1816340359415169894
+      CHARACTER death filp_1: -3150234492212255365
+      CHARACTER death filp_2: 4835208471577889824
+      CHARACTER death filp_3: -1050403829387762133
+      CHARACTER death filp_4: -346411656276308504
+      CHARACTER death filp_5: 548485885846122062
+      CHARACTER death filp_6: -4531691317206482385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
