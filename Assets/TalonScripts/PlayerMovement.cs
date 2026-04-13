@@ -52,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
             doubleJump = true;
         }
 
+        animator.SetBool("isGrounded", IsGrounded() && rb2d.linearVelocityY <= 0);
     }
 
     public void Move(InputAction.CallbackContext ctx)
@@ -75,6 +76,7 @@ public class PlayerMovement : MonoBehaviour
         if (ctx.ReadValue<float>() == 1 && IsGrounded() || ctx.ReadValue<float>() == 1 && doubleJump && playerUpgrades.speedLevel > 0)
         {
             rb2d.linearVelocityY = jumpHeight;
+            animator.SetTrigger("isJumping");
 
             doubleJump = !doubleJump;
         }
