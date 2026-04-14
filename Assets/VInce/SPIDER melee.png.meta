@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPIDER melee_0: 4868564472091292472
+      SPIDER melee_1: -2265978970778102370
+      SPIDER melee_2: -4178248710585892297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

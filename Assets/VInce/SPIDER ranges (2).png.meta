@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPIDER ranges (2)_0: 438251491579944957
+      SPIDER ranges (2)_1: -5785309029021397668
+      SPIDER ranges (2)_2: 3309787211887500335
+      SPIDER ranges (2)_3: -8208195844422925824
+      SPIDER ranges (2)_4: -571267098362074163
+      SPIDER ranges (2)_5: -6535646888825445266
+      SPIDER ranges (2)_6: 8372312027191541673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

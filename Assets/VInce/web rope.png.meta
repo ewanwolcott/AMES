@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      web rope_0: 7767697842996655209
+      web rope_1: -5971226973564365308
+      web rope_2: 3324360848230015105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
