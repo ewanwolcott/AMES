@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPIDER spawn 1_0: -8247787560914446170
+      SPIDER spawn 1_1: -2457190572555570518
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
