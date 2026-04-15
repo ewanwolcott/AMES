@@ -1717,6 +1717,7 @@ MonoBehaviour:
   isKnockedback: 0
   player: {fileID: 984692315}
   viewRadius: 10
+  isAttacking: 0
   lineOfSightMask:
     serializedVersion: 2
     m_Bits: 192
@@ -1757,9 +1758,9 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0.06710775}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2666667, y: 1.3333334}
-    newSize: {x: 0.38, y: 0.42}
+    pivot: {x: 0.4999996, y: 0.5395061}
+    oldSize: {x: 1.2232416, y: 1.1009175}
+    newSize: {x: 1.2232416, y: 1.1009175}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1842,7 +1843,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.38, y: 0.42}
+  m_Size: {x: 1.2232416, y: 1.1009175}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -2154,7 +2155,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984692315}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3934ba464e7d574fb52ebbde0c0606d, type: 3}
   m_Name: 
@@ -2732,6 +2733,7 @@ MonoBehaviour:
   isKnockedback: 0
   player: {fileID: 984692315}
   viewRadius: 10
+  isAttacking: 0
   lineOfSightMask:
     serializedVersion: 2
     m_Bits: 192
@@ -8940,6 +8942,7 @@ MonoBehaviour:
   isKnockedback: 0
   player: {fileID: 984692315}
   viewRadius: 10
+  isAttacking: 0
   lineOfSightMask:
     serializedVersion: 2
     m_Bits: 192
@@ -8980,9 +8983,9 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2666667, y: 1.3333334}
-    newSize: {x: 0.38, y: 0.42}
+    pivot: {x: 0.4999996, y: 0.54444456}
+    oldSize: {x: 1.1926606, y: 0.97859323}
+    newSize: {x: 1.1620795, y: 1.0703363}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -9065,7 +9068,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.38, y: 0.42}
+  m_Size: {x: 1.1620795, y: 1.0703363}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
