@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 094b6e925d015ab44ac3e152e3028380
+guid: 401853b57ab9b15499b33ca19738d60e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3867447891524185445
-    second: projectiles ranges_0
-  - first:
-      213: -1613835669884781538
-    second: projectiles ranges_1
-  - first:
-      213: 8576417026688566121
-    second: projectiles ranges_2
-  - first:
-      213: -5592243764863750535
-    second: projectiles ranges_3
+      213: 6242220926821232683
+    second: SPIDER egg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: projectiles ranges_0
+      name: SPIDER egg_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 89
+        x: 13
+        y: 16
         width: 42
-        height: 15
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,74 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b921e5e12a0145ac0800000000000000
-      internalID: -3867447891524185445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: projectiles ranges_1
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 89
-        width: 45
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e1cb9aa32018a99e0800000000000000
-      internalID: -1613835669884781538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: projectiles ranges_2
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 25
-        width: 46
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 963426198dd850770800000000000000
-      internalID: 8576417026688566121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: projectiles ranges_3
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 25
-        width: 44
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97e27e1cceb5462b0800000000000000
-      internalID: -5592243764863750535
+      spriteID: b2070b83cd2d0a650800000000000000
+      internalID: 6242220926821232683
       vertices: []
       indices: 
       edges: []
@@ -235,11 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      projectiles ranges_0: -3867447891524185445
-      projectiles ranges_1: -1613835669884781538
-      projectiles ranges_2: 8576417026688566121
-      projectiles ranges_3: -5592243764863750535
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

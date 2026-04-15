@@ -18,6 +18,7 @@ public class EnemyFollow : MonoBehaviour
     float distanceToPlayer;
 
     bool hasLineofSight = false;
+    public bool isAttacking = false;
 
     [SerializeField] LayerMask lineOfSightMask;
 
@@ -37,7 +38,7 @@ public class EnemyFollow : MonoBehaviour
         {
 
             Vector2 direction = (player.transform.position - transform.position).normalized;
-            if(distanceToPlayer <= viewRadius && !animator.GetBool("IsDead"))
+            if(distanceToPlayer <= viewRadius && !animator.GetBool("IsDead") && !isAttacking)
             {
                 rb2d.linearVelocityX = direction.x * moveSpeed;
                 animator.SetBool("IsWalking", true);
