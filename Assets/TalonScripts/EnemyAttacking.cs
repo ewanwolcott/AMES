@@ -10,6 +10,7 @@ public class EnemyAttacking : MonoBehaviour
     public float stunTime;
     public int damage = 1;
     Collider2D player;
+    EnemyFollow enemyFollow;
 
     Animator animator;
 
@@ -19,6 +20,7 @@ public class EnemyAttacking : MonoBehaviour
     void Awake()
     {
         animator = GetComponent<Animator>();
+        enemyFollow = GetComponent<EnemyFollow>();
     }
 
     // Update is called once per frame
@@ -32,6 +34,8 @@ public class EnemyAttacking : MonoBehaviour
 
         if (hits.Length > 0 && timer <= 0)
         {
+            enemyFollow.isAttacking = true;
+
             Debug.Log("Enemy hit " + hits[0].name);
 
             timer = enemyAttackCooldown;
@@ -42,9 +46,14 @@ public class EnemyAttacking : MonoBehaviour
     }
     public void Attack()
     {
-        playerHealth.TakeDamage(damage);
+        Collider2D[] hits2 = Physics2D.OverlapCircleAll(enemyAttackPoint.position, enemyAttackRange, playerLayer);
+        if (hits2.Length > 0)
+        { 
+            playerHealth.TakeDamage(damage);
 
-        player.GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
+            hits2[0].GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
+        }
+        enemyFollow.isAttacking = false;
     }
 
 
