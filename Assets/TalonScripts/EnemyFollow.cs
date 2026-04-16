@@ -14,8 +14,8 @@ public class EnemyFollow : MonoBehaviour
 
     Animator animator;
     
-    public float viewRadius = 5f;
-    float distanceToPlayer;
+    public float distanceToPLayer = 5f;
+    [HideInInspector] public float distanceToPlayer;
 
     bool hasLineofSight = false;
     public bool isAttacking = false;
@@ -38,7 +38,7 @@ public class EnemyFollow : MonoBehaviour
         {
 
             Vector2 direction = (player.transform.position - transform.position).normalized;
-            if(distanceToPlayer <= viewRadius && !animator.GetBool("IsDead") && !isAttacking)
+            if(distanceToPlayer <= distanceToPLayer && !animator.GetBool("IsDead") && !isAttacking)
             {
                 rb2d.linearVelocityX = direction.x * moveSpeed;
                 animator.SetBool("IsWalking", true);
@@ -60,16 +60,16 @@ public class EnemyFollow : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        RaycastHit2D ray = Physics2D.Raycast(transform.position, player.transform.position - transform.position, viewRadius, lineOfSightMask);
+        RaycastHit2D ray = Physics2D.Raycast(transform.position, player.transform.position - transform.position, distanceToPLayer, lineOfSightMask);
         if (ray.collider != null)
         {
             hasLineofSight = ray.collider.CompareTag("Player");
             //Debug.Log(ray.collider.gameObject.name);
-            if (hasLineofSight && distanceToPlayer <= viewRadius)
+            if (hasLineofSight && distanceToPlayer <= distanceToPLayer)
             {
                 Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.green);
             }
-            if (!hasLineofSight || distanceToPlayer > viewRadius)
+            if (!hasLineofSight || distanceToPlayer > distanceToPLayer)
             {
                 Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.red);
             }
