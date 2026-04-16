@@ -40,6 +40,7 @@ public class EnemyBullet : MonoBehaviour
         {
 
             other.gameObject.GetComponent<PlayerHealth>().TakeDamage(1);
+            other.gameObject.GetComponent<SpriteRenderer>().color = Color.cyan;
             Destroy(gameObject);
         }
         if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
