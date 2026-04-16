@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: c417e6100c6ea9148902d803f4b29730
+guid: d15ba4a71773c0b4995d071a0a6498bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 871365972166483559
-    second: SPIDER idle_0
+      213: -8161409988925361739
+    second: CHARACTER attack speed FLIP_0
   - first:
-      213: -7798443653205142960
-    second: SPIDER idle_1
+      213: 3420363855260347529
+    second: CHARACTER attack speed FLIP_1
   - first:
-      213: 9074427898361013575
-    second: SPIDER idle_2
+      213: -5359835872125874585
+    second: CHARACTER attack speed FLIP_2
   - first:
-      213: -1295266676312951503
-    second: SPIDER idle_3
+      213: 6270287828612725794
+    second: CHARACTER attack speed FLIP_3
+  - first:
+      213: 6424596736093196074
+    second: CHARACTER attack speed FLIP_4
+  - first:
+      213: -6607102591494510126
+    second: CHARACTER attack speed FLIP_5
+  - first:
+      213: -5428688634788082428
+    second: CHARACTER attack speed FLIP_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32.7
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPIDER idle_0
+      name: CHARACTER attack speed FLIP_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 79
-        width: 38
-        height: 35
+        x: 13
+        y: 97
+        width: 50
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76e98582cb6b71c00800000000000000
-      internalID: 871365972166483559
+      spriteID: 5b177c72bd8dcbe80800000000000000
+      internalID: -8161409988925361739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPIDER idle_1
+      name: CHARACTER attack speed FLIP_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 79
-        width: 38
-        height: 34
+        x: 93
+        y: 133
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 052dec9b0dc56c390800000000000000
-      internalID: -7798443653205142960
+      spriteID: 98ce063fdc2977f20800000000000000
+      internalID: 3420363855260347529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPIDER idle_2
+      name: CHARACTER attack speed FLIP_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 15
-        width: 38
-        height: 34
+        x: 100
+        y: 97
+        width: 35
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 745e3bd5818deed70800000000000000
-      internalID: 9074427898361013575
+      spriteID: 76e8a830ca90e95b0800000000000000
+      internalID: -5359835872125874585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPIDER idle_3
+      name: CHARACTER attack speed FLIP_3
       rect:
         serializedVersion: 2
-        x: 79
-        y: 15
-        width: 38
-        height: 35
+        x: 180
+        y: 97
+        width: 35
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +225,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13537fc02d9460ee0800000000000000
-      internalID: -1295266676312951503
+      spriteID: 22cbae70f89840750800000000000000
+      internalID: 6270287828612725794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack speed FLIP_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 7
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f08f741b0c82950800000000000000
+      internalID: 6424596736093196074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack speed FLIP_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 7
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9286fe23bde44a0800000000000000
+      internalID: -6607102591494510126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack speed FLIP_6
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 7
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d8147f27c69a4b0800000000000000
+      internalID: -5428688634788082428
       vertices: []
       indices: 
       edges: []
@@ -236,10 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SPIDER idle_0: 871365972166483559
-      SPIDER idle_1: -7798443653205142960
-      SPIDER idle_2: 9074427898361013575
-      SPIDER idle_3: -1295266676312951503
+      CHARACTER attack speed FLIP_0: -8161409988925361739
+      CHARACTER attack speed FLIP_1: 3420363855260347529
+      CHARACTER attack speed FLIP_2: -5359835872125874585
+      CHARACTER attack speed FLIP_3: 6270287828612725794
+      CHARACTER attack speed FLIP_4: 6424596736093196074
+      CHARACTER attack speed FLIP_5: -6607102591494510126
+      CHARACTER attack speed FLIP_6: -5428688634788082428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

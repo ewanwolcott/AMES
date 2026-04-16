@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: c417e6100c6ea9148902d803f4b29730
+guid: 3d8b29a3260dec7498db998d56630fcb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 871365972166483559
-    second: SPIDER idle_0
+      213: 7557123362188041485
+    second: SPIDERhit'_0
   - first:
-      213: -7798443653205142960
-    second: SPIDER idle_1
+      213: -3635450554303499564
+    second: SPIDERhit'_1
   - first:
-      213: 9074427898361013575
-    second: SPIDER idle_2
-  - first:
-      213: -1295266676312951503
-    second: SPIDER idle_3
+      213: 2228299547839331961
+    second: SPIDERhit'_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,32 +132,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPIDER idle_0
+      name: SPIDERhit'_0
       rect:
         serializedVersion: 2
         x: 15
-        y: 79
-        width: 38
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76e98582cb6b71c00800000000000000
-      internalID: 871365972166483559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER idle_1
-      rect:
-        serializedVersion: 2
-        x: 79
         y: 79
         width: 38
         height: 34
@@ -172,14 +147,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 052dec9b0dc56c390800000000000000
-      internalID: -7798443653205142960
+      spriteID: d0d160798ab40e860800000000000000
+      internalID: 7557123362188041485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPIDER idle_2
+      name: SPIDERhit'_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 79
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d23e387bf84c8dc0800000000000000
+      internalID: -3635450554303499564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPIDERhit'_2
       rect:
         serializedVersion: 2
         x: 15
@@ -194,30 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 745e3bd5818deed70800000000000000
-      internalID: 9074427898361013575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER idle_3
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 15
-        width: 38
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13537fc02d9460ee0800000000000000
-      internalID: -1295266676312951503
+      spriteID: 97e702af1a28cee10800000000000000
+      internalID: 2228299547839331961
       vertices: []
       indices: 
       edges: []
@@ -236,10 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SPIDER idle_0: 871365972166483559
-      SPIDER idle_1: -7798443653205142960
-      SPIDER idle_2: 9074427898361013575
-      SPIDER idle_3: -1295266676312951503
+      SPIDERhit'_0: 7557123362188041485
+      SPIDERhit'_1: -3635450554303499564
+      SPIDERhit'_2: 2228299547839331961
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

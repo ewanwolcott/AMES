@@ -7,11 +7,14 @@ public class EnemyShooting : MonoBehaviour
 
     public float shootCooldown = 2f;
 
+    EnemyFollow enemyFollow;
+    Animator animator;
     float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        
+        enemyFollow = GetComponent<EnemyFollow>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -19,13 +22,13 @@ public class EnemyShooting : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer > shootCooldown)
+        if(timer > shootCooldown && enemyFollow.distanceToPlayer >= 5 && enemyFollow.distanceToPlayer <= 15)
         {
             timer = 0;
-            shoot();
+            animator.SetTrigger("IsShooting");
         }
     }
-    void shoot()
+    public void shoot()
     {         
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
     }

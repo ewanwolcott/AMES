@@ -62,8 +62,11 @@ public class PlayerCombat : MonoBehaviour
                     timesHit = 0;
                 }
             }
-            enemies[0].GetComponent<EnemyKnockback>().Knockback(transform, knockbackForce);
             enemies[0].GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+            if (enemies[0].GetComponent<EnemyHealth>().currentHealth > 0)
+            {
+                enemies[0].GetComponent<EnemyKnockback>().Knockback(transform, knockbackForce);
+            }
             Debug.Log("Hit " + enemies[0].name);
         }
     }
