@@ -63,7 +63,7 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
             enemies[0].GetComponent<EnemyHealth>().TakeDamage(attackDamage);
-            if (playerHealth.health > 0)
+            if (enemies[0].GetComponent<EnemyHealth>().currentHealth > 0)
             {
                 enemies[0].GetComponent<EnemyKnockback>().Knockback(transform, knockbackForce);
             }
