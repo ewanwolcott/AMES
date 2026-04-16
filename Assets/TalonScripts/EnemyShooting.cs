@@ -22,7 +22,7 @@ public class EnemyShooting : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer > shootCooldown && enemyFollow.distanceToPlayer >= 5 && enemyFollow.distanceToPlayer <= 10)
+        if(timer > shootCooldown && enemyFollow.distanceToPlayer >= 5 && enemyFollow.distanceToPlayer <= 15)
         {
             timer = 0;
             animator.SetTrigger("IsShooting");
