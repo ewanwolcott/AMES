@@ -560,7 +560,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPIDER death_0: 544716589066505681
+      SPIDER death_1: 3679727991884410491
+      SPIDER death_10: 7858906529231361702
+      SPIDER death_11: 3251618604155166312
+      SPIDER death_12: -3391078351687386835
+      SPIDER death_13: 2672561103646506651
+      SPIDER death_14: -313083185117777104
+      SPIDER death_15: 5416314094079409377
+      SPIDER death_16: 2280792007876589553
+      SPIDER death_2: -4225889934344722905
+      SPIDER death_3: -6676123188353656610
+      SPIDER death_4: -4489650009775511739
+      SPIDER death_5: 1975785496646722911
+      SPIDER death_6: 1065767235298076464
+      SPIDER death_7: -5916873481056290581
+      SPIDER death_8: 6038627655630199479
+      SPIDER death_9: -8851851032474706569
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

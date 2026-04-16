@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SPIDER egg_0: 6242220926821232683
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
