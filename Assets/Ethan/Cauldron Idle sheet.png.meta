@@ -1,13 +1,31 @@
 fileFormatVersion: 2
-guid: cbe1e7ddea1e2004082c5c60523a0471
+guid: f5a957c1e405ac74cbb58ded59879eac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4283995340462749000
-    second: Lava spritesheet_0
+      213: 5798471724991391498
+    second: Cauldron Idle sheet_0
   - first:
-      213: -3153987297871379229
-    second: Lava spritesheet_1
+      213: -7487118780953815690
+    second: Cauldron Idle sheet_1
+  - first:
+      213: 8140608677706494628
+    second: Cauldron Idle sheet_2
+  - first:
+      213: 498190978110249783
+    second: Cauldron Idle sheet_3
+  - first:
+      213: 9065748446291664392
+    second: Cauldron Idle sheet_4
+  - first:
+      213: 6759405604926385954
+    second: Cauldron Idle sheet_5
+  - first:
+      213: 897916968854297955
+    second: Cauldron Idle sheet_6
+  - first:
+      213: -4572452699594725747
+    second: Cauldron Idle sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lava spritesheet_0
+      name: Cauldron Idle sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 75
-        height: 50
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ba0a487fe03c84c0800000000000000
-      internalID: -4283995340462749000
+      spriteID: a072240ff4f487050800000000000000
+      internalID: 5798471724991391498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava spritesheet_1
+      name: Cauldron Idle sheet_1
       rect:
         serializedVersion: 2
-        x: 75
+        x: 64
         y: 0
-        width: 75
-        height: 50
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,74 +184,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e4484c5349ca34d0800000000000000
-      internalID: -3153987297871379229
+      spriteID: 675971e1329681890800000000000000
+      internalID: -7487118780953815690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava spritesheet_2
+      name: Cauldron Idle sheet_2
       rect:
         serializedVersion: 2
-        x: 150
+        x: 128
         y: 0
-        width: 75
-        height: 50
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4ea508fdb2d3d8240b0e9d31979ca27a
-      internalID: 929232990
+      spriteID: 4a2782a267049f070800000000000000
+      internalID: 8140608677706494628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava spritesheet_3
+      name: Cauldron Idle sheet_3
       rect:
         serializedVersion: 2
-        x: 225
+        x: 192
         y: 0
-        width: 75
-        height: 50
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 95aa7c42e98a63b438f35a8f548d2123
-      internalID: -1767740311
+      spriteID: 73bd0981e0ee9e600800000000000000
+      internalID: 498190978110249783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lava spritesheet_4
+      name: Cauldron Idle sheet_4
       rect:
         serializedVersion: 2
-        x: 300
+        x: 256
         y: 0
-        width: 75
-        height: 50
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 584099c09fd38284e8b26ff56e99eb48
-      internalID: 397939512
+      spriteID: 80e9344fd2200dd70800000000000000
+      internalID: 9065748446291664392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cauldron Idle sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22feb66b59b3ecd50800000000000000
+      internalID: 6759405604926385954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cauldron Idle sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d1b5ec9ba067c00800000000000000
+      internalID: 897916968854297955
       vertices: []
       indices: 
       edges: []
@@ -242,7 +304,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d1f95f846171ce044915b43fc0ef4b06
+    spriteID: a6f0c6834b4273b4da487ecbdad166ce
     internalID: 0
     vertices: []
     indices: 
@@ -252,11 +314,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lava spritesheet_0: -4283995340462749000
-      Lava spritesheet_1: -3153987297871379229
-      Lava spritesheet_2: 929232990
-      Lava spritesheet_3: -1767740311
-      Lava spritesheet_4: 397939512
+      Cauldron Idle sheet_0: 5798471724991391498
+      Cauldron Idle sheet_1: -7487118780953815690
+      Cauldron Idle sheet_2: 8140608677706494628
+      Cauldron Idle sheet_3: 498190978110249783
+      Cauldron Idle sheet_4: 9065748446291664392
+      Cauldron Idle sheet_5: 6759405604926385954
+      Cauldron Idle sheet_6: 897916968854297955
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
