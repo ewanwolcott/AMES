@@ -50,8 +50,10 @@ public class EnemyAttacking : MonoBehaviour
         if (hits2.Length > 0)
         { 
             playerHealth.TakeDamage(damage);
-
-            hits2[0].GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
+            if (playerHealth.health > 0)
+            {
+                hits2[0].GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
+            }
         }
         enemyFollow.isAttacking = false;
     }

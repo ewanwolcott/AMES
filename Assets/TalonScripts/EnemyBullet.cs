@@ -33,19 +33,19 @@ public class EnemyBullet : MonoBehaviour
             transform.localScale = new Vector3(-1.5f, 1.5f, 1);
 
         }
-
-        void OnTriggerEnter2D(Collider2D other)
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
         {
-            if(other.gameObject.CompareTag("Player"))
-            {
-                
-                other.gameObject.GetComponent<PlayerHealth>().TakeDamage(1);
-                Destroy(gameObject);
-            }
-            if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
-            {
-                Destroy(gameObject);
-            }
+
+            other.gameObject.GetComponent<PlayerHealth>().TakeDamage(1);
+            other.gameObject.GetComponent<SpriteRenderer>().color = Color.cyan;
+            Destroy(gameObject);
+        }
+        if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        {
+            Destroy(gameObject);
         }
     }
 }
