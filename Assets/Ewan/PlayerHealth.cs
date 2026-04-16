@@ -7,6 +7,8 @@ public class PlayerHealth : MonoBehaviour
 
     public SpriteRenderer playerSr;
     public PlayerMovement playerMovement;
+    
+    public Transform respawnPoint;
 
     void Start()
     {
@@ -18,8 +20,9 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         if(health <= 0)
         {
-            playerSr.enabled = false;
-            playerMovement.enabled = false; 
+            //playerSr.enabled = false;
+            //playerMovement.enabled = false;
+            transform.position = respawnPoint.position;
         }
     }
 }
