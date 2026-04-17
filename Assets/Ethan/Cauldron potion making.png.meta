@@ -785,7 +785,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cauldron potion making_0: -1196829580321899901
+      Cauldron potion making_1: 3465288835451960845
+      Cauldron potion making_10: 1248791260082294939
+      Cauldron potion making_11: 7926001902222371849
+      Cauldron potion making_12: -1957201003667038116
+      Cauldron potion making_13: -5310735150587485235
+      Cauldron potion making_14: 2974701901142078810
+      Cauldron potion making_15: -8344887831927279038
+      Cauldron potion making_16: 2892695233853570657
+      Cauldron potion making_17: -6476323954227731049
+      Cauldron potion making_18: -6544904821850111660
+      Cauldron potion making_19: 5963367996615963505
+      Cauldron potion making_2: 162481562596265177
+      Cauldron potion making_20: -3632993637415081832
+      Cauldron potion making_21: -6013339826239915483
+      Cauldron potion making_22: -7322924434845968606
+      Cauldron potion making_23: 4756906203324579714
+      Cauldron potion making_24: -2693633223377184985
+      Cauldron potion making_25: -8624574773610747635
+      Cauldron potion making_3: -8508342022767491066
+      Cauldron potion making_4: 5851004710955521453
+      Cauldron potion making_5: -8220241600822506343
+      Cauldron potion making_6: -4581155187900555892
+      Cauldron potion making_7: 6227459761861984042
+      Cauldron potion making_8: 2070158563130645877
+      Cauldron potion making_9: 8053849945572519589
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

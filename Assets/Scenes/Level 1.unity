@@ -6415,11 +6415,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2179021840883391563, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -81.37689
       objectReference: {fileID: 0}
     - target: {fileID: 2179021840883391563, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -24.512428
       objectReference: {fileID: 0}
     - target: {fileID: 2179021840883391563, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6447,11 +6447,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5095995690045328154, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -162.75377
       objectReference: {fileID: 0}
     - target: {fileID: 5095995690045328154, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -24.512428
       objectReference: {fileID: 0}
     - target: {fileID: 5095995690045328154, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6483,11 +6483,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5915082418045571703, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 81.37686
       objectReference: {fileID: 0}
     - target: {fileID: 5915082418045571703, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -24.512428
       objectReference: {fileID: 0}
     - target: {fileID: 5915082418045571703, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6514,8 +6514,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5972590559473873637, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000015258789
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972590559473873637, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -24.512428
       objectReference: {fileID: 0}
     - target: {fileID: 5972590559473873637, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6623,11 +6627,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8881140360180899986, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 162.75375
       objectReference: {fileID: 0}
     - target: {fileID: 8881140360180899986, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -24.512428
       objectReference: {fileID: 0}
     - target: {fileID: 8881140360180899986, guid: e2b6f3c57576fbd4eb2ef8bc0e9de8c0, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6993,7 +6997,8 @@ MonoBehaviour:
   knockbackDuration: 0.1
   isKnockedback: 0
   player: {fileID: 931900193}
-  viewRadius: 10
+  distanceToPLayer: 5
+  distanceToPlayer: 0
   isAttacking: 0
   lineOfSightMask:
     serializedVersion: 2
