@@ -40,7 +40,7 @@ public class EnemyHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             spriteRenderer.color = Color.red; // Change color to red when dead
-            TurnRedOnDeath(0.3f); // Call the method to change color back to white immediately
+            StartCoroutine(TurnRedOnDeath(0.1f)); // Call the method to change color back to white immediately
             animator.SetBool("IsWalking", false);
             animator.SetBool("IsDead", true);
             enemyAttacking.enabled = false;
@@ -51,6 +51,7 @@ public class EnemyHealth : MonoBehaviour
     IEnumerator TurnRedOnDeath(float knockbackTime)
     {
         yield return new WaitForSeconds(knockbackTime);
+        Debug.Log("Turning red on death");
         spriteRenderer.color = Color.white; // Change color back to white after knockback
     }
 
