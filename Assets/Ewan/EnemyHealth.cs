@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class EnemyHealth : MonoBehaviour
     Animator animator;
     Rigidbody2D rb;
     EnemyAttacking enemyAttacking;
+    SpriteRenderer spriteRenderer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private void Awake()
@@ -17,6 +20,7 @@ public class EnemyHealth : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         enemyAttacking = GetComponent<EnemyAttacking>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void Start()
     {
@@ -35,13 +39,19 @@ public class EnemyHealth : MonoBehaviour
         animator.SetTrigger("IsHit");
         if (currentHealth <= 0)
         {
-
+            spriteRenderer.color = Color.red; // Change color to red when dead
+            TurnRedOnDeath(0.3f); // Call the method to change color back to white immediately
             animator.SetBool("IsWalking", false);
             animator.SetBool("IsDead", true);
             enemyAttacking.enabled = false;
             rb.gravityScale = 0;
             coll.enabled = false;
         }
+    }
+    IEnumerator TurnRedOnDeath(float knockbackTime)
+    {
+        yield return new WaitForSeconds(knockbackTime);
+        spriteRenderer.color = Color.white; // Change color back to white after knockback
     }
 
 }
