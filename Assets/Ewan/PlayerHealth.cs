@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
@@ -34,9 +35,24 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         if(health <= 0)
         {
-            //playerSr.enabled = false;
-            //playerMovement.enabled = false;
-            transform.position = respawnPoint.position;
+            die();
         }
+    }
+    public void die()
+    {
+        playerMovement.enabled = false;
+        GetComponent<Animator>().SetTrigger("isDead");
+        GetComponent<BoxCollider2D>().enabled = false;
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+    }
+
+
+    public void respawn()
+    {
+        health = maxHealth;
+        transform.position = respawnPoint.position;
+        playerMovement.enabled = true;
+        GetComponent<BoxCollider2D>().enabled = true;
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
     }
 }

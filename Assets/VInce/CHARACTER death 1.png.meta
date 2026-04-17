@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32.7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,11 +147,11 @@ TextureImporter:
       name: CHARACTER death 1_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 183
-        width: 44
-        height: 81
-      alignment: 0
+        x: 17
+        y: 184
+        width: 42
+        height: 79
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -169,12 +169,12 @@ TextureImporter:
       name: CHARACTER death 1_1
       rect:
         serializedVersion: 2
-        x: 172
-        y: 183
-        width: 50
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 173
+        y: 184
+        width: 48
+        height: 65
+      alignment: 9
+      pivot: {x: 0.49304008, y: 0.64892346}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: CHARACTER death 1_2
       rect:
         serializedVersion: 2
-        x: 17
-        y: 93
-        width: 49
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 18
+        y: 94
+        width: 47
+        height: 60
+      alignment: 9
+      pivot: {x: 0.4999844, y: 0.67805}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,12 +213,12 @@ TextureImporter:
       name: CHARACTER death 1_3
       rect:
         serializedVersion: 2
-        x: 172
-        y: 94
-        width: 57
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 173
+        y: 95
+        width: 55
+        height: 41
+      alignment: 9
+      pivot: {x: 0.50606054, y: 0.98050743}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,11 +236,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 3
+        y: 4
         width: 68
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 21
+      alignment: 9
+      pivot: {x: 0.50001085, y: 1.960831}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,11 +258,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 175
-        y: 4
+        y: 5
         width: 70
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 20
+      alignment: 9
+      pivot: {x: 0.49045497, y: 2.001258}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -271,28 +271,6 @@ TextureImporter:
       bones: []
       spriteID: 8f23b9f88b6731070800000000000000
       internalID: 8075929091860804344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER death 1_6
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 3
-        width: 23
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb97a71a44d4b0710800000000000000
-      internalID: 1660505844778432958
       vertices: []
       indices: 
       edges: []
