@@ -38,7 +38,7 @@ public class EnemyFollow : MonoBehaviour
         {
 
             Vector2 direction = (player.transform.position - transform.position).normalized;
-            if(distanceToPlayer <= distanceToPLayer && !animator.GetBool("IsDead") && !isAttacking)
+            if(distanceToPlayer <= distanceToPLayer && !animator.GetBool("IsDead") && !isAttacking && player.GetComponent<PlayerHealth>().health > 0)
             {
                 rb2d.linearVelocityX = direction.x * moveSpeed;
                 animator.SetBool("IsWalking", true);
