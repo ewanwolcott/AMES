@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     Animator animator; 
     bool isKnockedback = false;
 
+    public bool canMove = true;
+
     float _movement;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -33,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isKnockedback)
+        if (!isKnockedback && canMove)
         {
             rb2d.linearVelocityX = _movement * movementSpeed;
             if (rb2d.linearVelocity.x > 0.01f)

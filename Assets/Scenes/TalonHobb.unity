@@ -2638,7 +2638,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1171030936
@@ -3807,6 +3807,10 @@ PrefabInstance:
       propertyPath: 'hearts.Array.data[4]'
       value: 
       objectReference: {fileID: 1866686389}
+    - target: {fileID: 7068769174214315464, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: canMove
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8765511077718411419, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
       propertyPath: m_Enabled
       value: 1
