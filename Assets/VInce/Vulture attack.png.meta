@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vulture attack_0: 7332626173063175571
+      Vulture attack_1: 6150612941310961005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

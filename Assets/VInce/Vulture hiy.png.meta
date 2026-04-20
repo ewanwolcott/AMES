@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Vulture hiy_0: -2726606202326691636
+      Vulture hiy_1: -3646016309599356557
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
