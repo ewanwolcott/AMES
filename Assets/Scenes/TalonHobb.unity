@@ -3092,7 +3092,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1236791119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4391,12 +4391,12 @@ GameObject:
   - component: {fileID: 1620744427}
   - component: {fileID: 1620744428}
   m_Layer: 8
-  m_Name: Shooting
+  m_Name: ShootingEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1620744418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5744,6 +5744,7 @@ SceneRoots:
   - {fileID: 2006092365}
   - {fileID: 1541216598}
   - {fileID: 1171030936}
+  - {fileID: 1620744421}
   - {fileID: 2045772017}
   - {fileID: 834155784}
   - {fileID: 1768454973}
@@ -5754,6 +5755,5 @@ SceneRoots:
   - {fileID: 1481733116}
   - {fileID: 635581132}
   - {fileID: 1296534458}
-  - {fileID: 1620744421}
   - {fileID: 1236791121}
   - {fileID: 1280565197}
