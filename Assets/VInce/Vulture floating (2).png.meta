@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 88ba9e05c6b27ac47a71602be27a6104
+guid: d4148eeff196edc40a4622bbe8a07b66
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1504089028629417506
-    second: Vulture floating (1)_0
+      213: -2729184924134974150
+    second: Vulture floating (2)_0
   - first:
-      213: -5895171120795500021
-    second: Vulture floating (1)_1
+      213: -7827088487249569016
+    second: Vulture floating (2)_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vulture floating (1)_0
+      name: Vulture floating (2)_0
       rect:
         serializedVersion: 2
         x: 2
@@ -144,14 +144,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed13bf95ff6602be0800000000000000
-      internalID: -1504089028629417506
+      spriteID: a3d559675ccff1ad0800000000000000
+      internalID: -2729184924134974150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vulture floating (1)_1
+      name: Vulture floating (2)_1
       rect:
         serializedVersion: 2
         x: 0
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b02c7de7915203ea0800000000000000
-      internalID: -5895171120795500021
+      spriteID: 80b90f39d78906390800000000000000
+      internalID: -7827088487249569016
       vertices: []
       indices: 
       edges: []
