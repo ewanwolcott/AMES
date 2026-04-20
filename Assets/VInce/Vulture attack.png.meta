@@ -1,25 +1,13 @@
 fileFormatVersion: 2
-guid: 0f78eba23b28e9a40a9307fd2c79b17d
+guid: 33ddddbbd8fcd9445ae16639f3e5c6be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -685608955431694682
-    second: SCORION spawn _0
+      213: 7332626173063175571
+    second: Vulture attack_0
   - first:
-      213: 7039950339985650439
-    second: SCORION spawn _1
-  - first:
-      213: 7926208938970500001
-    second: SCORION spawn _2
-  - first:
-      213: -1285230799817196111
-    second: SCORION spawn _3
-  - first:
-      213: -6085152446837484536
-    second: SCORION spawn _4
-  - first:
-      213: 9053756715214974382
-    second: SCORION spawn _5
+      213: 6150612941310961005
+    second: Vulture attack_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SCORION spawn _0
+      name: Vulture attack_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 141
-        width: 38
-        height: 42
+        x: 8
+        y: 73
+        width: 49
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6aecaac994a3c76f0800000000000000
-      internalID: -685608955431694682
+      spriteID: 39d992c87a8b2c560800000000000000
+      internalID: 7332626173063175571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SCORION spawn _1
+      name: Vulture attack_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 146
-        width: 27
-        height: 16
+        x: 7
+        y: 21
+        width: 56
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,96 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7033c33f88de2b160800000000000000
-      internalID: 7039950339985650439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION spawn _2
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 78
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1abccdef80d8ffd60800000000000000
-      internalID: 7926208938970500001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION spawn _3
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 80
-        width: 35
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1bd3182a561f92ee0800000000000000
-      internalID: -1285230799817196111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION spawn _4
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 14
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 804172217123d8ba0800000000000000
-      internalID: -6085152446837484536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SCORION spawn _5
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 12
-        width: 38
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ead223d73c765ad70800000000000000
-      internalID: 9053756715214974382
+      spriteID: d65a2cdf1ed5b5550800000000000000
+      internalID: 6150612941310961005
       vertices: []
       indices: 
       edges: []
@@ -285,13 +185,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      SCORION spawn _0: -685608955431694682
-      SCORION spawn _1: 7039950339985650439
-      SCORION spawn _2: 7926208938970500001
-      SCORION spawn _3: -1285230799817196111
-      SCORION spawn _4: -6085152446837484536
-      SCORION spawn _5: 9053756715214974382
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
