@@ -49,10 +49,11 @@ public class PlayerHealth : MonoBehaviour
 
     public void respawn()
     {
-        health = maxHealth;
         transform.position = respawnPoint.position;
+        health = maxHealth;
         playerMovement.enabled = true;
         GetComponent<BoxCollider2D>().enabled = true;
         GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+
     }
 }
