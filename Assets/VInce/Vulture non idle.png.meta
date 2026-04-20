@@ -1,19 +1,34 @@
 fileFormatVersion: 2
-guid: d6c0710c9e5c5b840932aaa4213595ca
+guid: 7aed0c38dc90fc24f8d2718452b228ec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3407944668527131304
-    second: Vulture idle_0
+      213: -983570668933780218
+    second: Vulture non idle_0
   - first:
-      213: 2455303833991484911
-    second: Vulture idle_1
+      213: -7748544424235822221
+    second: Vulture non idle_1
   - first:
-      213: -444167139355114255
-    second: Vulture idle_2
+      213: 5365792606245308101
+    second: Vulture non idle_2
   - first:
-      213: 3214184092908386511
-    second: Vulture idle_3
+      213: 6644975419714659685
+    second: Vulture non idle_3
+  - first:
+      213: 2835394906310795072
+    second: Vulture non idle_4
+  - first:
+      213: 6481691480007809765
+    second: Vulture non idle_5
+  - first:
+      213: 1560006852391415615
+    second: Vulture non idle_6
+  - first:
+      213: 5442433053768256194
+    second: Vulture non idle_7
+  - first:
+      213: -7571102809070798851
+    second: Vulture non idle_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,13 +150,79 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vulture idle_0
+      name: Vulture non idle_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 11
+        y: 137
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d65b210b7a952f0800000000000000
+      internalID: -983570668933780218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture non idle_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 137
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373171356e3a77490800000000000000
+      internalID: -7748544424235822221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture non idle_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 137
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c64ba932ff177a40800000000000000
+      internalID: 5365792606245308101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture non idle_3
+      rect:
+        serializedVersion: 2
+        x: 11
         y: 73
-        width: 49
-        height: 40
+        width: 42
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,41 +231,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8aafeb5be937b4f20800000000000000
-      internalID: 3407944668527131304
+      spriteID: 5656b4900f1b73c50800000000000000
+      internalID: 6644975419714659685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vulture idle_1
+      name: Vulture non idle_4
       rect:
         serializedVersion: 2
-        x: 73
-        y: 71
-        width: 50
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe597b804ddf21220800000000000000
-      internalID: 2455303833991484911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Vulture idle_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 8
-        width: 58
+        x: 75
+        y: 73
+        width: 42
         height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -194,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f446dd075006d9f0800000000000000
-      internalID: -444167139355114255
+      spriteID: 04f5b9c05a8595720800000000000000
+      internalID: 2835394906310795072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vulture idle_3
+      name: Vulture non idle_5
       rect:
         serializedVersion: 2
-        x: 73
-        y: 7
-        width: 50
-        height: 37
+        x: 147
+        y: 73
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +275,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc8f38c27631b9c20800000000000000
-      internalID: 3214184092908386511
+      spriteID: 5ea9a814f0893f950800000000000000
+      internalID: 6481691480007809765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture non idle_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 9
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f27fb87f146a510800000000000000
+      internalID: 1560006852391415615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture non idle_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 9
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca83b3f608678b40800000000000000
+      internalID: 5442433053768256194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture non idle_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 9
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df77f5bcb1a0ee690800000000000000
+      internalID: -7571102809070798851
       vertices: []
       indices: 
       edges: []
@@ -236,10 +361,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Vulture idle_0: 3407944668527131304
-      Vulture idle_1: 2455303833991484911
-      Vulture idle_2: -444167139355114255
-      Vulture idle_3: 3214184092908386511
+      Vulture non idle_0: -983570668933780218
+      Vulture non idle_1: -7748544424235822221
+      Vulture non idle_2: 5365792606245308101
+      Vulture non idle_3: 6644975419714659685
+      Vulture non idle_4: 2835394906310795072
+      Vulture non idle_5: 6481691480007809765
+      Vulture non idle_6: 1560006852391415615
+      Vulture non idle_7: 5442433053768256194
+      Vulture non idle_8: -7571102809070798851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

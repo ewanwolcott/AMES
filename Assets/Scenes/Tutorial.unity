@@ -1716,7 +1716,8 @@ MonoBehaviour:
   knockbackDuration: 0.1
   isKnockedback: 0
   player: {fileID: 984692315}
-  viewRadius: 10
+  distanceToPLayer: 5
+  distanceToPlayer: 0
   isAttacking: 0
   lineOfSightMask:
     serializedVersion: 2
@@ -2148,6 +2149,7 @@ MonoBehaviour:
   maxHealth: 5
   playerSr: {fileID: 984692326}
   playerMovement: {fileID: 984692322}
+  respawnPoint: {fileID: 0}
 --- !u!114 &984692320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2732,7 +2734,8 @@ MonoBehaviour:
   knockbackDuration: 0.1
   isKnockedback: 0
   player: {fileID: 984692315}
-  viewRadius: 10
+  distanceToPLayer: 5
+  distanceToPlayer: 0
   isAttacking: 0
   lineOfSightMask:
     serializedVersion: 2
@@ -8941,7 +8944,8 @@ MonoBehaviour:
   knockbackDuration: 0.1
   isKnockedback: 0
   player: {fileID: 984692315}
-  viewRadius: 10
+  distanceToPLayer: 5
+  distanceToPlayer: 0
   isAttacking: 0
   lineOfSightMask:
     serializedVersion: 2
@@ -10018,8 +10022,8 @@ Transform:
   m_GameObject: {fileID: 1485138821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 78.73, y: -2.26, z: 0}
-  m_LocalScale: {x: 13.666583, y: 13.666583, z: 13.666583}
+  m_LocalPosition: {x: 78.66, y: -2.47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1347625634}
