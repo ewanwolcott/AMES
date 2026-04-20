@@ -33,6 +33,10 @@ public class EnemyFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(player.GetComponent<PlayerHealth>().health <= 0)
+        {
+            isAttacking = false;
+        }
         distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
         if (hasLineofSight && !isKnockedback)
         {
