@@ -40,10 +40,9 @@ public class PlayerHealth : MonoBehaviour
     }
     public void die()
     {
-        playerMovement.enabled = false;
+        
         GetComponent<Animator>().SetTrigger("isDead");
-        GetComponent<BoxCollider2D>().enabled = false;
-        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+        
     }
 
 
@@ -51,9 +50,7 @@ public class PlayerHealth : MonoBehaviour
     {
         transform.position = respawnPoint.position;
         health = maxHealth;
-        playerMovement.enabled = true;
-        GetComponent<BoxCollider2D>().enabled = true;
-        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+        
 
     }
 }
