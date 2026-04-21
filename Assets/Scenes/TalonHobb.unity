@@ -826,6 +826,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374673374}
   m_CullTransparentMesh: 1
+--- !u!1 &483768794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 483768795}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &483768795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483768794}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.079729, y: 0.6149918, z: -9.987475}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &495890332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3108,6 +3139,7 @@ MonoBehaviour:
   teleportLocation: {x: -5.079729, y: 0.6149918}
   img: {fileID: 605096520}
   _screenFader: {fileID: 605096519}
+  floating: 0
 --- !u!61 &1236791120
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3807,6 +3839,10 @@ PrefabInstance:
       propertyPath: 'hearts.Array.data[4]'
       value: 
       objectReference: {fileID: 1866686389}
+    - target: {fileID: 6931485653190742606, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 483768795}
     - target: {fileID: 7068769174214315464, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
       propertyPath: canMove
       value: 1
@@ -3980,7 +4016,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1541216594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3998,7 +4034,7 @@ MonoBehaviour:
   knockbackDuration: 0.1
   isKnockedback: 0
   player: {fileID: 1425688876}
-  distanceToPLayer: 5
+  distanceToPLayer: 10
   distanceToPlayer: 0
   isAttacking: 0
   lineOfSightMask:
@@ -4038,7 +4074,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.20049644}
+  m_Offset: {x: 0, y: 0.05752048}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5512506}
@@ -4048,7 +4084,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.95, y: 0.63984144}
+  m_Size: {x: 0.95, y: 0.92579335}
   m_EdgeRadius: 0
 --- !u!50 &1541216596
 Rigidbody2D:
@@ -4396,7 +4432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1620744418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5757,3 +5793,4 @@ SceneRoots:
   - {fileID: 1296534458}
   - {fileID: 1236791121}
   - {fileID: 1280565197}
+  - {fileID: 483768795}
