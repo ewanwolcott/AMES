@@ -46,6 +46,7 @@ public class EnemyAttacking : MonoBehaviour
     }
     public void Attack()
     {
+        enemyFollow.isAttacking = false;
         Collider2D[] hits2 = Physics2D.OverlapCircleAll(enemyAttackPoint.position, enemyAttackRange, playerLayer);
         if (hits2.Length > 0)
         { 
@@ -55,7 +56,6 @@ public class EnemyAttacking : MonoBehaviour
                 hits2[0].GetComponent<PlayerMovement>().Knockback(transform, knockbackForce, stunTime);
             }
         }
-        enemyFollow.isAttacking = false;
     }
 
 
