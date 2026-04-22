@@ -36,7 +36,6 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0 && img.material.GetFloat("_FadeAmount") == 1)
         {
             transform.position = respawnPoint.position;
-            health = maxHealth;
             GetComponent<Animator>().SetTrigger("Respawn");
             return;
         }
@@ -68,6 +67,7 @@ public class PlayerHealth : MonoBehaviour
     IEnumerator FadeInAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
+        health = maxHealth;
         _screenFader.FadeIn(ScreenFader.FadeType.Shutters);
         GetComponent<PlayerMovement>().canMove = true;
     }
