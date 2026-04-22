@@ -46,6 +46,7 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         if(health <= 0)
         {
+            playerSr.color = Color.red;
             die();
         }
     }
