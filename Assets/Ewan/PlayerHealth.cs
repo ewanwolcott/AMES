@@ -1,5 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -9,7 +11,9 @@ public class PlayerHealth : MonoBehaviour
 
     public SpriteRenderer playerSr;
     public PlayerMovement playerMovement;
-    
+    [SerializeField] Image img;
+    [SerializeField] ScreenFader _screenFader;
+
     public Transform respawnPoint;
 
     void Start()
@@ -27,6 +31,14 @@ public class PlayerHealth : MonoBehaviour
                 playerSr.color = Color.white;
                 flashDuration = 0.25f;
             }
+        }
+
+        if (health <= 0 && img.material.GetFloat("_FadeAmount") == 1)
+        {
+            transform.position = respawnPoint.position;
+            health = maxHealth;
+            GetComponent<Animator>().SetTrigger("Respawn");
+            return;
         }
     }
 
@@ -48,9 +60,14 @@ public class PlayerHealth : MonoBehaviour
 
     public void respawn()
     {
-        transform.position = respawnPoint.position;
-        health = maxHealth;
+        _screenFader.FadeOut(ScreenFader.FadeType.Shutters);
+        StartCoroutine(FadeInAfterDelay(2f));
         
 
+    }
+    IEnumerator FadeInAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        _screenFader.FadeIn(ScreenFader.FadeType.Shutters);
     }
 }
