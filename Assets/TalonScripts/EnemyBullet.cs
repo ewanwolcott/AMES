@@ -6,6 +6,8 @@ public class EnemyBullet : MonoBehaviour
     Rigidbody2D rb;
     public float force;
     float destroyTime = 3.5f;
+
+    public float deflected = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -40,6 +42,12 @@ public class EnemyBullet : MonoBehaviour
         {
 
             other.gameObject.GetComponent<PlayerHealth>().TakeDamage(1);
+            other.gameObject.GetComponent<SpriteRenderer>().color = Color.cyan;
+            Destroy(gameObject);
+        }
+        if (other.gameObject.CompareTag("Enemy") && deflected == 1)
+        {
+            other.gameObject.GetComponent<EnemyHealth>().TakeDamage(1);
             other.gameObject.GetComponent<SpriteRenderer>().color = Color.cyan;
             Destroy(gameObject);
         }

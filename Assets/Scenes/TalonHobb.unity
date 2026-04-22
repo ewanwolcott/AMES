@@ -3855,6 +3855,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1866686389}
     - target: {fileID: 6931485653190742606, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 605096520}
+    - target: {fileID: 6931485653190742606, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: _screenFader
+      value: 
+      objectReference: {fileID: 605096519}
+    - target: {fileID: 6931485653190742606, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 483768795}

@@ -6,6 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public int maxHealth = 3;
     public int currentHealth;
+    float flashDuration = 0.25f;
 
     BoxCollider2D coll;
     Animator animator;
@@ -30,7 +31,15 @@ public class EnemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (spriteRenderer.color != Color.white)
+        {
+            flashDuration -= Time.deltaTime;
+            if (flashDuration <= 0)
+            {
+                spriteRenderer.color = Color.white;
+                flashDuration = 0.25f;
+            }
+        }
     }
 
     public void TakeDamage(int amount)

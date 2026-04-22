@@ -69,6 +69,14 @@ public class PlayerCombat : MonoBehaviour
             }
             Debug.Log("Hit " + enemies[0].name);
         }
+        Collider2D[] bullet = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, LayerMask.GetMask("Bullet"));
+
+        if (bullet.Length > 0)
+        {
+            Debug.Log("Hit " + bullet[0].name);
+            bullet[0].GetComponent<Rigidbody2D>().linearVelocity = -bullet[0].GetComponent<Rigidbody2D>().linearVelocity * 2;
+            bullet[0].GetComponent<EnemyBullet>().deflected = 1;
+        }
     }
     
 
