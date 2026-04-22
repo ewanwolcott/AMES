@@ -54,7 +54,7 @@ public class PlayerHealth : MonoBehaviour
     {
         
         GetComponent<Animator>().SetTrigger("isDead");
-        
+        GetComponent<PlayerMovement>().canMove = false;
     }
 
 
@@ -69,5 +69,6 @@ public class PlayerHealth : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         _screenFader.FadeIn(ScreenFader.FadeType.Shutters);
+        GetComponent<PlayerMovement>().canMove = true;
     }
 }

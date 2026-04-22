@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext ctx)
     {
-        if (ctx.ReadValue<float>() == 1 && IsGrounded() || ctx.ReadValue<float>() == 1 && doubleJump && playerUpgrades.speedLevel > 0)
+        if (ctx.ReadValue<float>() == 1 && IsGrounded() && canMove || ctx.ReadValue<float>() == 1 && doubleJump && playerUpgrades.speedLevel > 0 && canMove)
         {
             rb2d.linearVelocityY = jumpHeight;
             animator.SetTrigger("isJumping");
