@@ -2465,6 +2465,7 @@ GameObject:
   - component: {fileID: 1171030931}
   - component: {fileID: 1171030930}
   - component: {fileID: 1171030929}
+  - component: {fileID: 1171030938}
   - component: {fileID: 1171030937}
   m_Layer: 8
   m_Name: FlyingEnemy
@@ -2500,11 +2501,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyAttackPoint: {fileID: 1236750615}
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 1425688878}
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
-  enemyAttackRange: 0.4
+  enemyAttackRange: 0.5
   knockbackForce: 20
   stunTime: 0.1
   damage: 1
@@ -2533,12 +2534,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75fca92245d9a7646959252ea81913c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 4
   stunDuration: 0.3
   knockbackDuration: 0.1
   isKnockedback: 0
   player: {fileID: 1425688876}
-  distanceToPLayer: 5
+  distanceToPLayer: 10
   distanceToPlayer: 0
   isAttacking: 0
   lineOfSightMask:
@@ -2583,7 +2584,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1.4984709, y: 1.2232416}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 0.49, y: 0.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -2661,15 +2662,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2708881489621747757, guid: b4b87d55ac4e21a499ab8bb77f9558a9, type: 3}
+  m_Sprite: {fileID: 7332626173063175571, guid: 33ddddbbd8fcd9445ae16639f3e5c6be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.49, y: 0.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1171030936
@@ -2681,7 +2682,7 @@ Transform:
   m_GameObject: {fileID: 1171030928}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.98, y: 1.48, z: 0}
+  m_LocalPosition: {x: 5.98, y: 1.4782337, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2698,7 +2699,7 @@ Animator:
   m_GameObject: {fileID: 1171030928}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a7fbd39574e35804b83a684f2e6c2e29, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2710,6 +2711,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1171030938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171030928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60edf668eb5b08b4995cbd56309e650d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1425688876}
+  speed: 5
 --- !u!1 &1183177779
 GameObject:
   m_ObjectHideFlags: 0
@@ -3753,7 +3768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 343291109701429909, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6149918
+      value: 0.2882337
       objectReference: {fileID: 0}
     - target: {fileID: 343291109701429909, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4016,7 +4031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1541216594
 MonoBehaviour:
   m_ObjectHideFlags: 0
