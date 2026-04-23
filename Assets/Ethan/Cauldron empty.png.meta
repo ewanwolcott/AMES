@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: b253f37758651b8429e49cf0553075be
+guid: fa233c2229c18ec4aaecf778505e9a46
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4630796619066694735
-    second: projectiles ranges destroyed_0
-  - first:
-      213: -5594391467998083588
-    second: projectiles ranges destroyed_1
-  - first:
-      213: -1495935997856356224
-    second: projectiles ranges destroyed_2
+      213: -7077496570270614736
+    second: Cauldron empty_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,67 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: projectiles ranges destroyed_0
+      name: Cauldron empty_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 21
-        width: 29
-        height: 73
+        x: 0
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b3237d820b1cbfb0800000000000000
-      internalID: -4630796619066694735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: projectiles ranges destroyed_1
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 94
-        width: 26
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf58f77a99abc52b0800000000000000
-      internalID: -5594391467998083588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: projectiles ranges destroyed_2
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 89
-        width: 14
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0886d01c22e5d3be0800000000000000
-      internalID: -1495935997856356224
+      spriteID: 03b79f51e5ea7cd90800000000000000
+      internalID: -7077496570270614736
       vertices: []
       indices: 
       edges: []
@@ -201,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e601ddef9e1a89542bd35afdd14428b0
     internalID: 0
     vertices: []
     indices: 
@@ -211,9 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      projectiles ranges destroyed_0: -4630796619066694735
-      projectiles ranges destroyed_1: -5594391467998083588
-      projectiles ranges destroyed_2: -1495935997856356224
+      Cauldron empty_0: -7077496570270614736
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
