@@ -135,10 +135,10 @@ TextureImporter:
       name: SPIDERhit'_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 79
-        width: 38
-        height: 34
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,10 +157,10 @@ TextureImporter:
       name: SPIDERhit'_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 79
-        width: 39
-        height: 34
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +179,10 @@ TextureImporter:
       name: SPIDERhit'_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 15
-        width: 38
-        height: 34
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ad1670027d13a364f9f08ee2529d897c
     internalID: 0
     vertices: []
     indices: 

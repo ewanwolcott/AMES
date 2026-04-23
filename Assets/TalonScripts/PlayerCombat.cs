@@ -22,6 +22,7 @@ public class PlayerCombat : MonoBehaviour
     PlayerUpgrades playerUpgrades;
     Animator animator;
 
+
     void Awake()
     {
         playerHealth = GetComponent<PlayerHealth>();
@@ -71,7 +72,7 @@ public class PlayerCombat : MonoBehaviour
         }
         Collider2D[] bullet = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, LayerMask.GetMask("Bullet"));
 
-        if (bullet.Length > 0)
+        if (bullet.Length > 0 && playerUpgrades.canDeflect)
         {
             Debug.Log("Hit " + bullet[0].name);
             bullet[0].GetComponent<Rigidbody2D>().linearVelocity = -bullet[0].GetComponent<Rigidbody2D>().linearVelocity * 2;

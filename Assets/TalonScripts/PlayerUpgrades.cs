@@ -5,6 +5,8 @@ public class PlayerUpgrades : MonoBehaviour
     public int strengthLevel = 0;
     public int speedLevel = 0;
     public int healthLevel = 0;
+    
+    public bool canDeflect = false;
 
     PlayerCombat playerCombat;
     PlayerMovement playerMovement;
@@ -19,6 +21,10 @@ public class PlayerUpgrades : MonoBehaviour
 
     private void Update()
     {
+        if(strengthLevel == 1)
+        {
+            canDeflect = true;
+        }
         if (strengthLevel == 2)
         {
             playerCombat.amountHit = 3;

@@ -192,12 +192,12 @@ TextureImporter:
       name: DEATH SCORION_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 203
-        width: 38
-        height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5512506}
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: DEATH SCORION_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 202
-        width: 37
-        height: 35
-      alignment: 9
-      pivot: {x: 0.5, y: 0.57223904}
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: DEATH SCORION_2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 203
-        width: 37
-        height: 35
-      alignment: 9
-      pivot: {x: 0.50854164, y: 0.54514945}
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: DEATH SCORION_3
       rect:
         serializedVersion: 2
-        x: 209
-        y: 208
-        width: 40
-        height: 42
-      alignment: 9
-      pivot: {x: 0.4999996, y: 0.53762454}
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,12 +280,12 @@ TextureImporter:
       name: DEATH SCORION_4
       rect:
         serializedVersion: 2
-        x: 18
-        y: 141
-        width: 41
-        height: 45
-      alignment: 9
-      pivot: {x: 0.4922915, y: 0.54213935}
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: DEATH SCORION_5
       rect:
         serializedVersion: 2
-        x: 79
-        y: 138
-        width: 48
-        height: 30
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5737442}
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,12 +324,12 @@ TextureImporter:
       name: DEATH SCORION_6
       rect:
         serializedVersion: 2
-        x: 139
-        y: 142
-        width: 52
-        height: 21
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6053489}
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: DEATH SCORION_7
       rect:
         serializedVersion: 2
-        x: 203
-        y: 142
-        width: 52
-        height: 21
-      alignment: 9
-      pivot: {x: 0.48784402, y: 0.6203991}
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: DEATH SCORION_8
       rect:
         serializedVersion: 2
-        x: 11
-        y: 78
-        width: 52
-        height: 21
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6203991}
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,12 +390,12 @@ TextureImporter:
       name: DEATH SCORION_9
       rect:
         serializedVersion: 2
-        x: 75
-        y: 78
-        width: 52
-        height: 21
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6203991}
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,12 +412,12 @@ TextureImporter:
       name: DEATH SCORION_10
       rect:
         serializedVersion: 2
-        x: 150
-        y: 80
-        width: 30
-        height: 20
-      alignment: 9
-      pivot: {x: 0.48946482, y: 0.6106167}
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,12 +434,12 @@ TextureImporter:
       name: DEATH SCORION_11
       rect:
         serializedVersion: 2
-        x: 208
-        y: 76
-        width: 43
-        height: 28
-      alignment: 9
-      pivot: {x: 0.5073498, y: 0.60158676}
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -453,45 +453,45 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DEATH SCORION_16
+      name: DEATH SCORION_12
       rect:
         serializedVersion: 2
-        x: 15
-        y: 10
-        width: 41
-        height: 31
-      alignment: 9
-      pivot: {x: 0.51541704, y: 0.6019504}
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb3c50dbabf527cb0800000000000000
-      internalID: -4867722991594257474
+      spriteID: 26284193222bf9745a0535107bfb66a8
+      internalID: 7619776587831815498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DEATH SCORION_18
+      name: DEATH SCORION_13
       rect:
         serializedVersion: 2
-        x: 78
-        y: 9
-        width: 43
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5592589}
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f6ae9bb77d02300d0800000000000000
-      internalID: -3457883979024569745
+      spriteID: ce02617e137f8ef489991b544113af05
+      internalID: 7057711291792699050
       vertices: []
       indices: 
       edges: []
@@ -516,15 +516,7 @@ TextureImporter:
       DEATH SCORION_11: 6322524488120795107
       DEATH SCORION_12: 7619776587831815498
       DEATH SCORION_13: 7057711291792699050
-      DEATH SCORION_14: 3311457701448445412
-      DEATH SCORION_15: 1480708278988488657
-      DEATH SCORION_16: -4867722991594257474
-      DEATH SCORION_17: -2467348849073770353
-      DEATH SCORION_18: -3457883979024569745
-      DEATH SCORION_19: -9216177953145957901
       DEATH SCORION_2: 6075924734960442305
-      DEATH SCORION_20: -6101555858995744899
-      DEATH SCORION_21: 8305866762450755315
       DEATH SCORION_3: -2548822935268595175
       DEATH SCORION_4: 8504156601541469691
       DEATH SCORION_5: -7185680890954499461

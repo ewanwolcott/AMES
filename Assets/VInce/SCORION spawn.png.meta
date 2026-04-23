@@ -144,10 +144,10 @@ TextureImporter:
       name: SCORION spawn_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 146
-        width: 27
-        height: 16
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: SCORION spawn_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 142
-        width: 24
-        height: 28
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: SCORION spawn_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 80
-        width: 35
-        height: 28
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: SCORION spawn_3
       rect:
         serializedVersion: 2
-        x: 81
-        y: 74
-        width: 34
-        height: 33
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: SCORION spawn_4
       rect:
         serializedVersion: 2
-        x: 17
-        y: 11
-        width: 39
-        height: 35
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: SCORION spawn_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 12
-        width: 40
-        height: 37
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f59ebc4b294dccb44b5a131b649cd9c9
     internalID: 0
     vertices: []
     indices: 

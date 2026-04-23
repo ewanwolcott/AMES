@@ -132,10 +132,10 @@ TextureImporter:
       name: SPIDER spawn 1_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 69
-        width: 37
-        height: 59
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,10 +154,10 @@ TextureImporter:
       name: SPIDER spawn 1_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 15
-        width: 38
-        height: 35
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3c0cc1d9f2d06714ca71ed1a07317612
     internalID: 0
     vertices: []
     indices: 

@@ -135,10 +135,10 @@ TextureImporter:
       name: SPIDER melee_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 79
-        width: 38
-        height: 35
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,10 +157,10 @@ TextureImporter:
       name: SPIDER melee_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 79
-        width: 38
-        height: 36
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +179,10 @@ TextureImporter:
       name: SPIDER melee_2
       rect:
         serializedVersion: 2
-        x: 13
-        y: 15
-        width: 41
-        height: 31
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b4f5e90f230af914ab611efa28b47774
     internalID: 0
     vertices: []
     indices: 

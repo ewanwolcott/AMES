@@ -4,6 +4,7 @@ public class EnemyShooting : MonoBehaviour
 {
     public GameObject bullet;
     public Transform bulletPos;
+    [SerializeField] PlayerHealth player;
 
     public float shootCooldown = 2f;
 
@@ -22,7 +23,7 @@ public class EnemyShooting : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer > shootCooldown && enemyFollow.distanceToPlayer >= 5 && enemyFollow.distanceToPlayer <= 15)
+        if(timer > shootCooldown && enemyFollow.distanceToPlayer >= 5 && enemyFollow.distanceToPlayer <= 15 && player.health >= 0)
         {
             timer = 0;
             animator.SetTrigger("IsShooting");

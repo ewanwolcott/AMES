@@ -1,28 +1,10 @@
 fileFormatVersion: 2
-guid: db044a9e68de8934a861dbe3dbeb2dc2
+guid: 4f06fcb89cad026459dfd21c2beb9ac1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 438251491579944957
-    second: SPIDER ranges (2)_0
-  - first:
-      213: -5785309029021397668
-    second: SPIDER ranges (2)_1
-  - first:
-      213: 3309787211887500335
-    second: SPIDER ranges (2)_2
-  - first:
-      213: -8208195844422925824
-    second: SPIDER ranges (2)_3
-  - first:
-      213: -571267098362074163
-    second: SPIDER ranges (2)_4
-  - first:
-      213: -6535646888825445266
-    second: SPIDER ranges (2)_5
-  - first:
-      213: 8372312027191541673
-    second: SPIDER ranges (2)_6
+      213: 7968990057463458597
+    second: Basic vitality card_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32.7
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,101 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPIDER ranges (2)_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dff58edd86bf41600800000000000000
-      internalID: 438251491579944957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER ranges (2)_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5dc159071476bfa0800000000000000
-      internalID: -5785309029021397668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER ranges (2)_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2c5fa6eee9beed20800000000000000
-      internalID: 3309787211887500335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER ranges (2)_3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 002855e4e51a61e80800000000000000
-      internalID: -8208195844422925824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER ranges (2)_4
+      name: Basic vitality card_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 156
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,30 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcba24ac9937218f0800000000000000
-      internalID: -571267098362074163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER ranges (2)_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e642c2e28c7bc45a0800000000000000
-      internalID: -6535646888825445266
+      spriteID: 52baab95c3a879e60800000000000000
+      internalID: 7968990057463458597
       vertices: []
       indices: 
       edges: []
@@ -279,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 44188c99a9092ba468d43bdc4e6c24d4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -289,12 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SPIDER ranges (2)_0: 438251491579944957
-      SPIDER ranges (2)_1: -5785309029021397668
-      SPIDER ranges (2)_2: 3309787211887500335
-      SPIDER ranges (2)_3: -8208195844422925824
-      SPIDER ranges (2)_4: -571267098362074163
-      SPIDER ranges (2)_5: -6535646888825445266
+      Basic vitality card_0: 7968990057463458597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
