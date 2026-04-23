@@ -351,6 +351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8098025879046397813, guid: 67a7c902dfc08b144a8529d7c8424dc7, type: 3}
   bulletPos: {fileID: 1952693017}
+  player: {fileID: 931900197}
   shootCooldown: 2
 --- !u!50 &42629114
 Rigidbody2D:
@@ -641,6 +642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8098025879046397813, guid: 67a7c902dfc08b144a8529d7c8424dc7, type: 3}
   bulletPos: {fileID: 1963172742}
+  player: {fileID: 931900197}
   shootCooldown: 2
 --- !u!50 &63219392
 Rigidbody2D:
@@ -8288,6 +8290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8098025879046397813, guid: 67a7c902dfc08b144a8529d7c8424dc7, type: 3}
   bulletPos: {fileID: 1196834034}
+  player: {fileID: 931900197}
   shootCooldown: 2
 --- !u!50 &398310383
 Rigidbody2D:
@@ -19533,6 +19536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f693b241612a04cbc8ac7362c97978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInteractable: 1
   interactPrompt: {fileID: 367722862}
   onInteract:
     m_PersistentCalls:
@@ -20177,6 +20181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8098025879046397813, guid: 67a7c902dfc08b144a8529d7c8424dc7, type: 3}
   bulletPos: {fileID: 1582688650}
+  player: {fileID: 931900197}
   shootCooldown: 2
 --- !u!50 &640957864
 Rigidbody2D:
@@ -33037,6 +33042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8098025879046397813, guid: 67a7c902dfc08b144a8529d7c8424dc7, type: 3}
   bulletPos: {fileID: 2044479720}
+  player: {fileID: 931900197}
   shootCooldown: 2
 --- !u!50 &903017312
 Rigidbody2D:
@@ -39729,6 +39735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeUi: {fileID: 235949654}
   playerAnimator: {fileID: 931900198}
+  playerInteract: {fileID: 0}
   player: {fileID: 931900201}
 --- !u!1001 &1166288496
 PrefabInstance:
@@ -40133,6 +40140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f693b241612a04cbc8ac7362c97978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInteractable: 1
   interactPrompt: {fileID: 654021620}
   onInteract:
     m_PersistentCalls:
@@ -64081,6 +64089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f693b241612a04cbc8ac7362c97978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInteractable: 1
   interactPrompt: {fileID: 792848467}
   onInteract:
     m_PersistentCalls:

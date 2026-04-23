@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      projectiles ranges destroyed_0: -4630796619066694735
+      projectiles ranges destroyed_1: -5594391467998083588
+      projectiles ranges destroyed_2: -1495935997856356224
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
