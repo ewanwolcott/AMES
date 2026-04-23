@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 724b4f9af4d25394182abe4becbed05c
+guid: 37168d3d9c4661f43982ee4bc26629ff
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -152,8 +152,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 100
+        width: 61
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: Cauldron _1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 63
         y: 0
-        width: 64
-        height: 100
+        width: 62
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Cauldron _2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 127
         y: 0
-        width: 64
-        height: 100
+        width: 62
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: Cauldron _3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 191
         y: 0
-        width: 64
-        height: 100
+        width: 62
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Cauldron _4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 100
+        x: 222
+        y: 71
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Cauldron _5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 255
         y: 0
-        width: 64
-        height: 100
+        width: 62
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: Cauldron _6
       rect:
         serializedVersion: 2
-        x: 384
+        x: 319
         y: 0
-        width: 64
-        height: 100
+        width: 62
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,11 +300,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Cauldron _7
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df48c2d2f01d9e40800000000000000
+      internalID: 5664702541406425045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2da6f60b2c05e2f458d7c480b3b13350
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -321,6 +343,7 @@ TextureImporter:
       Cauldron _4: 1119116328472828578
       Cauldron _5: -867069761525778483
       Cauldron _6: 7274267103538173623
+      Cauldron _7: 5664702541406425045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

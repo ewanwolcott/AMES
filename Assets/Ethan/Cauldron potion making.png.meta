@@ -112,7 +112,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,7 +126,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -150,7 +150,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -205,9 +205,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 399
-        width: 61
-        height: 77
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: Cauldron potion making_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 399
-        width: 62
-        height: 77
+        x: 64
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +248,10 @@ TextureImporter:
       name: Cauldron potion making_2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 399
-        width: 62
-        height: 77
+        x: 128
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +270,10 @@ TextureImporter:
       name: Cauldron potion making_3
       rect:
         serializedVersion: 2
-        x: 191
-        y: 399
-        width: 62
-        height: 77
+        x: 192
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: Cauldron potion making_4
       rect:
         serializedVersion: 2
-        x: 222
-        y: 471
-        width: 6
-        height: 6
+        x: 256
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: Cauldron potion making_5
       rect:
         serializedVersion: 2
-        x: 255
-        y: 399
-        width: 62
-        height: 80
+        x: 320
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: Cauldron potion making_6
       rect:
         serializedVersion: 2
-        x: 319
-        y: 399
-        width: 62
-        height: 77
+        x: 384
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: Cauldron potion making_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 299
-        width: 61
-        height: 77
+        x: 448
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: Cauldron potion making_8
       rect:
         serializedVersion: 2
-        x: 63
-        y: 299
-        width: 62
-        height: 77
+        x: 512
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: Cauldron potion making_9
       rect:
         serializedVersion: 2
-        x: 127
-        y: 299
-        width: 62
-        height: 77
+        x: 576
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: Cauldron potion making_10
       rect:
         serializedVersion: 2
-        x: 191
-        y: 199
-        width: 62
-        height: 162
+        x: 640
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
       name: Cauldron potion making_11
       rect:
         serializedVersion: 2
-        x: 208
-        y: 358
-        width: 12
-        height: 15
+        x: 704
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: Cauldron potion making_12
       rect:
         serializedVersion: 2
-        x: 255
-        y: 199
-        width: 62
-        height: 166
+        x: 768
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
       name: Cauldron potion making_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 199
-        width: 61
-        height: 55
+        x: 832
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: Cauldron potion making_14
       rect:
         serializedVersion: 2
-        x: 63
-        y: 199
-        width: 62
-        height: 57
+        x: 896
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +534,10 @@ TextureImporter:
       name: Cauldron potion making_15
       rect:
         serializedVersion: 2
-        x: 127
-        y: 199
-        width: 62
-        height: 71
+        x: 960
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +556,10 @@ TextureImporter:
       name: Cauldron potion making_16
       rect:
         serializedVersion: 2
-        x: 319
-        y: 199
-        width: 62
-        height: 156
+        x: 1024
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +578,10 @@ TextureImporter:
       name: Cauldron potion making_17
       rect:
         serializedVersion: 2
-        x: 0
-        y: 99
-        width: 61
-        height: 98
+        x: 1088
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,10 +600,10 @@ TextureImporter:
       name: Cauldron potion making_18
       rect:
         serializedVersion: 2
-        x: 63
-        y: 99
-        width: 62
-        height: 91
+        x: 1152
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
       name: Cauldron potion making_19
       rect:
         serializedVersion: 2
-        x: 127
-        y: 99
-        width: 62
-        height: 83
+        x: 1216
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,10 +644,10 @@ TextureImporter:
       name: Cauldron potion making_20
       rect:
         serializedVersion: 2
-        x: 191
-        y: 99
-        width: 62
-        height: 77
+        x: 1280
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,10 +666,10 @@ TextureImporter:
       name: Cauldron potion making_21
       rect:
         serializedVersion: 2
-        x: 255
-        y: 99
-        width: 62
-        height: 77
+        x: 1344
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +688,10 @@ TextureImporter:
       name: Cauldron potion making_22
       rect:
         serializedVersion: 2
-        x: 341
-        y: 155
-        width: 22
-        height: 21
+        x: 1408
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,10 +710,10 @@ TextureImporter:
       name: Cauldron potion making_23
       rect:
         serializedVersion: 2
-        x: 319
-        y: 99
-        width: 62
-        height: 55
+        x: 1472
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,10 +732,10 @@ TextureImporter:
       name: Cauldron potion making_24
       rect:
         serializedVersion: 2
-        x: 21
-        y: 55
-        width: 22
-        height: 21
+        x: 1536
+        y: 0
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,20 +754,108 @@ TextureImporter:
       name: Cauldron potion making_25
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1600
         y: 0
-        width: 61
-        height: 54
+        width: 64
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d09e22830fa5f4880800000000000000
-      internalID: -8624574773610747635
+      spriteID: 3bd2b16bbf15bfe4ebf5aefa2b80257c
+      internalID: -1063561880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cauldron potion making_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076f709e54e93b74cb7d9e445ea1f09f
+      internalID: -501633908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cauldron potion making_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59193d81d4653d546b72e64497d15c05
+      internalID: -1544952277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cauldron potion making_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26811ce0cd99fe941a6dea87a1265861
+      internalID: 889983641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cauldron potion making_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a7d32f214261c409ec06739f62c00d
+      internalID: -347287932
       vertices: []
       indices: 
       edges: []
@@ -776,7 +864,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 00f8cfe346fb6da47a9d240287d4734f
     internalID: 0
     vertices: []
     indices: 
@@ -804,7 +892,11 @@ TextureImporter:
       Cauldron potion making_22: -7322924434845968606
       Cauldron potion making_23: 4756906203324579714
       Cauldron potion making_24: -2693633223377184985
-      Cauldron potion making_25: -8624574773610747635
+      Cauldron potion making_25: -1063561880
+      Cauldron potion making_26: -501633908
+      Cauldron potion making_27: -1544952277
+      Cauldron potion making_28: 889983641
+      Cauldron potion making_29: -347287932
       Cauldron potion making_3: -8508342022767491066
       Cauldron potion making_4: 5851004710955521453
       Cauldron potion making_5: -8220241600822506343
