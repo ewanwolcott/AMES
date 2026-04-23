@@ -177,12 +177,12 @@ TextureImporter:
       name: SPIDER death_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 207
-        width: 38
-        height: 35
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,12 +199,12 @@ TextureImporter:
       name: SPIDER death_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 210
-        width: 38
-        height: 30
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,12 +221,12 @@ TextureImporter:
       name: SPIDER death_2
       rect:
         serializedVersion: 2
-        x: 151
-        y: 213
-        width: 32
-        height: 32
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,12 +243,12 @@ TextureImporter:
       name: SPIDER death_3
       rect:
         serializedVersion: 2
-        x: 23
-        y: 147
-        width: 37
-        height: 23
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -265,12 +265,12 @@ TextureImporter:
       name: SPIDER death_4
       rect:
         serializedVersion: 2
-        x: 87
-        y: 147
-        width: 37
-        height: 23
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: SPIDER death_5
       rect:
         serializedVersion: 2
-        x: 151
-        y: 147
-        width: 37
-        height: 23
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,12 +309,12 @@ TextureImporter:
       name: SPIDER death_6
       rect:
         serializedVersion: 2
-        x: 23
-        y: 83
-        width: 37
-        height: 23
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: SPIDER death_7
       rect:
         serializedVersion: 2
-        x: 85
-        y: 81
-        width: 38
-        height: 24
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -353,12 +353,12 @@ TextureImporter:
       name: SPIDER death_8
       rect:
         serializedVersion: 2
-        x: 99
-        y: 93
-        width: 7
-        height: 8
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -375,12 +375,12 @@ TextureImporter:
       name: SPIDER death_9
       rect:
         serializedVersion: 2
-        x: 110
-        y: 91
-        width: 11
-        height: 7
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -389,160 +389,6 @@ TextureImporter:
       bones: []
       spriteID: 77d9ba49268e72580800000000000000
       internalID: -8851851032474706569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER death_10
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 97
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a655dd99d1701d60800000000000000
-      internalID: 7858906529231361702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER death_11
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 94
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86e58b584e1102d20800000000000000
-      internalID: 3251618604155166312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER death_12
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 81
-        width: 19
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d29f722b43870f0d0800000000000000
-      internalID: -3391078351687386835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER death_13
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 80
-        width: 43
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9e3067f928d61520800000000000000
-      internalID: 2672561103646506651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER death_14
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 80
-        width: 21
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03338ed7084b7abf0800000000000000
-      internalID: -313083185117777104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER death_15
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 15
-        width: 47
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ec7b81c8fc9a2b40800000000000000
-      internalID: 5416314094079409377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPIDER death_16
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 15
-        width: 13
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f7b80c3f3007af10800000000000000
-      internalID: 2280792007876589553
       vertices: []
       indices: 
       edges: []
@@ -563,13 +409,6 @@ TextureImporter:
     nameFileIdTable:
       SPIDER death_0: 544716589066505681
       SPIDER death_1: 3679727991884410491
-      SPIDER death_10: 7858906529231361702
-      SPIDER death_11: 3251618604155166312
-      SPIDER death_12: -3391078351687386835
-      SPIDER death_13: 2672561103646506651
-      SPIDER death_14: -313083185117777104
-      SPIDER death_15: 5416314094079409377
-      SPIDER death_16: 2280792007876589553
       SPIDER death_2: -4225889934344722905
       SPIDER death_3: -6676123188353656610
       SPIDER death_4: -4489650009775511739
