@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SpiderShoot
+  m_Name: BulletDestroy
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 438251491579944957, guid: db044a9e68de8934a861dbe3dbeb2dc2, type: 3}
-    - time: 0.11666667
-      value: {fileID: -5785309029021397668, guid: db044a9e68de8934a861dbe3dbeb2dc2, type: 3}
-    - time: 0.23333333
-      value: {fileID: 3309787211887500335, guid: db044a9e68de8934a861dbe3dbeb2dc2, type: 3}
-    - time: 0.46666667
-      value: {fileID: -6535646888825445266, guid: db044a9e68de8934a861dbe3dbeb2dc2, type: 3}
+      value: {fileID: -3867447891524185445, guid: 094b6e925d015ab44ac3e152e3028380, type: 3}
+    - time: 0.033333335
+      value: {fileID: 1178837814247607438, guid: 0d4c89c6d74088b44a207638773e3a0a, type: 3}
+    - time: 0.06666667
+      value: {fileID: -631759636, guid: 0d4c89c6d74088b44a207638773e3a0a, type: 3}
+    - time: 0.083333336
+      value: {fileID: -631759636, guid: 0d4c89c6d74088b44a207638773e3a0a, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,16 +50,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 438251491579944957, guid: db044a9e68de8934a861dbe3dbeb2dc2, type: 3}
-    - {fileID: -5785309029021397668, guid: db044a9e68de8934a861dbe3dbeb2dc2, type: 3}
-    - {fileID: 3309787211887500335, guid: db044a9e68de8934a861dbe3dbeb2dc2, type: 3}
-    - {fileID: -6535646888825445266, guid: db044a9e68de8934a861dbe3dbeb2dc2, type: 3}
+    - {fileID: -3867447891524185445, guid: 094b6e925d015ab44ac3e152e3028380, type: 3}
+    - {fileID: 1178837814247607438, guid: 0d4c89c6d74088b44a207638773e3a0a, type: 3}
+    - {fileID: -631759636, guid: 0d4c89c6d74088b44a207638773e3a0a, type: 3}
+    - {fileID: -631759636, guid: 0d4c89c6d74088b44a207638773e3a0a, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.48333335
+    m_StopTime: 0.1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -79,8 +79,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.33333334
-    functionName: shoot
+  - time: 0.083333336
+    functionName: OnDestroy
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
