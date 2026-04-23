@@ -23,11 +23,14 @@ public class EnemyFollow : MonoBehaviour
     [SerializeField] LayerMask lineOfSightMask;
 
     Rigidbody2D rb2d;
+
+    EnemyHealth enemyHealth;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        enemyHealth = GetComponent<EnemyHealth>();
     }
 
     // Update is called once per frame
@@ -53,11 +56,11 @@ public class EnemyFollow : MonoBehaviour
                 animator.SetBool("IsWalking", false);
             }
         }
-        if (player.transform.position.x < transform.position.x)
+        if (player.transform.position.x < transform.position.x && enemyHealth.currentHealth >= 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
-        else if (player.transform.position.x > transform.position.x)
+        else if (player.transform.position.x > transform.position.x && enemyHealth.currentHealth >= 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
         }
