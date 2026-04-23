@@ -40,17 +40,17 @@ public class ScreenFader : MonoBehaviour
         _lastEffect = _useShutters;
     }
 
-    private void Update()
-    {
-        if(Keyboard.current.numpad1Key.wasPressedThisFrame)
-        {
-            FadeOut(CurrentFadeType);
-        }
-        if(Keyboard.current.numpad2Key.wasPressedThisFrame)
-        {
-            FadeIn(CurrentFadeType);
-        }
-    }
+    //private void Update()
+    //{
+    //    if(Keyboard.current.numpad1Key.wasPressedThisFrame)
+    //    {
+    //        FadeOut(CurrentFadeType);
+    //    }
+    //    if(Keyboard.current.numpad2Key.wasPressedThisFrame)
+    //    {
+    //        FadeIn(CurrentFadeType);
+    //    }
+    //}
 
     public void FadeOut(FadeType fadeType)
     {

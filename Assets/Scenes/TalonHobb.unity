@@ -1688,7 +1688,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7968990057463458597, guid: b2c42c8b41d006b4bb99e7cbf3d45ded, type: 3}
+  m_Sprite: {fileID: 7968990057463458597, guid: 4f06fcb89cad026459dfd21c2beb9ac1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2623,7 +2623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6257623441403358865, guid: 0a5c2b7efa01bf542a406d288c752bdd, type: 3}
+  m_Sprite: {fileID: 6257623441403358865, guid: 0c9b30aa204a0d24fad220eac5b6bde8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2732,8 +2732,8 @@ GameObject:
   - component: {fileID: 1171030931}
   - component: {fileID: 1171030930}
   - component: {fileID: 1171030929}
-  - component: {fileID: 1171030938}
   - component: {fileID: 1171030937}
+  - component: {fileID: 1171030938}
   m_Layer: 8
   m_Name: FlyingEnemy
   m_TagString: Enemy
@@ -2753,7 +2753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4216e5327ec38b44b21761bc6106688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1000
+  maxHealth: 3
   currentHealth: 0
 --- !u!114 &1171030930
 MonoBehaviour:
@@ -2772,7 +2772,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
-  enemyAttackRange: 0.5
+  enemyAttackRange: 0.7
   knockbackForce: 20
   stunTime: 0.1
   damage: 1
@@ -2866,7 +2866,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171030928}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -2987,11 +2987,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1171030928}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60edf668eb5b08b4995cbd56309e650d, type: 3}
+  m_Script: {fileID: 11500000, guid: 61bd8e42015176249bc90fb09d8f81fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1425688876}
-  speed: 5
 --- !u!1 &1183177779
 GameObject:
   m_ObjectHideFlags: 0
@@ -3382,7 +3380,7 @@ Transform:
   m_GameObject: {fileID: 1236750614}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -0.26, z: 0}
+  m_LocalPosition: {x: -0.053, y: 0.144, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4471,7 +4469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1541216594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4632,7 +4630,7 @@ Transform:
   m_GameObject: {fileID: 1541216593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.98, y: -0.24, z: 0}
+  m_LocalPosition: {x: 5.778, y: -0.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4685,7 +4683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4216e5327ec38b44b21761bc6106688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  maxHealth: 5
   currentHealth: 1
 --- !u!95 &1541216602
 Animator:
@@ -4904,6 +4902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8098025879046397813, guid: 67a7c902dfc08b144a8529d7c8424dc7, type: 3}
   bulletPos: {fileID: 1002669487}
+  player: {fileID: 1425688878}
   shootCooldown: 2
 --- !u!61 &1620744419
 BoxCollider2D:
@@ -5015,7 +5014,7 @@ Transform:
   m_GameObject: {fileID: 1620744417}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.1, y: 0.8, z: 0}
+  m_LocalPosition: {x: 6.105, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5212,7 +5211,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6543579025695621394, guid: f6c8d77e04d175a4c957f7ec5a8a6ed4, type: 3}
+  m_Sprite: {fileID: -6543579025695621394, guid: 317c8d81aede796469c9defac6056ace, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

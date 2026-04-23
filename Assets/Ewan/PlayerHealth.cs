@@ -55,6 +55,8 @@ public class PlayerHealth : MonoBehaviour
         
         GetComponent<Animator>().SetTrigger("isDead");
         GetComponent<PlayerMovement>().canMove = false;
+        GetComponent<PlayerCombat>().enabled = false;
+        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
     }
 
 
@@ -71,5 +73,6 @@ public class PlayerHealth : MonoBehaviour
         health = maxHealth;
         _screenFader.FadeIn(ScreenFader.FadeType.Shutters);
         GetComponent<PlayerMovement>().canMove = true;
+        GetComponent<PlayerCombat>().enabled = true;
     }
 }
