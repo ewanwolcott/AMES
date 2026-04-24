@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6f02dafa67d95f448dbb95d47a33bcd, type: 3}
   m_Name: UpgradeKey
   m_EditorClassIdentifier: 
-  sprite: {fileID: -8798380521947238614, guid: 144a220d5855d634c9d996ffd9c34b77, type: 3}
+  sprite: {fileID: 9184970629971013926, guid: e7091310b5a1cb94c854f53470e630a8, type: 3}
   description: 
