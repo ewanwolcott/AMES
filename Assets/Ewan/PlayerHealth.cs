@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -9,15 +10,21 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 10;
     float flashDuration = 0.25f;
 
-    public SpriteRenderer playerSr;
-    public PlayerMovement playerMovement;
+    SpriteRenderer playerSr;
+    PlayerMovement playerMovement;
     [SerializeField] Image img;
     [SerializeField] ScreenFader _screenFader;
 
     public Transform respawnPoint;
 
+    private void Awake()
+    {
+        playerSr = GetComponent<SpriteRenderer>();
+        playerMovement = GetComponent<PlayerMovement>();
+    }
     void Start()
     {
+        _screenFader.FadeIn(ScreenFader.FadeType.Shutters);
         health = maxHealth;   
     }
 
@@ -70,7 +77,7 @@ public class PlayerHealth : MonoBehaviour
     IEnumerator FadeInAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        health = maxHealth;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         _screenFader.FadeIn(ScreenFader.FadeType.Shutters);
         GetComponent<PlayerMovement>().canMove = true;
         GetComponent<PlayerCombat>().enabled = true;

@@ -31,6 +31,7 @@ Material:
     m_Floats:
     - _ColorMask: 15
     - _FadeAmount: 0
+    - _GoopScale: 0
     - _NumofShutters: 1000
     - _Stencil: 0
     - _StencilComp: 8
@@ -39,8 +40,13 @@ Material:
     - _StencilWriteMask: 255
     - _UIMaskSoftnessX: 1
     - _UIMaskSoftnessY: 1
+    - _UseGoop: 0
+    - _UsePlainBlack: 0
+    - _UseRadialWipe: 0
     - _UseShutters: 1
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
+    - _GoopScrollSpeed: {r: 0.25, g: 0, b: 0, a: 0}
+    - _GoopTilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
