@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 10;
     float flashDuration = 0.25f;
 
+    bool firstScreenFade = false;
+
     SpriteRenderer playerSr;
     PlayerMovement playerMovement;
     [SerializeField] Image img;
@@ -24,7 +26,6 @@ public class PlayerHealth : MonoBehaviour
     }
     void Start()
     {
-        _screenFader.FadeIn(ScreenFader.FadeType.Shutters);
         health = maxHealth;   
     }
 
