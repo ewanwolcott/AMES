@@ -1416,7 +1416,7 @@ Transform:
   m_GameObject: {fileID: 140000485}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.991913, y: -1.8286972, z: 0}
+  m_LocalPosition: {x: -15.95, y: 0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41288,6 +41288,10 @@ PrefabInstance:
       propertyPath: canMove
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7068769174214315464, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: jumpHeight
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66542,18 +66546,6 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1709084419}
-        m_TargetAssemblyTypeName: Upgrader, Assembly-CSharp
-        m_MethodName: Upgrade
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Up
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1709084415}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -146299,7 +146291,7 @@ Transform:
   m_GameObject: {fileID: 2113302520}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 171.41791, y: -24.716303, z: 0}
+  m_LocalPosition: {x: 170.92, y: -26.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
