@@ -19540,19 +19540,7 @@ MonoBehaviour:
   interactPrompt: {fileID: 367722862}
   onInteract:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 600678266}
-        m_TargetAssemblyTypeName: Upgrader, Assembly-CSharp
-        m_MethodName: Upgrade
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Up
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!95 &600678268
 Animator:
   serializedVersion: 7
@@ -40155,19 +40143,7 @@ MonoBehaviour:
   interactPrompt: {fileID: 654021620}
   onInteract:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1193788897}
-        m_TargetAssemblyTypeName: Upgrader, Assembly-CSharp
-        m_MethodName: Upgrade
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Up
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!95 &1193788899
 Animator:
   serializedVersion: 7
@@ -52152,7 +52128,7 @@ Transform:
   m_GameObject: {fileID: 1363037255}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 106.68, y: 3.93, z: 0}
+  m_LocalPosition: {x: 106.68, y: -0.06273818, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58183,7 +58159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8900736899321531866, guid: 39e12fc5de64951499a8c35c765968c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.76
+      value: -0.23273826
       objectReference: {fileID: 0}
     - target: {fileID: 8900736899321531866, guid: 39e12fc5de64951499a8c35c765968c1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -64105,18 +64081,6 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1709084419}
-        m_TargetAssemblyTypeName: Upgrader, Assembly-CSharp
-        m_MethodName: Upgrade
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Up
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1709084415}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -136960,7 +136924,7 @@ Transform:
   m_GameObject: {fileID: 2012100000}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 110.26336, y: 2.8727384, z: 0}
+  m_LocalPosition: {x: 110.26336, y: -1.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
