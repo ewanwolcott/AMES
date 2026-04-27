@@ -52,7 +52,8 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage (int amount)
     {
         health -= amount;
-        if(health <= 0)
+        Debug.Log("Player took " + amount + " damage. Current health: " + health);
+        if (health <= 0)
         {
             playerSr.color = Color.red;
             die();
