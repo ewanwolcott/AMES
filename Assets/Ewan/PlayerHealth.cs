@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int health;
     public int maxHealth = 10;
     float flashDuration = 0.25f;
+    float regenTimer = 15f;
 
     bool firstScreenFade = false;
 
@@ -16,6 +17,7 @@ public class PlayerHealth : MonoBehaviour
     PlayerMovement playerMovement;
     [SerializeField] Image img;
     [SerializeField] ScreenFader _screenFader;
+    PlayerUpgrades playerUpgrades;
 
     public Transform respawnPoint;
 
@@ -23,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
     {
         playerSr = GetComponent<SpriteRenderer>();
         playerMovement = GetComponent<PlayerMovement>();
+        playerUpgrades = GetComponent<PlayerUpgrades>();
     }
     void Start()
     {
@@ -31,7 +34,16 @@ public class PlayerHealth : MonoBehaviour
 
     private void Update()
     {
-        if(playerSr.color != Color.white)
+        if (playerUpgrades.healthLevel == 3)
+        {
+            regenTimer -= Time.deltaTime;
+            if (regenTimer <= 0 && health < maxHealth && health > 0)
+            {
+                TakeDamage(-1);
+                regenTimer = 15f;
+            }
+        }
+        if (playerSr.color != Color.white)
         {
             flashDuration -= Time.deltaTime;
             if (flashDuration <= 0)
