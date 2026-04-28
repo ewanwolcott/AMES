@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
     {
         _movement = ctx.ReadValue<Vector2>().x;
 
-        if(_movement != 0)
+        if(_movement != 0 && canMove)
         {
             animator.SetFloat("XInput", _movement);
             animator.SetBool("isWalking", true);
