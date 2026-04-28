@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -162,10 +162,10 @@ TextureImporter:
       name: icons_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 194
-        width: 57
-        height: 60
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +184,10 @@ TextureImporter:
       name: icons_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 194
-        width: 57
-        height: 60
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +206,10 @@ TextureImporter:
       name: icons_2
       rect:
         serializedVersion: 2
-        x: 131
-        y: 194
-        width: 61
-        height: 60
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: icons_3
       rect:
         serializedVersion: 2
-        x: 3
-        y: 130
-        width: 61
-        height: 60
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: icons_4
       rect:
         serializedVersion: 2
-        x: 67
-        y: 130
-        width: 57
-        height: 60
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,9 +273,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 132
+        y: 128
         width: 64
-        height: 57
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,9 +295,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 68
+        y: 64
         width: 64
-        height: 57
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,9 +317,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 68
+        y: 64
         width: 64
-        height: 57
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,9 +339,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 67
-        width: 60
-        height: 61
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,9 +361,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
+        y: 0
         width: 64
-        height: 59
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +382,10 @@ TextureImporter:
       name: icons_10
       rect:
         serializedVersion: 2
-        x: 67
-        y: 3
-        width: 61
-        height: 60
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +404,10 @@ TextureImporter:
       name: icons_11
       rect:
         serializedVersion: 2
-        x: 131
-        y: 3
-        width: 57
-        height: 59
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,7 +426,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9a52970a080e80c4192a971c343955b3
     internalID: 0
     vertices: []
     indices: 
