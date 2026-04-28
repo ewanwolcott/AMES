@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CHARACTER walking 1SFinst_0: 840338441760362717
+      CHARACTER walking 1SFinst_1: 3024996883383449039
+      CHARACTER walking 1SFinst_2: -1922905284267593174
+      CHARACTER walking 1SFinst_3: -1549548293000293801
+      CHARACTER walking 1SFinst_4: -8094753416392475959
+      CHARACTER walking 1SFinst_5: 1501591562082115249
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
