@@ -3976,7 +3976,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1162902661}
         m_TargetAssemblyTypeName: UpgradeClick, Assembly-CSharp
         m_MethodName: upgrade
         m_Mode: 1
@@ -3988,7 +3988,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1162902661}
         m_TargetAssemblyTypeName: UpgradeClick, Assembly-CSharp
         m_MethodName: boostHealth
         m_Mode: 1
@@ -16130,7 +16130,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1162902661}
         m_TargetAssemblyTypeName: UpgradeClick, Assembly-CSharp
         m_MethodName: upgrade
         m_Mode: 1
@@ -16142,7 +16142,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1162902661}
         m_TargetAssemblyTypeName: UpgradeClick, Assembly-CSharp
         m_MethodName: boostStrength
         m_Mode: 1
@@ -35541,6 +35541,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 343291109701429909, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
   m_PrefabInstance: {fileID: 1135287738}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &931900214 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3438516321254641152, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+  m_PrefabInstance: {fileID: 1135287738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &931900215 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7068769174214315464, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+  m_PrefabInstance: {fileID: 1135287738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931900193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84b16741c79a0843b0ba2770e202a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963714845
 GameObject:
   m_ObjectHideFlags: 0
@@ -42517,11 +42533,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cfdcdbe4a7f4ab4c9819cc1000eb07c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeUi: {fileID: 0}
+  upgradeUi: {fileID: 1026707237}
   playerAnimator: {fileID: 931900198}
   playerInteract: {fileID: 931900205}
   playerHealth: {fileID: 931900197}
-  playerMovement: {fileID: 0}
+  playerMovement: {fileID: 931900215}
   player: {fileID: 931900201}
 --- !u!114 &1162902662
 MonoBehaviour:
@@ -42535,9 +42551,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b99455c1a386c9b4ebe91a99af474dc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMovement: {fileID: 0}
-  playerRigidbody: {fileID: 0}
-  animator: {fileID: 0}
+  playerMovement: {fileID: 931900215}
+  playerRigidbody: {fileID: 931900214}
+  animator: {fileID: 931900198}
 --- !u!1001 &1166288496
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73358,7 +73374,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1162902661}
         m_TargetAssemblyTypeName: UpgradeClick, Assembly-CSharp
         m_MethodName: upgrade
         m_Mode: 1
@@ -73370,7 +73386,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1162902661}
         m_TargetAssemblyTypeName: UpgradeClick, Assembly-CSharp
         m_MethodName: boostSpeed
         m_Mode: 1
@@ -73726,7 +73742,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1709084415}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -73736,9 +73752,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1162902662}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+        m_TargetAssemblyTypeName: StuckInOnceinteract, Assembly-CSharp
+        m_MethodName: StuckInOnce
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
