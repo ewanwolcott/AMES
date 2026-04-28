@@ -6,6 +6,7 @@ public class UpgradeClick : MonoBehaviour
     public Animator playerAnimator;
     [SerializeField] Interact playerInteract;
     [SerializeField] PlayerHealth playerHealth;
+    [SerializeField] PlayerMovement playerMovement;
 
     public PlayerUpgrades player;
     public void upgrade()
@@ -15,6 +16,7 @@ public class UpgradeClick : MonoBehaviour
         Time.timeScale = 1f;
         upgradeUi.SetActive(false);
         playerHealth.health = playerHealth.maxHealth;
+        playerMovement.canMove = true;
     }
 
     public void boostStrength()
