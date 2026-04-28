@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      character stage 2 phase idle 3_0: -3283763092622345895
+      character stage 2 phase idle 3_1: -6112695549807815268
+      character stage 2 phase idle 3_2: 4789870573188537901
+      character stage 2 phase idle 3_3: -2233433506936845286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
