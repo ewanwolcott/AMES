@@ -3407,8 +3407,8 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 3357360333254942192, guid: de08d9766d963494ca14fd5667f9c863, type: 3}
-    m_PressedSprite: {fileID: -4297203505398261690, guid: de08d9766d963494ca14fd5667f9c863, type: 3}
-    m_SelectedSprite: {fileID: 6621252853494989987, guid: de08d9766d963494ca14fd5667f9c863, type: 3}
+    m_PressedSprite: {fileID: 6621252853494989987, guid: de08d9766d963494ca14fd5667f9c863, type: 3}
+    m_SelectedSprite: {fileID: 129307104293184568, guid: d2f1594b09f6e4745889dedda296f281, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -3465,7 +3465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6621252853494989987, guid: de08d9766d963494ca14fd5667f9c863, type: 3}
+  m_Sprite: {fileID: 129307104293184568, guid: d2f1594b09f6e4745889dedda296f281, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4537,6 +4537,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8765511077718411419, guid: 29399ab45b00a754d9afc7369296eaf8, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 550b53ddbf6db134bb6085661d33cf98, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4618,7 +4622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1481733114
 MonoBehaviour:
   m_ObjectHideFlags: 0
