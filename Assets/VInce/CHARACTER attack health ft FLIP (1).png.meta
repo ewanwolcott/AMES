@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CHARACTER attack health ft FLIP (1)_0: -332744864027978062
+      CHARACTER attack health ft FLIP (1)_1: -6294135402376996448
+      CHARACTER attack health ft FLIP (1)_2: 3201876104316949917
+      CHARACTER attack health ft FLIP (1)_3: 3131570055676634227
+      CHARACTER attack health ft FLIP (1)_4: -5456803181304650209
+      CHARACTER attack health ft FLIP (1)_5: 4574917113656490849
+      CHARACTER attack health ft FLIP (1)_6: -6888486007578772431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

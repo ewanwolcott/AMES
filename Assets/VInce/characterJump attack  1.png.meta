@@ -385,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      characterJump attack  1_0: -7874612829020407053
+      characterJump attack  1_1: -5086520812851033198
+      characterJump attack  1_2: -2725138098806332577
+      characterJump attack  1_3: -4480952171073865277
+      characterJump attack  1_4: -7533079374518040249
+      characterJump attack  1_5: 6390723051004154252
+      characterJump attack  1_6: -592387180801167842
+      characterJump attack  1_7: 5541319394149296675
+      characterJump attack  1_8: -7197750932757528081
+      characterJump attack  1_9: -5800028034904490331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
