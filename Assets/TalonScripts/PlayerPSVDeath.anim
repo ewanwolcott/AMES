@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerSJumpR
+  m_Name: PlayerPSVDeath
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,17 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 4563431671942235797, guid: dfc9a8daea03925418e755bcc983a460, type: 3}
-    - time: 0.083333336
-      value: {fileID: -4050103281254265080, guid: dfc9a8daea03925418e755bcc983a460, type: 3}
-    - time: 0.16666667
-      value: {fileID: -7809191930727819197, guid: dfc9a8daea03925418e755bcc983a460, type: 3}
+      value: {fileID: -6145819865554740449, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
+    - time: 0.21666667
+      value: {fileID: -1552839672454109722, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
+    - time: 0.43333334
+      value: {fileID: 669540025699939359, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
+    - time: 0.65
+      value: {fileID: -6941997698000282880, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
+    - time: 0.8666667
+      value: {fileID: 6719638045093318513, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
+    - time: 1.0833334
+      value: {fileID: 4871966633230925961, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,15 +54,18 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 4563431671942235797, guid: dfc9a8daea03925418e755bcc983a460, type: 3}
-    - {fileID: -4050103281254265080, guid: dfc9a8daea03925418e755bcc983a460, type: 3}
-    - {fileID: -7809191930727819197, guid: dfc9a8daea03925418e755bcc983a460, type: 3}
+    - {fileID: -6145819865554740449, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
+    - {fileID: -1552839672454109722, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
+    - {fileID: 669540025699939359, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
+    - {fileID: -6941997698000282880, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
+    - {fileID: 6719638045093318513, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
+    - {fileID: 4871966633230925961, guid: 7aa8bfafc2d662343b00051e449152b8, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.18333334
+    m_StopTime: 1.1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -75,4 +84,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 1.0833334
+    functionName: respawn
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

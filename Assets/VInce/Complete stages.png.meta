@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: dfc9a8daea03925418e755bcc983a460
+guid: 7aa8bfafc2d662343b00051e449152b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4563431671942235797
-    second: characterJump (1s)_0
+      213: -6145819865554740449
+    second: Complete stages_0
   - first:
-      213: -4050103281254265080
-    second: characterJump (1s)_1
+      213: -1552839672454109722
+    second: Complete stages_1
   - first:
-      213: -7809191930727819197
-    second: characterJump (1s)_2
+      213: 669540025699939359
+    second: Complete stages_2
   - first:
-      213: -3903068366036417390
-    second: characterJump (1s)_3
+      213: -6941997698000282880
+    second: Complete stages_3
   - first:
-      213: 1648255523254557921
-    second: characterJump (1s)_4
+      213: 6719638045093318513
+    second: Complete stages_4
   - first:
-      213: 4033947151298631473
-    second: characterJump (1s)_5
+      213: 4871966633230925961
+    second: Complete stages_5
+  - first:
+      213: 6840335613296571413
+    second: Complete stages_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,133 +144,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: characterJump (1s)_0
+      name: Complete stages_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 99
-        width: 54
-        height: 78
+        x: 0
+        y: 180
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59642e27de0945f30800000000000000
-      internalID: 4563431671942235797
+      spriteID: f1b121ce469a5baa0800000000000000
+      internalID: -6145819865554740449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump (1s)_1
+      name: Complete stages_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 95
-        width: 54
-        height: 82
+        x: 150
+        y: 180
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80f023926842bc7c0800000000000000
-      internalID: -4050103281254265080
+      spriteID: 6e52d329b84337ae0800000000000000
+      internalID: -1552839672454109722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump (1s)_2
+      name: Complete stages_2
       rect:
         serializedVersion: 2
-        x: 176
-        y: 94
-        width: 54
-        height: 82
+        x: 0
+        y: 90
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3481f1a505d20a390800000000000000
-      internalID: -7809191930727819197
+      spriteID: f1430c22b1faa4900800000000000000
+      internalID: 669540025699939359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump (1s)_3
+      name: Complete stages_3
       rect:
         serializedVersion: 2
-        x: 26
-        y: 3
-        width: 40
-        height: 83
+        x: 150
+        y: 90
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 294c55c100485d9c0800000000000000
-      internalID: -3903068366036417390
+      spriteID: 00b1d1bbfd119af90800000000000000
+      internalID: -6941997698000282880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump (1s)_4
+      name: Complete stages_4
       rect:
         serializedVersion: 2
-        x: 106
-        y: 3
-        width: 40
-        height: 83
+        x: 0
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ecd9a26aa7cfd610800000000000000
-      internalID: 1648255523254557921
+      spriteID: 17fccf82333f04d50800000000000000
+      internalID: 6719638045093318513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump (1s)_5
+      name: Complete stages_5
       rect:
         serializedVersion: 2
-        x: 184
-        y: 9
-        width: 42
-        height: 77
+        x: 150
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1379ad3bf857bf730800000000000000
-      internalID: 4033947151298631473
+      spriteID: 980094317d3bc9340800000000000000
+      internalID: 4871966633230925961
       vertices: []
       indices: 
       edges: []
@@ -276,7 +279,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7343d8494b8ceb4458a598ddd05bac60
     internalID: 0
     vertices: []
     indices: 
@@ -286,12 +289,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      characterJump (1s)_0: 4563431671942235797
-      characterJump (1s)_1: -4050103281254265080
-      characterJump (1s)_2: -7809191930727819197
-      characterJump (1s)_3: -3903068366036417390
-      characterJump (1s)_4: 1648255523254557921
-      characterJump (1s)_5: 4033947151298631473
+      Complete stages_0: -6145819865554740449
+      Complete stages_1: -1552839672454109722
+      Complete stages_2: 669540025699939359
+      Complete stages_3: -6941997698000282880
+      Complete stages_4: 6719638045093318513
+      Complete stages_5: 4871966633230925961
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

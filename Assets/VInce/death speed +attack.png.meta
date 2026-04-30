@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: 38a39adfd273cf744a45be367b3a2d5a
+guid: 0113cc671e3577f4ba55a3058ad4719c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3858659842524936589
-    second: CHARACTER attack speed move+ 1_0
+      213: -8455540346623199681
+    second: death speed +attack_0
   - first:
-      213: 5082354950694149205
-    second: CHARACTER attack speed move+ 1_1
+      213: 318144701003652699
+    second: death speed +attack_1
   - first:
-      213: 1816301690342673960
-    second: CHARACTER attack speed move+ 1_2
+      213: 3736814017156200658
+    second: death speed +attack_2
   - first:
-      213: 4143314371547895626
-    second: CHARACTER attack speed move+ 1_3
+      213: 7098910937242923669
+    second: death speed +attack_3
   - first:
-      213: -2785783662259943890
-    second: CHARACTER attack speed move+ 1_4
+      213: 3795704816459416982
+    second: death speed +attack_4
   - first:
-      213: 5580662393805208221
-    second: CHARACTER attack speed move+ 1_5
+      213: -7958035356301181639
+    second: death speed +attack_5
+  - first:
+      213: 3796438992805661109
+    second: death speed +attack_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CHARACTER attack speed move+ 1_0
+      name: death speed +attack_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 97
-        width: 50
-        height: 74
+        x: 15
+        y: 183
+        width: 45
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3768c393159437ac0800000000000000
-      internalID: -3858659842524936589
+      spriteID: f367a87aad2e7aa80800000000000000
+      internalID: -8455540346623199681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed move+ 1_1
+      name: death speed +attack_1
       rect:
         serializedVersion: 2
-        x: 92
-        y: 97
-        width: 65
-        height: 75
+        x: 170
+        y: 183
+        width: 52
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55c929276e6288640800000000000000
-      internalID: 5082354950694149205
+      spriteID: b5ede728be64a6400800000000000000
+      internalID: 318144701003652699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed move+ 1_2
+      name: death speed +attack_2
       rect:
         serializedVersion: 2
-        x: 172
-        y: 97
-        width: 51
-        height: 73
+        x: 20
+        y: 92
+        width: 52
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82e01d1a3ccc43910800000000000000
-      internalID: 1816301690342673960
+      spriteID: 2d8bb44dc84dbd330800000000000000
+      internalID: 3736814017156200658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed move+ 1_3
+      name: death speed +attack_3
       rect:
         serializedVersion: 2
-        x: 12
-        y: 7
-        width: 51
-        height: 73
+        x: 165
+        y: 92
+        width: 59
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4712ecf772008930800000000000000
-      internalID: 4143314371547895626
+      spriteID: 592ff72c2e5648260800000000000000
+      internalID: 7098910937242923669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed move+ 1_4
+      name: death speed +attack_4
       rect:
         serializedVersion: 2
-        x: 93
-        y: 7
-        width: 50
-        height: 75
+        x: 15
+        y: 2
+        width: 71
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e26c8e5d488e659d0800000000000000
-      internalID: -2785783662259943890
+      spriteID: 6958d498b6d0da430800000000000000
+      internalID: 3795704816459416982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed move+ 1_5
+      name: death speed +attack_5
       rect:
         serializedVersion: 2
-        x: 173
-        y: 7
-        width: 50
-        height: 75
+        x: 165
+        y: 2
+        width: 52
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +269,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9af32a21ee727d40800000000000000
-      internalID: 5580662393805208221
+      spriteID: 93d3ba5c1016f8190800000000000000
+      internalID: -7958035356301181639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death speed +attack_6
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b98f994629afa430800000000000000
+      internalID: 3796438992805661109
       vertices: []
       indices: 
       edges: []
@@ -286,12 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CHARACTER attack speed move+ 1_0: -3858659842524936589
-      CHARACTER attack speed move+ 1_1: 5082354950694149205
-      CHARACTER attack speed move+ 1_2: 1816301690342673960
-      CHARACTER attack speed move+ 1_3: 4143314371547895626
-      CHARACTER attack speed move+ 1_4: -2785783662259943890
-      CHARACTER attack speed move+ 1_5: 5580662393805208221
+      death speed +attack_0: -8455540346623199681
+      death speed +attack_1: 318144701003652699
+      death speed +attack_2: 3736814017156200658
+      death speed +attack_3: 7098910937242923669
+      death speed +attack_4: 3795704816459416982
+      death speed +attack_5: -7958035356301181639
+      death speed +attack_6: 3796438992805661109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

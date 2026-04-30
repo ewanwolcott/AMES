@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: dfc9a8daea03925418e755bcc983a460
+guid: c7b5034db9e225847a9c9baf8f5cf145
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4563431671942235797
-    second: characterJump (1s)_0
+      213: 7943829330082776522
+    second: Attack death_0
   - first:
-      213: -4050103281254265080
-    second: characterJump (1s)_1
+      213: -306868919707520279
+    second: Attack death_1
   - first:
-      213: -7809191930727819197
-    second: characterJump (1s)_2
+      213: 6645860332784285541
+    second: Attack death_2
   - first:
-      213: -3903068366036417390
-    second: characterJump (1s)_3
+      213: 5525202571816727653
+    second: Attack death_3
   - first:
-      213: 1648255523254557921
-    second: characterJump (1s)_4
+      213: 6978647488820987703
+    second: Attack death_4
   - first:
-      213: 4033947151298631473
-    second: characterJump (1s)_5
+      213: -1174977280339375494
+    second: Attack death_5
+  - first:
+      213: -7457882853949849198
+    second: Attack death_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32.7
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: characterJump (1s)_0
+      name: Attack death_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 99
-        width: 54
-        height: 78
+        x: 15
+        y: 183
+        width: 45
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59642e27de0945f30800000000000000
-      internalID: 4563431671942235797
+      spriteID: ac5c9efffa62e3e60800000000000000
+      internalID: 7943829330082776522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump (1s)_1
+      name: Attack death_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 95
-        width: 54
-        height: 82
+        x: 172
+        y: 183
+        width: 50
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80f023926842bc7c0800000000000000
-      internalID: -4050103281254265080
+      spriteID: 9e2b938e758cdbbf0800000000000000
+      internalID: -306868919707520279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump (1s)_2
+      name: Attack death_2
       rect:
         serializedVersion: 2
-        x: 176
-        y: 94
-        width: 54
-        height: 82
+        x: 23
+        y: 93
+        width: 49
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3481f1a505d20a390800000000000000
-      internalID: -7809191930727819197
+      spriteID: 567777ae2c6da3c50800000000000000
+      internalID: 6645860332784285541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump (1s)_3
+      name: Attack death_3
       rect:
         serializedVersion: 2
-        x: 26
-        y: 3
-        width: 40
-        height: 83
+        x: 167
+        y: 93
+        width: 57
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 294c55c100485d9c0800000000000000
-      internalID: -3903068366036417390
+      spriteID: 564f53d17767dac40800000000000000
+      internalID: 5525202571816727653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump (1s)_4
+      name: Attack death_4
       rect:
         serializedVersion: 2
-        x: 106
-        y: 3
-        width: 40
-        height: 83
+        x: 18
+        y: 2
+        width: 68
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ecd9a26aa7cfd610800000000000000
-      internalID: 1648255523254557921
+      spriteID: 737c8d7aae229d060800000000000000
+      internalID: 6978647488820987703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump (1s)_5
+      name: Attack death_5
       rect:
         serializedVersion: 2
-        x: 184
-        y: 9
-        width: 42
-        height: 77
+        x: 168
+        y: 2
+        width: 49
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +269,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1379ad3bf857bf730800000000000000
-      internalID: 4033947151298631473
+      spriteID: a7a873a8364a1bfe0800000000000000
+      internalID: -1174977280339375494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack death_6
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291c7d1de07408890800000000000000
+      internalID: -7457882853949849198
       vertices: []
       indices: 
       edges: []
@@ -286,12 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      characterJump (1s)_0: 4563431671942235797
-      characterJump (1s)_1: -4050103281254265080
-      characterJump (1s)_2: -7809191930727819197
-      characterJump (1s)_3: -3903068366036417390
-      characterJump (1s)_4: 1648255523254557921
-      characterJump (1s)_5: 4033947151298631473
+      Attack death_0: 7943829330082776522
+      Attack death_1: -306868919707520279
+      Attack death_2: 6645860332784285541
+      Attack death_3: 5525202571816727653
+      Attack death_4: 6978647488820987703
+      Attack death_5: -1174977280339375494
+      Attack death_6: -7457882853949849198
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
