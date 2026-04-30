@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Health max death_0: -6515001507095649512
+      Health max death_1: -7075209886170477235
+      Health max death_2: 4766660625399617993
+      Health max death_3: -111173089233619761
+      Health max death_4: -3444527273661449927
+      Health max death_5: 168061512751390339
+      Health max death_6: -7387951471947799263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

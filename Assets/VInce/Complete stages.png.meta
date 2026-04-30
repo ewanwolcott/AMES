@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32.7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,12 +147,12 @@ TextureImporter:
       name: Complete stages_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 183
-        width: 45
-        height: 81
+        x: 0
+        y: 180
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -169,12 +169,12 @@ TextureImporter:
       name: Complete stages_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 183
-        width: 52
-        height: 67
+        x: 150
+        y: 180
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: Complete stages_2
       rect:
         serializedVersion: 2
-        x: 20
-        y: 92
-        width: 52
-        height: 63
+        x: 0
+        y: 90
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,12 +213,12 @@ TextureImporter:
       name: Complete stages_3
       rect:
         serializedVersion: 2
-        x: 165
-        y: 92
-        width: 59
-        height: 44
+        x: 150
+        y: 90
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: Complete stages_4
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2
-        width: 71
-        height: 22
+        x: 0
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: Complete stages_5
       rect:
         serializedVersion: 2
-        x: 165
-        y: 2
-        width: 52
-        height: 22
+        x: 150
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,33 +275,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Complete stages_6
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 2
-        width: 23
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 514fef6aff0cdee50800000000000000
-      internalID: 6840335613296571413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7343d8494b8ceb4458a598ddd05bac60
     internalID: 0
     vertices: []
     indices: 
@@ -310,7 +288,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Complete stages_0: -6145819865554740449
+      Complete stages_1: -1552839672454109722
+      Complete stages_2: 669540025699939359
+      Complete stages_3: -6941997698000282880
+      Complete stages_4: 6719638045093318513
+      Complete stages_5: 4871966633230925961
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Attack death_0: 7943829330082776522
+      Attack death_1: -306868919707520279
+      Attack death_2: 6645860332784285541
+      Attack death_3: 5525202571816727653
+      Attack death_4: 6978647488820987703
+      Attack death_5: -1174977280339375494
+      Attack death_6: -7457882853949849198
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

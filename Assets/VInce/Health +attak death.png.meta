@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Health +attak death_0: 3714531982013822479
+      Health +attak death_1: 6472154788257625494
+      Health +attak death_2: -4365224104493385158
+      Health +attak death_3: -2230352435487169088
+      Health +attak death_4: 9212597439098480040
+      Health +attak death_5: 7358290723918545852
+      Health +attak death_6: 8130780306772428851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

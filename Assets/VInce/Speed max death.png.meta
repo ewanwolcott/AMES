@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Speed max death_0: -6887344265076565172
+      Speed max death_1: 7674885309716553743
+      Speed max death_2: 7880130974407654289
+      Speed max death_3: -1881534156156281563
+      Speed max death_4: -7604492790262150452
+      Speed max death_5: -2341650217972779567
+      Speed max death_6: -7001542925557422310
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

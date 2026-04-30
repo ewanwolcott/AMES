@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      death speed +attack_0: -8455540346623199681
+      death speed +attack_1: 318144701003652699
+      death speed +attack_2: 3736814017156200658
+      death speed +attack_3: 7098910937242923669
+      death speed +attack_4: 3795704816459416982
+      death speed +attack_5: -7958035356301181639
+      death speed +attack_6: 3796438992805661109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
