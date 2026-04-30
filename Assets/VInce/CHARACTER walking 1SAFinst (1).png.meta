@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 3b060d24331e9364ba41488fd862580b
+guid: 4f07f551c7888d041af9216fd4ecaeb7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1886080524049624123
-    second: CHARACTER attack speed 2st+_0
+      213: -665226982051106138
+    second: CHARACTER walking 1SAFinst (1)_0
   - first:
-      213: 7356990989084749898
-    second: CHARACTER attack speed 2st+_1
+      213: 2385316457236152279
+    second: CHARACTER walking 1SAFinst (1)_1
   - first:
-      213: -998233634056327056
-    second: CHARACTER attack speed 2st+_2
+      213: 1360830020790990145
+    second: CHARACTER walking 1SAFinst (1)_2
   - first:
-      213: 8158143715143463378
-    second: CHARACTER attack speed 2st+_3
+      213: 5341446822022490280
+    second: CHARACTER walking 1SAFinst (1)_3
   - first:
-      213: 3626867250315054113
-    second: CHARACTER attack speed 2st+_4
+      213: 882818322848849283
+    second: CHARACTER walking 1SAFinst (1)_4
   - first:
-      213: -8661252355189142170
-    second: CHARACTER attack speed 2st+_5
+      213: 125326665669690317
+    second: CHARACTER walking 1SAFinst (1)_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,13 +141,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_0
+      name: CHARACTER walking 1SAFinst (1)_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 97
+        x: 10
+        y: 113
+        width: 47
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2b6d79593a4c6f0800000000000000
+      internalID: -665226982051106138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER walking 1SAFinst (1)_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 113
         width: 48
-        height: 74
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,108 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3ca2c56e34bc2a10800000000000000
-      internalID: 1886080524049624123
+      spriteID: 7df347e0ea85a1120800000000000000
+      internalID: 2385316457236152279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_1
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 97
-        width: 65
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4075285358491660800000000000000
-      internalID: 7356990989084749898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_2
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 97
-        width: 48
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 070b9377ccf8522f0800000000000000
-      internalID: -998233634056327056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_3
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 7
-        width: 48
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d136b73c7c873170800000000000000
-      internalID: 8158143715143463378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_4
-      rect:
-        serializedVersion: 2
-        x: 93
-        y: 7
-        width: 50
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12cc6865c88355230800000000000000
-      internalID: 3626867250315054113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_5
+      name: CHARACTER walking 1SAFinst (1)_2
       rect:
         serializedVersion: 2
         x: 173
-        y: 7
-        width: 48
-        height: 75
+        y: 113
+        width: 44
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +200,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66d8fea4fdc0dc780800000000000000
-      internalID: -8661252355189142170
+      spriteID: 1453fe4a1b3a2e210800000000000000
+      internalID: 1360830020790990145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER walking 1SAFinst (1)_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 13
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a82a4d9591a02a40800000000000000
+      internalID: 5341446822022490280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER walking 1SAFinst (1)_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 13
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d9c965696604c00800000000000000
+      internalID: 882818322848849283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER walking 1SAFinst (1)_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 13
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3402c30ff3db100800000000000000
+      internalID: 125326665669690317
       vertices: []
       indices: 
       edges: []
@@ -285,13 +285,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      CHARACTER attack speed 2st+_0: 1886080524049624123
-      CHARACTER attack speed 2st+_1: 7356990989084749898
-      CHARACTER attack speed 2st+_2: -998233634056327056
-      CHARACTER attack speed 2st+_3: 8158143715143463378
-      CHARACTER attack speed 2st+_4: 3626867250315054113
-      CHARACTER attack speed 2st+_5: -8661252355189142170
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
