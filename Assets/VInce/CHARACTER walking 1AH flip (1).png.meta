@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CHARACTER walking 1AH flip (1)_0: -3431399073656869209
+      CHARACTER walking 1AH flip (1)_1: -4151021359396126111
+      CHARACTER walking 1AH flip (1)_2: -4073985124854398057
+      CHARACTER walking 1AH flip (1)_3: -6851530317158042721
+      CHARACTER walking 1AH flip (1)_4: -6642005632332630763
+      CHARACTER walking 1AH flip (1)_5: -8623747338147196502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
