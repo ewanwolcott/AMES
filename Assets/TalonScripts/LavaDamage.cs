@@ -17,6 +17,16 @@ public class LavaDamage : MonoBehaviour
             collision.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
             StartCoroutine(TurnRedOnDeath(0.1f));
         }
+        if(collision.gameObject.CompareTag("Enemy"))
+        {
+
+            collision.gameObject.GetComponent<EnemyHealth>().currentHealth = 1;
+            collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(1);
+            //collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(1);
+            //Rigidbody2D rb = collision.gameObject.GetComponent<Rigidbody2D>();
+            //rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+            //rb.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
+        }
         IEnumerator TurnRedOnDeath(float knockbackTime)
         {
             yield return new WaitForSeconds(knockbackTime);
