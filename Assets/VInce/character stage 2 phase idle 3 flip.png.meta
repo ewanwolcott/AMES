@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: c7b5034db9e225847a9c9baf8f5cf145
+guid: 7b8648ad13f3d4546817a76331627193
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7943829330082776522
-    second: Attack death_0
+      213: 1917307468155134745
+    second: character stage 2 phase idle 3 flip_0
   - first:
-      213: -306868919707520279
-    second: Attack death_1
+      213: 615094621239639000
+    second: character stage 2 phase idle 3 flip_1
   - first:
-      213: 6645860332784285541
-    second: Attack death_2
+      213: 7243860080712924133
+    second: character stage 2 phase idle 3 flip_2
   - first:
-      213: 5525202571816727653
-    second: Attack death_3
-  - first:
-      213: 6978647488820987703
-    second: Attack death_4
-  - first:
-      213: -1174977280339375494
-    second: Attack death_5
-  - first:
-      213: -7457882853949849198
-    second: Attack death_6
+      213: -6107629861843767467
+    second: character stage 2 phase idle 3 flip_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -144,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack death_0
+      name: character stage 2 phase idle 3 flip_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 180
-        width: 90
-        height: 90
+        x: 38
+        y: 98
+        width: 37
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac5c9efffa62e3e60800000000000000
-      internalID: 7943829330082776522
+      spriteID: 9132794ebf4ab9a10800000000000000
+      internalID: 1917307468155134745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack death_1
+      name: character stage 2 phase idle 3 flip_1
       rect:
         serializedVersion: 2
-        x: 150
-        y: 180
-        width: 90
-        height: 90
+        x: 118
+        y: 98
+        width: 37
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e2b938e758cdbbf0800000000000000
-      internalID: -306868919707520279
+      spriteID: 8dbfd329c41498800800000000000000
+      internalID: 615094621239639000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack death_2
+      name: character stage 2 phase idle 3 flip_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 90
-        width: 90
-        height: 90
+        x: 38
+        y: 8
+        width: 37
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 567777ae2c6da3c50800000000000000
-      internalID: 6645860332784285541
+      spriteID: 5ebb6812d5c578460800000000000000
+      internalID: 7243860080712924133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack death_3
+      name: character stage 2 phase idle 3 flip_3
       rect:
         serializedVersion: 2
-        x: 150
-        y: 90
-        width: 90
-        height: 90
+        x: 118
+        y: 8
+        width: 37
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,52 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 564f53d17767dac40800000000000000
-      internalID: 5525202571816727653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack death_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 90
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 737c8d7aae229d060800000000000000
-      internalID: 6978647488820987703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack death_5
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 0
-        width: 90
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7a873a8364a1bfe0800000000000000
-      internalID: -1174977280339375494
+      spriteID: 55feb3110075d3ba0800000000000000
+      internalID: -6107629861843767467
       vertices: []
       indices: 
       edges: []
@@ -279,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0709436253ab5b54f8bcaf794bf80e7e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -289,12 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Attack death_0: 7943829330082776522
-      Attack death_1: -306868919707520279
-      Attack death_2: 6645860332784285541
-      Attack death_3: 5525202571816727653
-      Attack death_4: 6978647488820987703
-      Attack death_5: -1174977280339375494
+      character stage 2 phase idle 3 flip_0: 1917307468155134745
+      character stage 2 phase idle 3 flip_1: 615094621239639000
+      character stage 2 phase idle 3 flip_2: 7243860080712924133
+      character stage 2 phase idle 3 flip_3: -6107629861843767467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

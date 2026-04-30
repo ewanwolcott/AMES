@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 3b060d24331e9364ba41488fd862580b
+guid: 0a99b746de54e164e900d8f9a85b0578
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1886080524049624123
-    second: CHARACTER attack speed 2st+_0
+      213: 8946315944766040696
+    second: CHARACTER walking 1A_0
   - first:
-      213: 7356990989084749898
-    second: CHARACTER attack speed 2st+_1
+      213: -2958046185583003380
+    second: CHARACTER walking 1A_1
   - first:
-      213: -998233634056327056
-    second: CHARACTER attack speed 2st+_2
+      213: -8056009004107742527
+    second: CHARACTER walking 1A_2
   - first:
-      213: 8158143715143463378
-    second: CHARACTER attack speed 2st+_3
+      213: 1888817718309154027
+    second: CHARACTER walking 1A_3
   - first:
-      213: 3626867250315054113
-    second: CHARACTER attack speed 2st+_4
+      213: -6286184192301421604
+    second: CHARACTER walking 1A_4
   - first:
-      213: -8661252355189142170
-    second: CHARACTER attack speed 2st+_5
+      213: -6512903019706715970
+    second: CHARACTER walking 1A_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32.7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -141,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_0
+      name: CHARACTER walking 1A_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 97
-        width: 48
-        height: 74
+        x: 8
+        y: 190
+        width: 46
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3ca2c56e34bc2a10800000000000000
-      internalID: 1886080524049624123
+      spriteID: 87a6130c3f2b72c70800000000000000
+      internalID: 8946315944766040696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_1
+      name: CHARACTER walking 1A_1
       rect:
         serializedVersion: 2
-        x: 92
-        y: 97
-        width: 65
-        height: 75
+        x: 98
+        y: 190
+        width: 46
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4075285358491660800000000000000
-      internalID: 7356990989084749898
+      spriteID: c093027aaa8e2f6d0800000000000000
+      internalID: -2958046185583003380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_2
+      name: CHARACTER walking 1A_2
       rect:
         serializedVersion: 2
-        x: 172
-        y: 97
-        width: 48
-        height: 73
+        x: 8
+        y: 99
+        width: 46
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 070b9377ccf8522f0800000000000000
-      internalID: -998233634056327056
+      spriteID: 1c24fca4e7e433090800000000000000
+      internalID: -8056009004107742527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_3
+      name: CHARACTER walking 1A_3
       rect:
         serializedVersion: 2
-        x: 12
-        y: 7
-        width: 48
-        height: 73
+        x: 95
+        y: 100
+        width: 49
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d136b73c7c873170800000000000000
-      internalID: 8158143715143463378
+      spriteID: bece74915bd663a10800000000000000
+      internalID: 1888817718309154027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_4
+      name: CHARACTER walking 1A_4
       rect:
         serializedVersion: 2
-        x: 93
-        y: 7
-        width: 50
-        height: 75
+        x: 7
+        y: 9
+        width: 47
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12cc6865c88355230800000000000000
-      internalID: 3626867250315054113
+      spriteID: cdba23168ccf2c8a0800000000000000
+      internalID: -6286184192301421604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed 2st+_5
+      name: CHARACTER walking 1A_5
       rect:
         serializedVersion: 2
-        x: 173
-        y: 7
-        width: 48
-        height: 75
+        x: 98
+        y: 9
+        width: 46
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66d8fea4fdc0dc780800000000000000
-      internalID: -8661252355189142170
+      spriteID: eb0ffcdd5358d95a0800000000000000
+      internalID: -6512903019706715970
       vertices: []
       indices: 
       edges: []
@@ -286,12 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CHARACTER attack speed 2st+_0: 1886080524049624123
-      CHARACTER attack speed 2st+_1: 7356990989084749898
-      CHARACTER attack speed 2st+_2: -998233634056327056
-      CHARACTER attack speed 2st+_3: 8158143715143463378
-      CHARACTER attack speed 2st+_4: 3626867250315054113
-      CHARACTER attack speed 2st+_5: -8661252355189142170
+      CHARACTER walking 1A_0: 8946315944766040696
+      CHARACTER walking 1A_1: -2958046185583003380
+      CHARACTER walking 1A_2: -8056009004107742527
+      CHARACTER walking 1A_3: 1888817718309154027
+      CHARACTER walking 1A_4: -6286184192301421604
+      CHARACTER walking 1A_5: -6512903019706715970
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

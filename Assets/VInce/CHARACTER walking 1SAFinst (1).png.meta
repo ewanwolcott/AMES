@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 8341274d504aae142a2ee755b8699b59
+guid: 4f07f551c7888d041af9216fd4ecaeb7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4839666317840251161
-    second: character stage 2 phase idle S_A_H filp_0
+      213: -665226982051106138
+    second: CHARACTER walking 1SAFinst (1)_0
   - first:
-      213: 131695450821059498
-    second: character stage 2 phase idle S_A_H filp_1
+      213: 2385316457236152279
+    second: CHARACTER walking 1SAFinst (1)_1
   - first:
-      213: -2561898514713584406
-    second: character stage 2 phase idle S_A_H filp_2
+      213: 1360830020790990145
+    second: CHARACTER walking 1SAFinst (1)_2
   - first:
-      213: 4202635613790764368
-    second: character stage 2 phase idle S_A_H filp_3
+      213: 5341446822022490280
+    second: CHARACTER walking 1SAFinst (1)_3
+  - first:
+      213: 882818322848849283
+    second: CHARACTER walking 1SAFinst (1)_4
+  - first:
+      213: 125326665669690317
+    second: CHARACTER walking 1SAFinst (1)_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32.7
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,89 +141,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character stage 2 phase idle S_A_H filp_0
+      name: CHARACTER walking 1SAFinst (1)_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 98
-        width: 39
+        x: 10
+        y: 113
+        width: 47
         height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9197a4adfd2f92340800000000000000
-      internalID: 4839666317840251161
+      spriteID: 6a2b6d79593a4c6f0800000000000000
+      internalID: -665226982051106138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character stage 2 phase idle S_A_H filp_1
+      name: CHARACTER walking 1SAFinst (1)_1
       rect:
         serializedVersion: 2
-        x: 116
-        y: 98
-        width: 39
+        x: 89
+        y: 113
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df347e0ea85a1120800000000000000
+      internalID: 2385316457236152279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER walking 1SAFinst (1)_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 113
+        width: 44
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1453fe4a1b3a2e210800000000000000
+      internalID: 1360830020790990145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER walking 1SAFinst (1)_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 13
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a82a4d9591a02a40800000000000000
+      internalID: 5341446822022490280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER walking 1SAFinst (1)_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 13
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d9c965696604c00800000000000000
+      internalID: 882818322848849283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER walking 1SAFinst (1)_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 13
+        width: 44
         height: 80
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa369b49050e3d100800000000000000
-      internalID: 131695450821059498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character stage 2 phase idle S_A_H filp_2
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 8
-        width: 39
-        height: 82
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aec55e7dfde427cd0800000000000000
-      internalID: -2561898514713584406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character stage 2 phase idle S_A_H filp_3
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 8
-        width: 39
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 05d776003d2c25a30800000000000000
-      internalID: 4202635613790764368
+      spriteID: dc3402c30ff3db100800000000000000
+      internalID: 125326665669690317
       vertices: []
       indices: 
       edges: []
@@ -226,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 666f0e714c633704eacaf5af05cda69f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -236,10 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      character stage 2 phase idle S_A_H filp_0: 4839666317840251161
-      character stage 2 phase idle S_A_H filp_1: 131695450821059498
-      character stage 2 phase idle S_A_H filp_2: -2561898514713584406
-      character stage 2 phase idle S_A_H filp_3: 4202635613790764368
+      CHARACTER walking 1SAFinst (1)_0: -665226982051106138
+      CHARACTER walking 1SAFinst (1)_1: 2385316457236152279
+      CHARACTER walking 1SAFinst (1)_2: 1360830020790990145
+      CHARACTER walking 1SAFinst (1)_3: 5341446822022490280
+      CHARACTER walking 1SAFinst (1)_4: 882818322848849283
+      CHARACTER walking 1SAFinst (1)_5: 125326665669690317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

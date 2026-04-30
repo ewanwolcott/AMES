@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: 5f95e1881f93c874f8abc794d733a62b
+guid: b9f31d18982cb0944bac84532f802046
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7360187267685344394
-    second: CHARACTER attack speed 2move FLIP_0
+      213: -5822933842428721600
+    second: characterJump 2 power jump (1)_0
   - first:
-      213: 744146047936211655
-    second: CHARACTER attack speed 2move FLIP_1
+      213: 2901023946189678019
+    second: characterJump 2 power jump (1)_1
   - first:
-      213: 1385687070309389716
-    second: CHARACTER attack speed 2move FLIP_2
+      213: -1966538143453364690
+    second: characterJump 2 power jump (1)_2
   - first:
-      213: -1799206951908982309
-    second: CHARACTER attack speed 2move FLIP_3
-  - first:
-      213: -3366359542665784801
-    second: CHARACTER attack speed 2move FLIP_4
-  - first:
-      213: -1675549275936025511
-    second: CHARACTER attack speed 2move FLIP_5
-  - first:
-      213: -3170690778560461240
-    second: CHARACTER attack speed 2move FLIP_6
+      213: -6010876834245653030
+    second: characterJump 2 power jump (1)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32.7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CHARACTER attack speed 2move FLIP_0
+      name: characterJump 2 power jump (1)_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 92
-        width: 76
-        height: 88
+        x: 16
+        y: 97
+        width: 54
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67b134d0dac5bd990800000000000000
-      internalID: -7360187267685344394
+      spriteID: 0468f638588c03fa0800000000000000
+      internalID: -5822933842428721600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed 2move FLIP_1
+      name: characterJump 2 power jump (1)_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 92
-        width: 76
-        height: 88
+        x: 96
+        y: 95
+        width: 54
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7caaf3053ecb35a00800000000000000
-      internalID: 744146047936211655
+      spriteID: 3c5a985a8e1824820800000000000000
+      internalID: 2901023946189678019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed 2move FLIP_2
+      name: characterJump 2 power jump (1)_2
       rect:
         serializedVersion: 2
-        x: 157
-        y: 92
-        width: 76
-        height: 88
+        x: 26
+        y: 7
+        width: 40
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49594ab7c03fa3310800000000000000
-      internalID: 1385687070309389716
+      spriteID: e2eb43a4af375b4e0800000000000000
+      internalID: -1966538143453364690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed 2move FLIP_3
+      name: characterJump 2 power jump (1)_3
       rect:
         serializedVersion: 2
-        x: 5
-        y: 4
-        width: 76
-        height: 88
+        x: 106
+        y: 6
+        width: 40
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,52 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd14d025fcee707e0800000000000000
-      internalID: -1799206951908982309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack speed 2move FLIP_4
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 4
-        width: 76
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f12d829e4d94841d0800000000000000
-      internalID: -3366359542665784801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack speed 2move FLIP_5
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 4
-        width: 76
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9549b2c9fc04fb8e0800000000000000
-      internalID: -1675549275936025511
+      spriteID: addc922cd53159ca0800000000000000
+      internalID: -6010876834245653030
       vertices: []
       indices: 
       edges: []
@@ -279,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4632fe630a1ee2c45874f11e9c0cd043
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -289,12 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CHARACTER attack speed 2move FLIP_0: -7360187267685344394
-      CHARACTER attack speed 2move FLIP_1: 744146047936211655
-      CHARACTER attack speed 2move FLIP_2: 1385687070309389716
-      CHARACTER attack speed 2move FLIP_3: -1799206951908982309
-      CHARACTER attack speed 2move FLIP_4: -3366359542665784801
-      CHARACTER attack speed 2move FLIP_5: -1675549275936025511
+      characterJump 2 power jump (1)_0: -5822933842428721600
+      characterJump 2 power jump (1)_1: 2901023946189678019
+      characterJump 2 power jump (1)_2: -1966538143453364690
+      characterJump 2 power jump (1)_3: -6010876834245653030
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

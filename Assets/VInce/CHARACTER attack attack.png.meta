@@ -1,43 +1,28 @@
 fileFormatVersion: 2
-guid: bcac28e11fb8f3948bc33735c6e43935
+guid: 0bc1901a140ec4c449a5f8cf2fcf8732
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1225561523167207645
-    second: characterJump 1lv_0
+      213: -7195449372396547047
+    second: CHARACTER attack attack_0
   - first:
-      213: -1806625675174812146
-    second: characterJump 1lv_1
+      213: 1033395466008026298
+    second: CHARACTER attack attack_1
   - first:
-      213: 124193016558897608
-    second: characterJump 1lv_2
+      213: 5428999404902528493
+    second: CHARACTER attack attack_2
   - first:
-      213: 8901034820306943464
-    second: characterJump 1lv_3
+      213: -6169541863527176904
+    second: CHARACTER attack attack_3
   - first:
-      213: 573934346888370722
-    second: characterJump 1lv_4
+      213: 4410273879537635344
+    second: CHARACTER attack attack_4
   - first:
-      213: 1934150639486089484
-    second: characterJump 1lv_5
+      213: 1777619757090738410
+    second: CHARACTER attack attack_5
   - first:
-      213: 2205205678447706584
-    second: characterJump 1lv_6
-  - first:
-      213: 5934020514570603626
-    second: characterJump 1lv_7
-  - first:
-      213: -7868504287455309338
-    second: characterJump 1lv_8
-  - first:
-      213: -5090631501251899621
-    second: characterJump 1lv_9
-  - first:
-      213: 417161775949279766
-    second: characterJump 1lv_10
-  - first:
-      213: 3755068380752507149
-    second: characterJump 1lv_11
+      213: -4131762128915358988
+    second: CHARACTER attack attack_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -70,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32.7
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -159,145 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: characterJump 1lv_0
+      name: CHARACTER attack attack_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 191
-        width: 54
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd0a4c646b1120110800000000000000
-      internalID: 1225561523167207645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: characterJump 1lv_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 183
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e06ea1535839de6e0800000000000000
-      internalID: -1806625675174812146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: characterJump 1lv_2
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 188
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c9c39bf3e839b100800000000000000
-      internalID: 124193016558897608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: characterJump 1lv_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 190
-        width: 54
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ed37c56204d68b70800000000000000
-      internalID: 8901034820306943464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: characterJump 1lv_4
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 187
-        width: 54
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22a5da66f3607f700800000000000000
-      internalID: 573934346888370722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: characterJump 1lv_5
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 95
-        width: 54
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c09b9a052cb77da10800000000000000
-      internalID: 1934150639486089484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: characterJump 1lv_6
-      rect:
-        serializedVersion: 2
-        x: 106
+        x: 13
         y: 97
-        width: 40
-        height: 79
+        width: 50
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d1cc8081e67a9e10800000000000000
-      internalID: 2205205678447706584
+      spriteID: 9141ffe3be0a42c90800000000000000
+      internalID: -7195449372396547047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump 1lv_7
+      name: CHARACTER attack attack_1
       rect:
         serializedVersion: 2
-        x: 186
-        y: 96
-        width: 40
-        height: 80
+        x: 93
+        y: 133
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,19 +181,63 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6c8cdcd730e95250800000000000000
-      internalID: 5934020514570603626
+      spriteID: abc58ef73bb575e00800000000000000
+      internalID: 1033395466008026298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump 1lv_8
+      name: CHARACTER attack attack_2
       rect:
         serializedVersion: 2
-        x: 24
-        y: 10
+        x: 100
+        y: 97
         width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5b507d13ea75b40800000000000000
+      internalID: 5428999404902528493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack attack_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 97
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835af8ddc52616aa0800000000000000
+      internalID: -6169541863527176904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack attack_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 7
+        width: 63
         height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -350,19 +247,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e196982a057dc290800000000000000
-      internalID: -7868504287455309338
+      spriteID: 01056001ab0743d30800000000000000
+      internalID: 4410273879537635344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump 1lv_9
+      name: CHARACTER attack attack_5
       rect:
         serializedVersion: 2
-        x: 104
-        y: 11
-        width: 42
+        x: 102
+        y: 7
+        width: 53
         height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -372,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1f8775fe917a59b0800000000000000
-      internalID: -5090631501251899621
+      spriteID: ae01c1730cf5ba810800000000000000
+      internalID: 1777619757090738410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: characterJump 1lv_10
+      name: CHARACTER attack attack_6
       rect:
         serializedVersion: 2
-        x: 114
-        y: 8
-        width: 9
-        height: 6
+        x: 182
+        y: 7
+        width: 53
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,30 +291,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 612f35dcc6e0ac500800000000000000
-      internalID: 417161775949279766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: characterJump 1lv_11
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 3
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d01fd0e0cceac1430800000000000000
-      internalID: 3755068380752507149
+      spriteID: 4fa96991c3809a6c0800000000000000
+      internalID: -4131762128915358988
       vertices: []
       indices: 
       edges: []
@@ -436,18 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      characterJump 1lv_0: 1225561523167207645
-      characterJump 1lv_1: -1806625675174812146
-      characterJump 1lv_10: 417161775949279766
-      characterJump 1lv_11: 3755068380752507149
-      characterJump 1lv_2: 124193016558897608
-      characterJump 1lv_3: 8901034820306943464
-      characterJump 1lv_4: 573934346888370722
-      characterJump 1lv_5: 1934150639486089484
-      characterJump 1lv_6: 2205205678447706584
-      characterJump 1lv_7: 5934020514570603626
-      characterJump 1lv_8: -7868504287455309338
-      characterJump 1lv_9: -5090631501251899621
+      CHARACTER attack attack_0: -7195449372396547047
+      CHARACTER attack attack_1: 1033395466008026298
+      CHARACTER attack attack_2: 5428999404902528493
+      CHARACTER attack attack_3: -6169541863527176904
+      CHARACTER attack attack_4: 4410273879537635344
+      CHARACTER attack attack_5: 1777619757090738410
+      CHARACTER attack attack_6: -4131762128915358988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
