@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32.7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,10 +147,10 @@ TextureImporter:
       name: CHARACTER attack attack_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 97
-        width: 50
-        height: 75
+        x: 0
+        y: 98
+        width: 80
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: CHARACTER attack attack_1
       rect:
         serializedVersion: 2
-        x: 93
-        y: 133
-        width: 17
-        height: 15
+        x: 80
+        y: 98
+        width: 80
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: CHARACTER attack attack_2
       rect:
         serializedVersion: 2
-        x: 100
-        y: 97
-        width: 42
-        height: 75
+        x: 160
+        y: 98
+        width: 80
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: CHARACTER attack attack_3
       rect:
         serializedVersion: 2
-        x: 180
-        y: 97
-        width: 41
-        height: 75
+        x: 0
+        y: 8
+        width: 80
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: CHARACTER attack attack_4
       rect:
         serializedVersion: 2
-        x: 13
-        y: 7
-        width: 63
-        height: 76
+        x: 80
+        y: 8
+        width: 80
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: CHARACTER attack attack_5
       rect:
         serializedVersion: 2
-        x: 102
-        y: 7
-        width: 53
-        height: 76
+        x: 160
+        y: 8
+        width: 80
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,33 +275,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack attack_6
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 7
-        width: 53
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4fa96991c3809a6c0800000000000000
-      internalID: -4131762128915358988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 41d9f82a0995820458b9a66e500969f4
     internalID: 0
     vertices: []
     indices: 
@@ -317,7 +295,6 @@ TextureImporter:
       CHARACTER attack attack_3: -6169541863527176904
       CHARACTER attack attack_4: 4410273879537635344
       CHARACTER attack attack_5: 1777619757090738410
-      CHARACTER attack attack_6: -4131762128915358988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
