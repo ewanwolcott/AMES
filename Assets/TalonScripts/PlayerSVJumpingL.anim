@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerVAttackingL
+  m_Name: PlayerSVJumpingL
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1872785253, guid: 5a5317ee80c25e041bc133b663dff7de, type: 3}
-    - time: 0.2
-      value: {fileID: -996814141, guid: 5a5317ee80c25e041bc133b663dff7de, type: 3}
-    - time: 0.38333333
-      value: {fileID: -511477774, guid: 5a5317ee80c25e041bc133b663dff7de, type: 3}
-    - time: 0.5833333
-      value: {fileID: 1211767848, guid: 5a5317ee80c25e041bc133b663dff7de, type: 3}
+      value: {fileID: 5140734595865567001, guid: b7362ee02cb3e9b4ab96c44ed7ad8fe9, type: 3}
+    - time: 0.083333336
+      value: {fileID: -6065926767614047058, guid: b7362ee02cb3e9b4ab96c44ed7ad8fe9, type: 3}
+    - time: 0.16666667
+      value: {fileID: -646081699444773702, guid: b7362ee02cb3e9b4ab96c44ed7ad8fe9, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,16 +48,15 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1872785253, guid: 5a5317ee80c25e041bc133b663dff7de, type: 3}
-    - {fileID: -996814141, guid: 5a5317ee80c25e041bc133b663dff7de, type: 3}
-    - {fileID: -511477774, guid: 5a5317ee80c25e041bc133b663dff7de, type: 3}
-    - {fileID: 1211767848, guid: 5a5317ee80c25e041bc133b663dff7de, type: 3}
+    - {fileID: 5140734595865567001, guid: b7362ee02cb3e9b4ab96c44ed7ad8fe9, type: 3}
+    - {fileID: -6065926767614047058, guid: b7362ee02cb3e9b4ab96c44ed7ad8fe9, type: 3}
+    - {fileID: -646081699444773702, guid: b7362ee02cb3e9b4ab96c44ed7ad8fe9, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.59999996
+    m_StopTime: 0.18333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -78,11 +75,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.2
-    functionName: DamageEnemy
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
