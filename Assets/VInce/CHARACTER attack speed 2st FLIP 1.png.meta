@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: fd3585f2ee0f90d4499964f32c9b6539
+guid: 018135230f4433e4d89341922577b8b9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1528723757437691087
-    second: CHARACTER attack speed 1st+_0
+      213: -3530217770685575547
+    second: CHARACTER attack speed 2st FLIP 1_0
   - first:
-      213: 7603372596326860096
-    second: CHARACTER attack speed 1st+_1
+      213: -337430964264259866
+    second: CHARACTER attack speed 2st FLIP 1_1
   - first:
-      213: -7935947789079388988
-    second: CHARACTER attack speed 1st+_2
+      213: 8642840157107860962
+    second: CHARACTER attack speed 2st FLIP 1_2
   - first:
-      213: -1772271681435152372
-    second: CHARACTER attack speed 1st+_3
+      213: 4480467607739267356
+    second: CHARACTER attack speed 2st FLIP 1_3
   - first:
-      213: -7089765603859724842
-    second: CHARACTER attack speed 1st+_4
+      213: 6025997574896313909
+    second: CHARACTER attack speed 2st FLIP 1_4
   - first:
-      213: 3989573629388774311
-    second: CHARACTER attack speed 1st+_5
+      213: 1125145574728565769
+    second: CHARACTER attack speed 2st FLIP 1_5
+  - first:
+      213: -8184631007030579223
+    second: CHARACTER attack speed 2st FLIP 1_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32.7
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,99 +144,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CHARACTER attack speed 1st+_0
+      name: CHARACTER attack speed 2st FLIP 1_0
       rect:
         serializedVersion: 2
         x: 13
         y: 97
-        width: 48
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc426c9682e173510800000000000000
-      internalID: 1528723757437691087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack speed 1st+_1
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 97
-        width: 65
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 045800b871b948960800000000000000
-      internalID: 7603372596326860096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack speed 1st+_2
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 97
-        width: 48
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4cc50e34889ddd190800000000000000
-      internalID: -7935947789079388988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack speed 1st+_3
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 7
-        width: 48
-        height: 73
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c00d29eab40a767e0800000000000000
-      internalID: -1772271681435152372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHARACTER attack speed 1st+_4
-      rect:
-        serializedVersion: 2
-        x: 93
-        y: 7
         width: 50
         height: 75
       alignment: 0
@@ -244,19 +159,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d588291fb71c9d90800000000000000
-      internalID: -7089765603859724842
+      spriteID: 58ec38634a5220fc0800000000000000
+      internalID: -3530217770685575547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHARACTER attack speed 1st+_5
+      name: CHARACTER attack speed 2st FLIP 1_1
       rect:
         serializedVersion: 2
-        x: 173
-        y: 7
-        width: 48
+        x: 93
+        y: 133
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eeafc66354315bf0800000000000000
+      internalID: -337430964264259866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack speed 2st FLIP 1_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 97
+        width: 42
         height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -266,8 +203,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7abdbf80410dd5730800000000000000
-      internalID: 3989573629388774311
+      spriteID: 2e535e6c45981f770800000000000000
+      internalID: 8642840157107860962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack speed 2st FLIP 1_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 97
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1971fafc81dd2e30800000000000000
+      internalID: 4480467607739267356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack speed 2st FLIP 1_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 7
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5366f050ed4a0a350800000000000000
+      internalID: 6025997574896313909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack speed 2st FLIP 1_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 7
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9048c4e50f15d9f00800000000000000
+      internalID: 1125145574728565769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHARACTER attack speed 2st FLIP 1_6
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 7
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef6b4096795a6e80800000000000000
+      internalID: -8184631007030579223
       vertices: []
       indices: 
       edges: []
@@ -285,13 +310,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      CHARACTER attack speed 1st+_0: 1528723757437691087
-      CHARACTER attack speed 1st+_1: 7603372596326860096
-      CHARACTER attack speed 1st+_2: -7935947789079388988
-      CHARACTER attack speed 1st+_3: -1772271681435152372
-      CHARACTER attack speed 1st+_4: -7089765603859724842
-      CHARACTER attack speed 1st+_5: 3989573629388774311
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
