@@ -37,7 +37,7 @@ public class Interact : MonoBehaviour
             hasItem = false;
             isInteracted = true;
             interactable.isInteractable = false;
-            image.SetActive(false);
+            image.GetComponent<Image>().color = new(0, 0, 0, 0);
             itemImage.sprite = null;
         }
         else if(hit && hit.collider.TryGetComponent(out Interactable interactable2) && !isInteracted && !hasItem && cooldownTimer <= 0 && interactable2.isInteractable)

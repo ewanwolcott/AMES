@@ -4,6 +4,7 @@ public class EnemyBullet : MonoBehaviour
 {
     GameObject player;
     Rigidbody2D rb;
+    SpriteRenderer sprt;
     public float force;
     float destroyTime = 3.5f;
     Animator animator;
@@ -13,6 +14,7 @@ public class EnemyBullet : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        sprt = GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player");
         animator = GetComponent<Animator>();
 
@@ -30,12 +32,11 @@ public class EnemyBullet : MonoBehaviour
         }
         if (rb.linearVelocityX < 0)
         {
-            transform.localScale = new Vector3(1.5f, 1.5f, 1);
+            sprt.flipX = false;
         }
         else if (rb.linearVelocityX > 0)
         {
-            transform.localScale = new Vector3(-1.5f, 1.5f, 1);
-
+            sprt.flipX = true;
         }
     }
     void OnTriggerEnter2D(Collider2D other)

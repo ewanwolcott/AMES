@@ -23,12 +23,14 @@ public class EnemyFlight : MonoBehaviour
     [SerializeField] LayerMask lineOfSightMask;
 
     Rigidbody2D rb2d;
+    SpriteRenderer sprt;
 
     EnemyHealth enemyHealth;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        sprt = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         enemyHealth = GetComponent<EnemyHealth>();
     }
@@ -58,11 +60,11 @@ public class EnemyFlight : MonoBehaviour
         }
         if (player.transform.position.x < transform.position.x && enemyHealth.currentHealth >= 0)
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            sprt.flipX = false;
         }
         else if (player.transform.position.x > transform.position.x && enemyHealth.currentHealth >= 0)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            sprt.flipX = true;
         }
     }
     private void FixedUpdate()

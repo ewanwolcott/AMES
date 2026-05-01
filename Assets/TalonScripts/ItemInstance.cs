@@ -6,15 +6,22 @@ public class ItemInstance : MonoBehaviour
 {
     public ItemData data;
 
-    [SerializeField] Image itemImage;
-
-    [SerializeField] GameObject image;
+    private Image itemImage;
 
     private SpriteRenderer _sprt;
 
     private void Awake()
     {
         _sprt = GetComponent<SpriteRenderer>();
+        itemImage = GameObject.FindWithTag("Pocket").GetComponent<Image>();
+
+        if (data)
+            Apply(data);
+    }
+
+    public void Apply(ItemData data)
+    {
+        this.data = data;
         _sprt.sprite = data.sprite;
     }
 
@@ -22,9 +29,11 @@ public class ItemInstance : MonoBehaviour
     {
         if(collision.CompareTag("Player") && collision.gameObject.GetComponent<Interact>().hasItem == false)
         {
+            itemImage.color = new(1, 1, 1, 1);
             itemImage.sprite = data.sprite;
-            image.SetActive(true);
+
             collision.GetComponent<Interact>().hasItem = true;
+            
             Destroy(gameObject);
         }
     }
