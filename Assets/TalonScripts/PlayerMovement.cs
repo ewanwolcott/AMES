@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     PlayerUpgrades playerUpgrades;
     Animator animator; 
     bool isKnockedback = false;
+    [SerializeField] AudioClip[] walkingSound;
+    float stepTimer = 0.5f;
 
     public bool canMove = true;
 
@@ -35,6 +37,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (_movement != 0 && IsGrounded() && canMove && transform.position.y <= -5f && stepTimer <= 0)
+        {
+            AudioController.instance.playSound(walkingSound[0], transform, 0.5f);
+            stepTimer = 0.5f;
+        }
+        if(stepTimer > 0)
+        {
+            stepTimer -= Time.deltaTime;
+        }
+
         if (!isKnockedback && canMove)
         {
             rb2d.linearVelocityX = _movement * movementSpeed;
