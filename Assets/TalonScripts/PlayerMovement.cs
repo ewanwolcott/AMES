@@ -42,7 +42,12 @@ public class PlayerMovement : MonoBehaviour
             AudioController.instance.playSound(walkingSound[0], transform, 0.5f);
             stepTimer = 0.5f;
         }
-        if(stepTimer > 0)
+        if (_movement != 0 && IsGrounded() && canMove && transform.position.y > -5f && stepTimer <= 0)
+        {
+            AudioController.instance.playSound(walkingSound[1], transform, 0.25f);
+            stepTimer = 0.5f;
+        }
+        if (stepTimer > 0)
         {
             stepTimer -= Time.deltaTime;
         }
