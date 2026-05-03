@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerSVAttackingR
+  m_Name: PlayerPSAttackL
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,15 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -7431077479021907965, guid: 337749186253b2542b2d48be6debfa30, type: 3}
-    - time: 0.15
-      value: {fileID: -3278566541468342068, guid: 337749186253b2542b2d48be6debfa30, type: 3}
-    - time: 0.3
-      value: {fileID: -6022610529832471933, guid: 337749186253b2542b2d48be6debfa30, type: 3}
-    - time: 0.43333334
-      value: {fileID: -193974934475660374, guid: 337749186253b2542b2d48be6debfa30, type: 3}
+      value: {fileID: 7301583760617084798, guid: b8fb4924f55ae764fabe6f073a3d1ae0, type: 3}
+    - time: 0.2
+      value: {fileID: -2860976414831880715, guid: b8fb4924f55ae764fabe6f073a3d1ae0, type: 3}
+    - time: 0.38333333
+      value: {fileID: -8269658834102735504, guid: b8fb4924f55ae764fabe6f073a3d1ae0, type: 3}
     - time: 0.5833333
-      value: {fileID: 62668502175959412, guid: 1f64b6b332b9e1743a582d9bf795378d, type: 3}
+      value: {fileID: 3063010662148635258, guid: b8fb4924f55ae764fabe6f073a3d1ae0, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,11 +50,10 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -7431077479021907965, guid: 337749186253b2542b2d48be6debfa30, type: 3}
-    - {fileID: -3278566541468342068, guid: 337749186253b2542b2d48be6debfa30, type: 3}
-    - {fileID: -6022610529832471933, guid: 337749186253b2542b2d48be6debfa30, type: 3}
-    - {fileID: -193974934475660374, guid: 337749186253b2542b2d48be6debfa30, type: 3}
-    - {fileID: 62668502175959412, guid: 1f64b6b332b9e1743a582d9bf795378d, type: 3}
+    - {fileID: 7301583760617084798, guid: b8fb4924f55ae764fabe6f073a3d1ae0, type: 3}
+    - {fileID: -2860976414831880715, guid: b8fb4924f55ae764fabe6f073a3d1ae0, type: 3}
+    - {fileID: -8269658834102735504, guid: b8fb4924f55ae764fabe6f073a3d1ae0, type: 3}
+    - {fileID: 3063010662148635258, guid: b8fb4924f55ae764fabe6f073a3d1ae0, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -82,7 +79,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.15
+  - time: 0.2
     functionName: DamageEnemy
     data: 
     objectReferenceParameter: {fileID: 0}

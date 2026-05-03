@@ -147,12 +147,12 @@ TextureImporter:
       name: death speed +attack_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 183
-        width: 45
-        height: 81
+        x: 9
+        y: 180
+        width: 82
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -169,12 +169,12 @@ TextureImporter:
       name: death speed +attack_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 183
-        width: 52
-        height: 67
+        x: 156
+        y: 180
+        width: 85
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: death speed +attack_2
       rect:
         serializedVersion: 2
-        x: 20
-        y: 92
-        width: 52
-        height: 63
+        x: 9
+        y: 90
+        width: 82
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,12 +213,12 @@ TextureImporter:
       name: death speed +attack_3
       rect:
         serializedVersion: 2
-        x: 165
-        y: 92
-        width: 59
-        height: 44
+        x: 156
+        y: 90
+        width: 85
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: death speed +attack_4
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2
-        width: 71
-        height: 22
+        x: 9
+        y: 0
+        width: 82
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: death speed +attack_5
       rect:
         serializedVersion: 2
-        x: 165
-        y: 2
-        width: 52
-        height: 22
+        x: 156
+        y: 0
+        width: 85
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,33 +275,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: death speed +attack_6
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 2
-        width: 23
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b98f994629afa430800000000000000
-      internalID: 3796438992805661109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 85e63e8ba7b125748ae401d3e83b920e
     internalID: 0
     vertices: []
     indices: 
@@ -317,7 +295,6 @@ TextureImporter:
       death speed +attack_3: 7098910937242923669
       death speed +attack_4: 3795704816459416982
       death speed +attack_5: -7958035356301181639
-      death speed +attack_6: 3796438992805661109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

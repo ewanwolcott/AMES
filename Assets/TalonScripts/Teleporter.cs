@@ -32,7 +32,7 @@ public class Teleporter : MonoBehaviour
         {
             if (floating)
             {
-                collision.gameObject.GetComponent<Rigidbody2D>().gravityScale = 3;
+                collision.gameObject.GetComponent<Rigidbody2D>().gravityScale = 2.2f;
             }
             collision.gameObject.GetComponent<PlayerMovement>().canMove = true;
             collision.transform.position = teleportLocation;
