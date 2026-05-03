@@ -147,10 +147,10 @@ TextureImporter:
       name: Health +attak death_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 183
-        width: 45
-        height: 81
+        x: 0
+        y: 180
+        width: 75
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: Health +attak death_1
       rect:
         serializedVersion: 2
-        x: 172
-        y: 183
-        width: 50
-        height: 67
+        x: 165
+        y: 180
+        width: 75
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: Health +attak death_2
       rect:
         serializedVersion: 2
-        x: 23
-        y: 93
-        width: 49
-        height: 62
+        x: 14
+        y: 90
+        width: 75
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: Health +attak death_3
       rect:
         serializedVersion: 2
-        x: 167
-        y: 93
-        width: 57
-        height: 43
+        x: 165
+        y: 90
+        width: 75
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: Health +attak death_4
       rect:
         serializedVersion: 2
-        x: 18
-        y: 2
-        width: 68
-        height: 22
+        x: 14
+        y: 0
+        width: 75
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: Health +attak death_5
       rect:
         serializedVersion: 2
-        x: 168
-        y: 2
-        width: 49
-        height: 22
+        x: 165
+        y: 0
+        width: 75
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,33 +275,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Health +attak death_6
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 2
-        width: 23
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 33889eb3c9556d070800000000000000
-      internalID: 8130780306772428851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b37c9495eb328034fae1c6c1adc35df4
     internalID: 0
     vertices: []
     indices: 
@@ -317,7 +295,6 @@ TextureImporter:
       Health +attak death_3: -2230352435487169088
       Health +attak death_4: 9212597439098480040
       Health +attak death_5: 7358290723918545852
-      Health +attak death_6: 8130780306772428851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
