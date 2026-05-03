@@ -21,6 +21,7 @@ public class PlayerCombat : MonoBehaviour
     PlayerHealth playerHealth;
     PlayerUpgrades playerUpgrades;
     Animator animator;
+    [SerializeField] AudioClip attackSound;
 
 
     void Awake()
@@ -43,6 +44,10 @@ public class PlayerCombat : MonoBehaviour
     {
         if (ctx.ReadValue<float>() == 1 && timer <= 0)
         {
+            if (transform.position.y <= -5f)
+            {
+                AudioController.instance.playSound(attackSound, transform, 1f);
+            }
             animator.SetTrigger("isAttacking");
             timer = attackCooldown;
         }
