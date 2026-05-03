@@ -15,6 +15,9 @@ public class PlayerUpgrades : MonoBehaviour
     PlayerMovement playerMovement;
     PlayerHealth playerHealth;
     HealthDisplay healthDisplay;
+    Animator animator;
+
+    public RuntimeAnimatorController[] animators;
 
     private void Awake()
     {
@@ -22,6 +25,7 @@ public class PlayerUpgrades : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         playerHealth = GetComponent<PlayerHealth>();
         healthDisplay = GetComponent<HealthDisplay>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -79,5 +83,33 @@ public class PlayerUpgrades : MonoBehaviour
                 }
             healthDisplay.hearts[7].enabled = true;
             }
+        if (strengthLevel > 0 && speedLevel == 0 && healthLevel == 0)
+        {
+            animator.runtimeAnimatorController = animators[0];
+        }
+        else if (strengthLevel == 0 && speedLevel > 0 && healthLevel == 0)
+        {
+            animator.runtimeAnimatorController = animators[1];
+        }
+        else if (strengthLevel == 0 && speedLevel == 0 && healthLevel > 0)
+        {
+            animator.runtimeAnimatorController = animators[2];
+        }
+         else if (strengthLevel > 0 && speedLevel > 0 && healthLevel == 0)
+        {
+            animator.runtimeAnimatorController = animators[3];
+        }
+         else if (strengthLevel > 0 && speedLevel == 0 && healthLevel > 0)
+        {
+            animator.runtimeAnimatorController = animators[4];
+        }
+         else if (strengthLevel == 0 && speedLevel > 0 && healthLevel > 0)
+        {
+            animator.runtimeAnimatorController = animators[5];
+         }
+         else if (strengthLevel > 0 && speedLevel > 0 && healthLevel > 0)
+        {
+            animator.runtimeAnimatorController = animators[6];
+        }
     }
 }
