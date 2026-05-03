@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5ea3a96854932c643b485873bd03f163
+guid: 877fed4c9983bae40869b485e85d383a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1887494081247492234
-    second: Rocks_0
+      213: 3377568259163261490
+    second: GO RIGHT_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rocks_0
+      name: GO RIGHT_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 156
-        height: 127
+        width: 31
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a88b864ddd9b13a10800000000000000
-      internalID: 1887494081247492234
+      spriteID: 23a8f04cf688fde20800000000000000
+      internalID: 3377568259163261490
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rocks_0: 1887494081247492234
+      GO RIGHT_0: 3377568259163261490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
