@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dog ATTACK _0: -6966346320405331180
+      dog ATTACK _1: 3270179848362552739
+      dog ATTACK _2: 4841790471545164424
+      dog ATTACK _3: 5973357973119828603
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

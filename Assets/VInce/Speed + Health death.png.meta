@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32.7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,10 +147,10 @@ TextureImporter:
       name: Speed + Health death_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 183
-        width: 44
-        height: 81
+        x: 0
+        y: 180
+        width: 74
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: Speed + Health death_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 183
-        width: 52
-        height: 67
+        x: 161
+        y: 180
+        width: 79
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: Speed + Health death_2
       rect:
         serializedVersion: 2
-        x: 20
-        y: 92
-        width: 52
-        height: 63
+        x: 14
+        y: 90
+        width: 74
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: Speed + Health death_3
       rect:
         serializedVersion: 2
-        x: 165
-        y: 92
-        width: 59
-        height: 44
+        x: 161
+        y: 90
+        width: 79
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: Speed + Health death_4
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2
-        width: 71
-        height: 22
+        x: 14
+        y: 0
+        width: 74
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: Speed + Health death_5
       rect:
         serializedVersion: 2
-        x: 165
-        y: 2
-        width: 52
-        height: 22
+        x: 161
+        y: 0
+        width: 79
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,33 +275,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Speed + Health death_6
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 2
-        width: 23
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9cbbd16859b37a760800000000000000
-      internalID: 7469004020403518409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1d7d78f2b99c4524c8e18bcb3f21f6f8
     internalID: 0
     vertices: []
     indices: 
@@ -317,7 +295,6 @@ TextureImporter:
       Speed + Health death_3: -1261517190614488683
       Speed + Health death_4: -7811736341949507997
       Speed + Health death_5: 4464136722712240206
-      Speed + Health death_6: 7469004020403518409
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

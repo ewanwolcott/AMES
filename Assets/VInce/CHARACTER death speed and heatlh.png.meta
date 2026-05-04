@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CHARACTER death speed and heatlh_0: 5318866957660063301
+      CHARACTER death speed and heatlh_1: 3489860666899443954
+      CHARACTER death speed and heatlh_2: 3650099362192088862
+      CHARACTER death speed and heatlh_3: -8261978205576103873
+      CHARACTER death speed and heatlh_4: -6942397957862969067
+      CHARACTER death speed and heatlh_5: -1444676306718382580
+      CHARACTER death speed and heatlh_6: -8230138317886130095
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
