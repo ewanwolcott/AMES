@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dog WALK _0: 356190077518140284
+      dog WALK _1: -8593603274718278341
+      dog WALK _2: -6495412440704051223
+      dog WALK _3: 8977189066583748660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
