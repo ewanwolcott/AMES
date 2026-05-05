@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenuButtons : MonoBehaviour
 {
@@ -6,5 +7,19 @@ public class MainMenuButtons : MonoBehaviour
     public void Play()
     {
         animator.SetTrigger("play");
+    }
+    public void Credits()
+    {
+        
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
