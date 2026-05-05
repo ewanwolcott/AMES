@@ -35,7 +35,7 @@ public class MainMenuButtons : MonoBehaviour
 
     public void Ewan()
     {
-
+        SceneManager.LoadScene("Ewan credits");
     }
 
     public void Quit()
