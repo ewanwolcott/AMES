@@ -12,7 +12,7 @@ public class Ending : MonoBehaviour
 
     void Update()
     {
-        if (bossEnemies.Length == 0)
+        if (bossEnemies[0] == null && bossEnemies[1] == null && bossEnemies[2] == null && bossEnemies[3] == null)
         {
             collider2d.isTrigger = true;
         }
