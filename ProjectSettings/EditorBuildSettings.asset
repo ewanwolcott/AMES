@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Vince credits.unity
     guid: 59aa8d9932ab78d48a57bf29224b8e23
   - enabled: 1
+    path: Assets/Scenes/Ewan credits.unity
+    guid: bd958bf5e5e3b2f4895b25bdf16a176a
+  - enabled: 1
     path: Assets/Scenes/talon credits.unity
     guid: e762ab42cfde21c449ab8d146ba5fb4e
   - enabled: 1
