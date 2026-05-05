@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ending : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class Ending : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Player has reached the end of the game!");
+            SceneManager.LoadScene("End scen");
         }
     }
 }
